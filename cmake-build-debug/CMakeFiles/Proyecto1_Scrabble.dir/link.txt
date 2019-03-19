@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o  -o Proyecto1_Scrabble 
