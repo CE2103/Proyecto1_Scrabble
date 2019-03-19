@@ -3,4 +3,9 @@ project(Proyecto1_Scrabble)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Proyecto1_Scrabble main.cpp)
+set(SOURCE_FILES main.cpp)
+find_package(Qt5Widgets REQUIRED)
+
+add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
+
+target_link_libraries(Proyecto1_Scrabble Qt5::Widgets)
