@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util/dictionary.o: util/dictionary.cpp.o
+
+.PHONY : util/dictionary.o
+
+# target to build an object file
+util/dictionary.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
+.PHONY : util/dictionary.cpp.o
+
+util/dictionary.i: util/dictionary.cpp.i
+
+.PHONY : util/dictionary.i
+
+# target to preprocess a source file
+util/dictionary.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.i
+.PHONY : util/dictionary.cpp.i
+
+util/dictionary.s: util/dictionary.cpp.s
+
+.PHONY : util/dictionary.s
+
+# target to generate assembly for a file
+util/dictionary.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.s
+.PHONY : util/dictionary.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... util/dictionary.o"
+	@echo "... util/dictionary.i"
+	@echo "... util/dictionary.s"
 .PHONY : help
 
 
