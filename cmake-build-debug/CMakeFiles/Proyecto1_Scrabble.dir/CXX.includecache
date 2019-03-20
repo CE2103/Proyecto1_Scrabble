@@ -32,6 +32,12 @@ util/dictionary.h
 dataStructures/linkedList/list.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
+iostream
+-
+dictionary.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
+
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 fstream
 -

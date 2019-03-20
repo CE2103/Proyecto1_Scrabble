@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool dictionary::searchWord(string word) {
+bool dictionary::search(string word) {
 
 
     dictionary.open("../util/dictionary.txt");
@@ -15,10 +15,10 @@ bool dictionary::searchWord(string word) {
         exit(1);
     }
 
-    string temp;
+    string tempStr;
     while(!dictionary.eof() || !isFound){
-        getline(dictionary,temp);
-        if(temp == word){
+        getline(dictionary,tempStr);
+        if(tempStr == word){
             cout << "Word found "  << endl;
             isFound = true;
         }

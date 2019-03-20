@@ -24,10 +24,9 @@ class dictionary {
 
 public:
     ifstream dictionary;
-    string word;
     bool isFound = false;
 
-    bool searchWord(string _word);
+    bool search(string word);
 
 
 };

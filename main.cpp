@@ -14,6 +14,7 @@ int main() {
 
 
     dictionary d;
+    d.search("hola");
     cout << "pruebas" << endl;
 
 
