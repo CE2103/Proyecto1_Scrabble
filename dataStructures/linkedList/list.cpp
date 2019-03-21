@@ -118,7 +118,7 @@ void List<T>::del_by_data(T data_)
     }
 
     if (cont == 0) {
-        cout << "No existe el dato " << endl;
+        cout << "Data didn't exist " << endl;
     }
 }
 
@@ -130,7 +130,7 @@ void List<T>::del_by_position(int pos)
     Node<T> *temp1 = temp->next;
 
     if (pos < 1 || pos > m_num_nodes) {
-        cout << "Fuera de rango " << endl;
+        cout << "Out of Range " << endl;
     } else if (pos == 1) {
         m_head = temp->next;
     } else {
@@ -153,7 +153,7 @@ void List<T>::fill_by_user(int dim)
 {
     T ele;
     for (int i = 0; i < dim; i++) {
-        cout << "Ingresa el elemento " << i + 1 << endl;
+        cout << "Insert the element: " << i + 1 << endl;
         cin >> ele;
         add_end(ele);
     }
@@ -243,10 +243,10 @@ void List<T>::intersection(List list_2)
 
     // Solo si hay alguna intersección imprimo la nueva lista creada
     if (num_inter > 0) {
-        cout << "Existen " << num_inter << " intersecciones " << endl;
+        cout << "There are " << num_inter << " intersections " << endl;
         intersection_list.print();
     } else {
-        cout << "No hay intersección en ambas listas" << endl;
+        cout << "There is no intersection in both lists" << endl;
     }
 }
 
@@ -276,7 +276,7 @@ void List<T>::load_file(string file)
     in.open(file.c_str());
 
     if (!in.is_open()) {
-        cout << "No se puede abrir el archivo: " << file << endl << endl;
+        cout << "Can't open file: " << file << endl << endl;
     } else {
         while (in >> line) {
             add_end(line);
@@ -291,7 +291,7 @@ void List<T>::print()
 {
     Node<T> *temp = m_head;
     if (!m_head) {
-        cout << "La Lista está vacía " << endl;
+        cout << "The list is empty " << endl;
     } else {
         while (temp) {
             temp->print();
@@ -312,7 +312,7 @@ void List<T>::search(T data_)
 
     while (temp) {
         if (temp->data == data_) {
-            cout << "El dato se encuentra en la posición: " << cont << endl;
+            cout << "The data is in the position: " << cont << endl;
             cont2++;
         }
         temp = temp->next;
@@ -320,7 +320,7 @@ void List<T>::search(T data_)
     }
 
     if (cont2 == 0) {
-        cout << "No existe el dato " << endl;
+        cout << "There is no data " << endl;
     }
     cout << endl << endl;
 }
@@ -359,7 +359,7 @@ void List<T>::save_file(string file)
     out.open(file.c_str());
 
     if (!out.is_open()) {
-        cout << "No se puede guardar el archivo " << endl;
+        cout << "Can not save the file " << endl;
     } else {
         while (temp) {
             out << temp->data;

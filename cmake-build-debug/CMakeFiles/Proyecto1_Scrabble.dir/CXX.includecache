@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
+list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
+
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 fstream
 -
@@ -15,6 +19,12 @@ string
 -
 stdlib.h
 -
+node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+node.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
 node.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
 
@@ -31,12 +41,12 @@ util/dictionary.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 dataStructures/linkedList/list.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
+dataStructures/linkedList/list.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
-iostream
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp
+bits/stdc++.h
 -
-dictionary.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 fstream

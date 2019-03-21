@@ -123,6 +123,114 @@ Proyecto1_Scrabble/fast:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/build
 .PHONY : Proyecto1_Scrabble/fast
 
+dataStructures/linkedList/list.o: dataStructures/linkedList/list.cpp.o
+
+.PHONY : dataStructures/linkedList/list.o
+
+# target to build an object file
+dataStructures/linkedList/list.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o
+.PHONY : dataStructures/linkedList/list.cpp.o
+
+dataStructures/linkedList/list.i: dataStructures/linkedList/list.cpp.i
+
+.PHONY : dataStructures/linkedList/list.i
+
+# target to preprocess a source file
+dataStructures/linkedList/list.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.i
+.PHONY : dataStructures/linkedList/list.cpp.i
+
+dataStructures/linkedList/list.s: dataStructures/linkedList/list.cpp.s
+
+.PHONY : dataStructures/linkedList/list.s
+
+# target to generate assembly for a file
+dataStructures/linkedList/list.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.s
+.PHONY : dataStructures/linkedList/list.cpp.s
+
+dataStructures/linkedList/node.o: dataStructures/linkedList/node.cpp.o
+
+.PHONY : dataStructures/linkedList/node.o
+
+# target to build an object file
+dataStructures/linkedList/node.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o
+.PHONY : dataStructures/linkedList/node.cpp.o
+
+dataStructures/linkedList/node.i: dataStructures/linkedList/node.cpp.i
+
+.PHONY : dataStructures/linkedList/node.i
+
+# target to preprocess a source file
+dataStructures/linkedList/node.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.i
+.PHONY : dataStructures/linkedList/node.cpp.i
+
+dataStructures/linkedList/node.s: dataStructures/linkedList/node.cpp.s
+
+.PHONY : dataStructures/linkedList/node.s
+
+# target to generate assembly for a file
+dataStructures/linkedList/node.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.s
+.PHONY : dataStructures/linkedList/node.cpp.s
+
+gameLogic/gameBoard.o: gameLogic/gameBoard.cpp.o
+
+.PHONY : gameLogic/gameBoard.o
+
+# target to build an object file
+gameLogic/gameBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o
+.PHONY : gameLogic/gameBoard.cpp.o
+
+gameLogic/gameBoard.i: gameLogic/gameBoard.cpp.i
+
+.PHONY : gameLogic/gameBoard.i
+
+# target to preprocess a source file
+gameLogic/gameBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.i
+.PHONY : gameLogic/gameBoard.cpp.i
+
+gameLogic/gameBoard.s: gameLogic/gameBoard.cpp.s
+
+.PHONY : gameLogic/gameBoard.s
+
+# target to generate assembly for a file
+gameLogic/gameBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.s
+.PHONY : gameLogic/gameBoard.cpp.s
+
+gameLogic/player.o: gameLogic/player.cpp.o
+
+.PHONY : gameLogic/player.o
+
+# target to build an object file
+gameLogic/player.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o
+.PHONY : gameLogic/player.cpp.o
+
+gameLogic/player.i: gameLogic/player.cpp.i
+
+.PHONY : gameLogic/player.i
+
+# target to preprocess a source file
+gameLogic/player.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.i
+.PHONY : gameLogic/player.cpp.i
+
+gameLogic/player.s: gameLogic/player.cpp.s
+
+.PHONY : gameLogic/player.s
+
+# target to generate assembly for a file
+gameLogic/player.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s
+.PHONY : gameLogic/player.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -149,6 +257,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 util/dictionary.o: util/dictionary.cpp.o
 
@@ -186,9 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto1_Scrabble"
 	@echo "... edit_cache"
+	@echo "... dataStructures/linkedList/list.o"
+	@echo "... dataStructures/linkedList/list.i"
+	@echo "... dataStructures/linkedList/list.s"
+	@echo "... dataStructures/linkedList/node.o"
+	@echo "... dataStructures/linkedList/node.i"
+	@echo "... dataStructures/linkedList/node.s"
+	@echo "... gameLogic/gameBoard.o"
+	@echo "... gameLogic/gameBoard.i"
+	@echo "... gameLogic/gameBoard.s"
+	@echo "... gameLogic/player.o"
+	@echo "... gameLogic/player.i"
+	@echo "... gameLogic/player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 	@echo "... util/dictionary.o"
 	@echo "... util/dictionary.i"
 	@echo "... util/dictionary.s"
