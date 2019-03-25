@@ -1,5 +1,2 @@
 # Hashes of file build rules.
-2ee7f6c98e19ee47311df9edfcc878dd CMakeFiles/Proyecto1_Scrabble_autogen
-1d642bbe819287a9718a06a08900665a tests/qtTests/moc_mainwindow.cpp
-f718f5900b9cd4680b9916147aec5dfb tests/socketTests/moc_mainwindow.cpp
-a65a6c667eef8fe5fc9f66ef8072737b ui_mainwindow.h
+d300555e92bbacae713e771201be7d44 CMakeFiles/Proyecto1_Scrabble_autogen

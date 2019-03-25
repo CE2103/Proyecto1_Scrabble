@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/61/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble
+CMAKE_SOURCE_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/Proyecto1_Scrabble.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 CMakeFiles/Proyecto1_Scrabble.dir/all: CMakeFiles/Proyecto1_Scrabble_autogen.dir/all
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/depend
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Proyecto1_Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Proyecto1_Scrabble"
 .PHONY : CMakeFiles/Proyecto1_Scrabble.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/Proyecto1_Scrabble.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proyecto1_Scrabble.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 19
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Proyecto1_Scrabble.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Proyecto1_Scrabble.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ clean: CMakeFiles/Proyecto1_Scrabble.dir/clean
 CMakeFiles/Proyecto1_Scrabble_autogen.dir/all:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make CMakeFiles/Proyecto1_Scrabble_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=19 "Built target Proyecto1_Scrabble_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=19 "Built target Proyecto1_Scrabble_autogen"
 .PHONY : CMakeFiles/Proyecto1_Scrabble_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proyecto1_Scrabble_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Proyecto1_Scrabble_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Proyecto1_Scrabble_autogen.dir/rule
 
 # Convenience name for target.

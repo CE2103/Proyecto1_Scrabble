@@ -1,2 +1,0 @@
-/usr/bin/ar qc libProyecto1.a  CMakeFiles/Proyecto1.dir/Proyecto1_autogen/mocs_compilation.cpp.o
-/usr/bin/ranlib libProyecto1.a

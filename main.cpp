@@ -9,58 +9,51 @@
 using namespace std;
 
 
-void menu(){
-    cout <<"-------------------------------\n"
-           " Ingrese: \n"
-           "   0 para ingresar letras,\n"
-           "   1 para verificar palabras,\n"
-           "   2 para salir de consola.\n"
-           "-------------------------------\n" << endl;
-}
-
-
 int main() {
 
-    List<int> list_1;
+    string letra="";
 
-    char letter;
-    int verification;
-    int num;
-    bool continueRunning = true;
+    List<string> d;
 
-//    cout << "Ingrese un numero: " << endl;
-//    cin >> num;
-//    list_1.add_head(num);
-//    list_1.print();
+    d.add_head("arbol");
+    d.add_head("carro");
+    d.add_head("perro");
+    d.add_head("casa");
+    d.add_head("caballo");
 
+    List<string> lista;
 
-
-
-    while(continueRunning){
-        menu();
-        cin>>verification;
-
-        if(verification == 0){
-            cout << "Ingrese una lettra: " << endl;
-            cin >> letter;
-            list_1.add_end(letter);
-            list_1.print();
-
-
-        }else if(verification == 1){
-            dictionary d;
-            d.search("hola");
-
-        } else if(verification == 2){
-            list_1.print();
-            continueRunning = false;
-        }else{
-            cout << "-1" << endl;
-        }
+    cout<< "ingrese una palabra";
+    cin >> letra;
+    lista.add_head(letra);
+    cout<< "ingrese una palabra";
+    cin >> letra;
+    lista.add_end(letra);
+    cout<< "ingrese una palabra" ;
+    cin >> letra;
+    lista.add_end(letra);
+    cout<< "ingrese una palabra" ;
+    cin >> letra;
+    lista.add_end(letra);
+    cout<< "ingrese una palabra" ;
+    cin >> letra;
+    lista.add_end(letra);
 
 
-
+    string compara= lista.Unir();
+    if (d.search(compara)){
+        cout << "La palabra se encuentra en el diccionario"<< endl;
     }
+    else{
+        lista.invert();
+        string compara2= lista.Unir();
 
+        if (d.search(compara2)){
+            cout << "La palabra se encuentra en el diccionario"<< endl;
+        }
+        else {
+            cout << "La palabra NO se encuentra en el diccionario"<< endl;
+        }
+    }
     return 0;
 }

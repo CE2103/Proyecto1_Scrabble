@@ -43,7 +43,8 @@ public:
     void load_file(string);
     void print();
     void save_file(string);
-    void search(T);
+    bool search(T);
+    string Unir();
     void sort();
 
 private:

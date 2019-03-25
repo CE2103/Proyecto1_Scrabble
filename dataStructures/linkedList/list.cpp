@@ -304,7 +304,7 @@ void List<T>::print()
 
 // Buscar el dato de un nodo
 template<typename T>
-void List<T>::search(T data_)
+bool List<T>::search(T data_)
 {
     Node<T> *temp = m_head;
     int cont = 1;
@@ -312,15 +312,14 @@ void List<T>::search(T data_)
 
     while (temp) {
         if (temp->data == data_) {
-            cout << "The data is in the position: " << cont << endl;
-            cont2++;
+            return true;
         }
         temp = temp->next;
         cont++;
     }
 
     if (cont2 == 0) {
-        cout << "There is no data " << endl;
+        return false;
     }
     cout << endl << endl;
 }
@@ -368,6 +367,21 @@ void List<T>::save_file(string file)
         }
     }
     out.close();
+}
+
+// unir los valores de una lista
+template<typename T>
+string List<T>::Unir()
+{
+    string nuevo="";
+    Node<T> *temp = m_head;
+
+    while (temp) {
+        nuevo+=temp->data;
+        temp = temp->next;
+    }
+
+    return nuevo;
 }
 
 template<typename T>

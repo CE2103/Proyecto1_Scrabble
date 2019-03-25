@@ -1,2 +1,0 @@
-/usr/bin/ar qc libProyecto1_Scra.a  CMakeFiles/Proyecto1_Scra.dir/Proyecto1_Scra_autogen/mocs_compilation.cpp.o
-/usr/bin/ranlib libProyecto1_Scra.a
