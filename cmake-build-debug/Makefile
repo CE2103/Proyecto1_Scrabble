@@ -123,6 +123,46 @@ Proyecto1_Scrabble/fast:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/build
 .PHONY : Proyecto1_Scrabble/fast
 
+#=============================================================================
+# Target rules for targets named Proyecto1_Scrabble_autogen
+
+# Build rule for target.
+Proyecto1_Scrabble_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Proyecto1_Scrabble_autogen
+.PHONY : Proyecto1_Scrabble_autogen
+
+# fast build rule for target.
+Proyecto1_Scrabble_autogen/fast:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make CMakeFiles/Proyecto1_Scrabble_autogen.dir/build
+.PHONY : Proyecto1_Scrabble_autogen/fast
+
+Proyecto1_Scrabble_autogen/mocs_compilation.o: Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
+
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.o
+
+# target to build an object file
+Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
+
+Proyecto1_Scrabble_autogen/mocs_compilation.i: Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i
+
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i
+
+Proyecto1_Scrabble_autogen/mocs_compilation.s: Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
+
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
+.PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
+
 communication/socketClient.o: communication/socketClient.cpp.o
 
 .PHONY : communication/socketClient.o
@@ -393,6 +433,60 @@ test.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+tests/qt/main.o: tests/qt/main.cpp.o
+
+.PHONY : tests/qt/main.o
+
+# target to build an object file
+tests/qt/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o
+.PHONY : tests/qt/main.cpp.o
+
+tests/qt/main.i: tests/qt/main.cpp.i
+
+.PHONY : tests/qt/main.i
+
+# target to preprocess a source file
+tests/qt/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.i
+.PHONY : tests/qt/main.cpp.i
+
+tests/qt/main.s: tests/qt/main.cpp.s
+
+.PHONY : tests/qt/main.s
+
+# target to generate assembly for a file
+tests/qt/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.s
+.PHONY : tests/qt/main.cpp.s
+
+tests/qt/mainwindow.o: tests/qt/mainwindow.cpp.o
+
+.PHONY : tests/qt/mainwindow.o
+
+# target to build an object file
+tests/qt/mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.o
+.PHONY : tests/qt/mainwindow.cpp.o
+
+tests/qt/mainwindow.i: tests/qt/mainwindow.cpp.i
+
+.PHONY : tests/qt/mainwindow.i
+
+# target to preprocess a source file
+tests/qt/mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.i
+.PHONY : tests/qt/mainwindow.cpp.i
+
+tests/qt/mainwindow.s: tests/qt/mainwindow.cpp.s
+
+.PHONY : tests/qt/mainwindow.s
+
+# target to generate assembly for a file
+tests/qt/mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.s
+.PHONY : tests/qt/mainwindow.cpp.s
+
 util/dictionary.o: util/dictionary.cpp.o
 
 .PHONY : util/dictionary.o
@@ -429,6 +523,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto1_Scrabble"
 	@echo "... edit_cache"
+	@echo "... Proyecto1_Scrabble_autogen"
+	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
+	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
+	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
 	@echo "... communication/socketClient.o"
 	@echo "... communication/socketClient.i"
 	@echo "... communication/socketClient.s"
@@ -459,6 +557,12 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... tests/qt/main.o"
+	@echo "... tests/qt/main.i"
+	@echo "... tests/qt/main.s"
+	@echo "... tests/qt/mainwindow.o"
+	@echo "... tests/qt/mainwindow.i"
+	@echo "... tests/qt/mainwindow.s"
 	@echo "... util/dictionary.o"
 	@echo "... util/dictionary.i"
 	@echo "... util/dictionary.s"

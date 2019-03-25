@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 include CMakeFiles/Proyecto1_Scrabble_autogen.dir/progress.make
 
 CMakeFiles/Proyecto1_Scrabble_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Proyecto1_Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto1_Scrabble"
 	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autogen /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenInfo.cmake Debug
 
 Proyecto1_Scrabble_autogen: CMakeFiles/Proyecto1_Scrabble_autogen

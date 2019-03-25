@@ -3,8 +3,9 @@ project(Proyecto1_Scrabble)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
 
-#set(CMAKE_INCLUDE_CURRENT_DIR ON)
-#set(CMAKE_AUTOMOC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
 
 find_package(Qt5Widgets REQUIRED)
 
@@ -28,6 +29,9 @@ set(SOURCE_FILES
         gameLogic/player.cpp gameLogic/player.h
         gameLogic/words.cpp gameLogic/words.h
         gameLogic/chips.cpp gameLogic/chips.h
+
+        tests/qt/main.cpp
+        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
 
         util/dictionary.cpp util/dictionary.h
 

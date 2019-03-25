@@ -37,6 +37,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -68,6 +71,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -99,7 +105,20 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Proyecto1_Scrabble_autogen">
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
@@ -152,6 +171,15 @@
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp">
