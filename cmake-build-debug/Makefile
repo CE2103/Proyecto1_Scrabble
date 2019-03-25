@@ -514,6 +514,60 @@ tests/dataStructures/linkedList/stringlist.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/stringlist.cpp.s
 .PHONY : tests/dataStructures/linkedList/stringlist.cpp.s
 
+tests/qt/main.o: tests/qt/main.cpp.o
+
+.PHONY : tests/qt/main.o
+
+# target to build an object file
+tests/qt/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o
+.PHONY : tests/qt/main.cpp.o
+
+tests/qt/main.i: tests/qt/main.cpp.i
+
+.PHONY : tests/qt/main.i
+
+# target to preprocess a source file
+tests/qt/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.i
+.PHONY : tests/qt/main.cpp.i
+
+tests/qt/main.s: tests/qt/main.cpp.s
+
+.PHONY : tests/qt/main.s
+
+# target to generate assembly for a file
+tests/qt/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.s
+.PHONY : tests/qt/main.cpp.s
+
+tests/qt/mainwindow.o: tests/qt/mainwindow.cpp.o
+
+.PHONY : tests/qt/mainwindow.o
+
+# target to build an object file
+tests/qt/mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.o
+.PHONY : tests/qt/mainwindow.cpp.o
+
+tests/qt/mainwindow.i: tests/qt/mainwindow.cpp.i
+
+.PHONY : tests/qt/mainwindow.i
+
+# target to preprocess a source file
+tests/qt/mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.i
+.PHONY : tests/qt/mainwindow.cpp.i
+
+tests/qt/mainwindow.s: tests/qt/mainwindow.cpp.s
+
+.PHONY : tests/qt/mainwindow.s
+
+# target to generate assembly for a file
+tests/qt/mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.s
+.PHONY : tests/qt/mainwindow.cpp.s
+
 util/dictionary.o: util/dictionary.cpp.o
 
 .PHONY : util/dictionary.o
@@ -593,6 +647,12 @@ help:
 	@echo "... tests/dataStructures/linkedList/stringlist.o"
 	@echo "... tests/dataStructures/linkedList/stringlist.i"
 	@echo "... tests/dataStructures/linkedList/stringlist.s"
+	@echo "... tests/qt/main.o"
+	@echo "... tests/qt/main.i"
+	@echo "... tests/qt/main.s"
+	@echo "... tests/qt/mainwindow.o"
+	@echo "... tests/qt/mainwindow.i"
+	@echo "... tests/qt/mainwindow.s"
 	@echo "... util/dictionary.o"
 	@echo "... util/dictionary.i"
 	@echo "... util/dictionary.s"

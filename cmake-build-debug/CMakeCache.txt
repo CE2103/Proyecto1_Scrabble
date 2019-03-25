@@ -211,6 +211,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Pick a version of Qt to use: 3 or 4
+DESIRED_QT_VERSION:STRING=3
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
@@ -223,8 +226,29 @@ Proyecto1_Scrabble_BINARY_DIR:STATIC=/home/angelortizv/CLionProjects/Proyecto1_S
 //Value Computed by CMake
 Proyecto1_Scrabble_SOURCE_DIR:STATIC=/home/angelortizv/CLionProjects/Proyecto1_Scrabble
 
+//Path to a file.
+QT3_QGLOBAL_H_FILE:FILEPATH=/usr/local/include
+
+//Path to a file.
+QT4_QGLOBAL_H_FILE:FILEPATH=QT4_QGLOBAL_H_FILE-NOTFOUND
+
 //The directory containing a CMake configuration file for QT.
 QT_DIR:PATH=QT_DIR-NOTFOUND
+
+//path to Qt3 include directory
+QT_INCLUDE_DIR:PATH=QT_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+QT_QASSISTANTCLIENT_LIBRARY:FILEPATH=QT_QASSISTANTCLIENT_LIBRARY-NOTFOUND
+
+//Path to a program.
+QT_QMAKE_EXECUTABLE_FINDQT:FILEPATH=/usr/bin/qmake
+
+//Path to a library.
+QT_QT_LIBRARY:FILEPATH=QT_QT_LIBRARY-NOTFOUND
+
+//Path to a program.
+QT_UIC_EXECUTABLE:FILEPATH=/usr/bin/uic3
 
 //The directory containing a CMake configuration file for Q.
 Q_DIR:PATH=Q_DIR-NOTFOUND
@@ -267,6 +291,9 @@ Qt5Wdi_DIR:PATH=Qt5Wdi_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Wdigets.
 Qt5Wdigets_DIR:PATH=Qt5Wdigets_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Wid.
+Qt5Wid_DIR:PATH=Qt5Wid_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Widgets.
 Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
@@ -428,4 +455,18 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT3_QGLOBAL_H_FILE
+QT3_QGLOBAL_H_FILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT4_QGLOBAL_H_FILE
+QT4_QGLOBAL_H_FILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_INCLUDE_DIR
+QT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_QASSISTANTCLIENT_LIBRARY
+QT_QASSISTANTCLIENT_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_QMAKE_EXECUTABLE_FINDQT
+QT_QMAKE_EXECUTABLE_FINDQT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_QT_LIBRARY
+QT_QT_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_UIC_EXECUTABLE
+QT_UIC_EXECUTABLE-ADVANCED:INTERNAL=1
 

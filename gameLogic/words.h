@@ -5,9 +5,6 @@
  * @autor
  * @title
  * @brief
- * @code
- *
- * @endcode
  */
 
 #ifndef PROYECTO1_SCRABBLE_WORDS_H

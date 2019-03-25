@@ -6,47 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
-list.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
-
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
-fstream
--
-iostream
--
-string
--
-stdlib.h
--
-node.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
-node.cpp
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
-
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
-node.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
-
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.cpp
+gameBoard.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
 iostream
 -
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp
+player.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
+gameBoard.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
 iostream
 -
-util/dictionary.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
-dataStructures/linkedList/list.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
-dataStructures/linkedList/list.cpp
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
-fstream
--
-string.h
--
-stdlib.h
--
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
 

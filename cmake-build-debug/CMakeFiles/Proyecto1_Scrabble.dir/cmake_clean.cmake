@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o"
+  "CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o"
+  "CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/main.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/stringlist.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"

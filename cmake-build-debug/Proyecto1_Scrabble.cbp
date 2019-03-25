@@ -188,6 +188,18 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.ui">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>

@@ -6,28 +6,25 @@
             <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>824</width>
-                <height>549</height>
+                <width>400</width>
+                <height>300</height>
             </rect>
         </property>
         <property name="windowTitle">
             <string>MainWindow</string>
         </property>
         <widget class="QWidget" name="centralWidget">
-            <widget class="QLabel" name="logo_scrabble">
+            <widget class="QLabel" name="label">
                 <property name="geometry">
                     <rect>
-                        <x>-90</x>
-                        <y>-20</y>
-                        <width>1431</width>
-                        <height>261</height>
+                        <x>140</x>
+                        <y>20</y>
+                        <width>81</width>
+                        <height>41</height>
                     </rect>
                 </property>
                 <property name="text">
-                    <string/>
-                </property>
-                <property name="pixmap">
-                    <pixmap>img/logo.png</pixmap>
+                    <string>hello world 123</string>
                 </property>
             </widget>
         </widget>
@@ -36,7 +33,7 @@
                 <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>824</width>
+                    <width>400</width>
                     <height>25</height>
                 </rect>
             </property>
