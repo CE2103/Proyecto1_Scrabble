@@ -8,7 +8,6 @@ bool dictionary::search(string word) {
 
     dictionary.open("../util/dictionary.txt");
 
-
     if(dictionary.fail()){
         cerr << "Error: " << strerror(errno) << endl;
         cout << "Can't open file" << endl;

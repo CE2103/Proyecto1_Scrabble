@@ -223,14 +223,56 @@ Proyecto1_Scrabble_BINARY_DIR:STATIC=/home/angelortizv/CLionProjects/Proyecto1_S
 //Value Computed by CMake
 Proyecto1_Scrabble_SOURCE_DIR:STATIC=/home/angelortizv/CLionProjects/Proyecto1_Scrabble
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=QT_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Q.
+Q_DIR:PATH=Q_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Concurrent.
+Qt5Concurrent_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent
+
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5GUi.
+Qt5GUi_DIR:PATH=Qt5GUi_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Gu.
+Qt5Gu_DIR:PATH=Qt5Gu_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5OpenGL.
+Qt5OpenGL_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL
+
+//The directory containing a CMake configuration file for Qt5Qml.
+Qt5Qml_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml
+
+//The directory containing a CMake configuration file for Qt5Quick.
+Qt5Quick_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick
+
+//The directory containing a CMake configuration file for Qt5Test.
+Qt5Test_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Test
+
+//The directory containing a CMake configuration file for Qt5W.
+Qt5W_DIR:PATH=Qt5W_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Wdi.
+Qt5Wdi_DIR:PATH=Qt5Wdi_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Wdigets.
+Qt5Wdigets_DIR:PATH=Qt5Wdigets_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt5Widgets.
 Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
+
+//The directory containing a CMake configuration file for Qt5.
+Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 
 ########################

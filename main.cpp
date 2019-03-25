@@ -1,6 +1,4 @@
 #include <iostream>
-#include <QApplication>
-
 
 #include "util/dictionary.h"
 
@@ -13,19 +11,6 @@ using namespace std;
 int main() {
 
     List<int> list_1;
-    int dim = 10;
-
-//    list_1.fill_by_user(dim);
-//    list_1.print();
-//    list_1.add_head(12);
-//    list_1.print();
-
-
-
-//    dictionary d;
-//    d.search("hola");
-//    cout << "pruebas" << endl;
-
 
     string letter;
     int verification;

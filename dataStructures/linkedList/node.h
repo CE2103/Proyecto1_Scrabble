@@ -5,9 +5,6 @@
  * @autor angelortiz
  * @title Clase Nodo
  * @brief Responsables de Almacenar un valor de tipo int y un puntero al nodo siguiente
- * @code
- *
- * @endcode
  */
 
 #ifndef PROYECTO1_SCRABBLE_NODE_H
@@ -29,8 +26,17 @@ public:
 
     Node *next;
     T data;
-
+    /**
+     * @title
+     * @autor
+     * @brief
+     */
     void delete_all();
+    /**
+     * @title
+     * @autor
+     * @brief
+     */
     void print();
 };
 

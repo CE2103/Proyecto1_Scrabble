@@ -26,6 +26,12 @@ public:
     ifstream dictionary;
     bool isFound = false;
 
+    /**
+     * @title Buscador de Palabras en Diccionario
+     * @autor angelortizv
+     * @param word
+     * @return true: Si la letra está en el diccionario, sino: tira excepción de error.
+     */
     bool search(string word);
 
 

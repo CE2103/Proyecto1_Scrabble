@@ -1,0 +1,5 @@
+-I/home/angelortizv/CLionProjects/Proyecto1_Scrabble
+-I/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
+-o
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/tests/socketTests/moc_mainwindow.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/socketTests/mainwindow.h

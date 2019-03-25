@@ -5,42 +5,100 @@
       <config projectName="Proyecto1_Scrabble" targetName="Proyecto1_Scrabble" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80bf5736-46fc-40a2-aee7-1799362f9d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrLibraries/rapidcsv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/gameTokens.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/gameTokens.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/gameTokens.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/tests/qtTests/moc_mainwindow.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/L2LWZ5KSSN/moc_mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/YWHHFX6263/moc_mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/include/ui_mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/moc_predefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/moc_tests.cpp_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/moc_socketTests.cpp_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/qtTests/moc_mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/qtTests/moc_mainwindow.cpp_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/socketTests/moc_mainw.cpp_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/socketTests/moc_mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/socketTests/moc_mainwindow.cpp_parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ui_mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/socketClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/socketClient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/socketServer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication/socketServer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameLogic/chips.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameLogic/chips.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameLogic/words.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameLogic/words.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/linkedList/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/linkedList/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/linkedList/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/linkedList/node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameLogic/gameBoard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gameLogic/gameBoard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameLogic/gameBoard.h" beforeDir="false" afterPath="$PROJECT_DIR$/gameLogic/gameBoard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameLogic/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gameLogic/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameLogic/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/gameLogic/player.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrLibraries/rapidcsv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/dictionary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/util/dictionary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/dictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/dictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/gameTokens.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/gameTokens.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/gameTokens.h" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,14 +107,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="33">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -64,84 +154,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/gameTokens.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4740">
-              <caret line="316" column="9" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
-              <folding>
-                <element signature="e#76#88#0" expanded="true" />
-                <element signature="e#180#192#0" expanded="true" />
-                <element signature="e#542#554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#276#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/node.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#54#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/node.h">
+        <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="11" />
+            <state relative-caret-position="240">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/dictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1205400">
-              <caret line="80360" column="7" selection-start-line="80360" selection-start-column="7" selection-end-line="80360" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/gameTokens.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -157,10 +179,34 @@
       <find>perro</find>
       <find>gato</find>
       <find>file.</find>
+      <find>mensaje</find>
+      <find>ligar_</find>
+      <find>l</find>
+      <find>crear_socket</find>
+      <find>hilo</find>
+      <find>setMensaje</find>
+      <find>hiloServer</find>
+      <find>clientes</find>
+      <find>pthread_create</find>
+      <find>clientSocket</find>
+      <find>gui</find>
+      <find>SocketServer</find>
+      <find>ClienteSocket</find>
+      <find>msn</find>
+      <find>dim</find>
     </findStrings>
     <replaceStrings>
       <replace>isFound</replace>
       <replace>tempStr</replace>
+      <replace>msgClientContr</replace>
+      <replace>attach_kernel</replace>
+      <replace>create_Socket</replace>
+      <replace>clientTread</replace>
+      <replace>setMessage</replace>
+      <replace>threadServer</replace>
+      <replace>clientSocket</replace>
+      <replace>socketServer</replace>
+      <replace>socketClient</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,26 +221,47 @@
         <option value="$PROJECT_DIR$/dataStructures/LinkedList/node.cpp" />
         <option value="$PROJECT_DIR$/dataStructures/LinkedList/list.h" />
         <option value="$PROJECT_DIR$/dataStructures/LinkedList/node.h" />
-        <option value="$PROJECT_DIR$/gameLogic/player.cpp" />
         <option value="$PROJECT_DIR$/dataStructures/linkedList/node.cpp" />
-        <option value="$PROJECT_DIR$/gameLogic/gameBoard.cpp" />
-        <option value="$PROJECT_DIR$/gameLogic/gameBoard.h" />
-        <option value="$PROJECT_DIR$/gameLogic/player.h" />
-        <option value="$PROJECT_DIR$/dataStructures/linkedList/node.h" />
-        <option value="$PROJECT_DIR$/util/dictionary.cpp" />
-        <option value="$PROJECT_DIR$/util/dictionary.h" />
-        <option value="$PROJECT_DIR$/dataStructures/linkedList/list.h" />
-        <option value="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" />
         <option value="$PROJECT_DIR$/util/dictionaryScrabble.txt" />
         <option value="$PROJECT_DIR$/scrLibraries/rapidcsv.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/util/gameTokens.csv" />
+        <option value="$PROJECT_DIR$/comunication/socketServer.cpp" />
+        <option value="$PROJECT_DIR$/comunication/socketServer.h" />
+        <option value="$PROJECT_DIR$/comunication/socketserver.h" />
+        <option value="$PROJECT_DIR$/comunication/socketserver.cpp" />
+        <option value="$PROJECT_DIR$/communication/socketserver.cpp" />
+        <option value="$PROJECT_DIR$/tests/socketTests/ui_mainwindow.h" />
+        <option value="$PROJECT_DIR$/tests/socketTests/Proyecto1_Scrabble.pro" />
+        <option value="$PROJECT_DIR$/tests/socketTests/mainwindow.cpp" />
+        <option value="$PROJECT_DIR$/tests/socketTests/mainwindow.h" />
+        <option value="$PROJECT_DIR$/tests/socketTests/mainwindow.ui" />
+        <option value="$PROJECT_DIR$/tests/socketTests/mainClient.cpp" />
+        <option value="$PROJECT_DIR$/tests/qtTests/mainClient.cpp" />
+        <option value="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" />
+        <option value="$PROJECT_DIR$/gameLogic/player.cpp" />
+        <option value="$PROJECT_DIR$/gameLogic/chips.cpp" />
+        <option value="$PROJECT_DIR$/communication/socketClient.h" />
+        <option value="$PROJECT_DIR$/communication/socketServer.cpp" />
+        <option value="$PROJECT_DIR$/communication/socketServer.h" />
+        <option value="$PROJECT_DIR$/dataStructures/linkedList/list.h" />
+        <option value="$PROJECT_DIR$/dataStructures/linkedList/node.h" />
+        <option value="$PROJECT_DIR$/gameLogic/player.h" />
+        <option value="$PROJECT_DIR$/gameLogic/gameBoard.h" />
+        <option value="$PROJECT_DIR$/gameLogic/chips.h" />
+        <option value="$PROJECT_DIR$/gameLogic/words.cpp" />
+        <option value="$PROJECT_DIR$/gameLogic/words.h" />
+        <option value="$PROJECT_DIR$/util/dictionary.cpp" />
+        <option value="$PROJECT_DIR$/util/dictionary.h" />
+        <option value="$PROJECT_DIR$/communication/socketClient.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/gameLogic/gameBoard.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
     <option name="y" value="30" />
     <option name="width" value="960" />
     <option name="height" value="1050" />
@@ -215,23 +282,12 @@
             <path>
               <item name="Proyecto1_Scrabble" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto1_Scrabble" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto1_Scrabble" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto1_Scrabble" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto1_Scrabble" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto1_Scrabble" type="462c0819:PsiDirectoryNode" />
-              <item name="scrLibraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto1_Scrabble" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto1_Scrabble" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,6 +303,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/util" />
+      <recent name="$PROJECT_DIR$/util/dictionaryFIles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -283,28 +346,30 @@
       <workItem from="1553029505753" duration="1660000" />
       <workItem from="1553045485104" duration="805000" />
       <workItem from="1553066432962" duration="14342000" />
-      <workItem from="1553136781059" duration="4670000" />
+      <workItem from="1553136781059" duration="5370000" />
+      <workItem from="1553389189579" duration="26663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24510000" />
+    <option name="totallyTimeSpent" value="51873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="960" height="1050" extended-state="4" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23960613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12379936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21064061" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.29641694" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -312,7 +377,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32977587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,103 +388,85 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/util/scrabbleDictionary.txt" />
-    <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameLogic/player.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameLogic/player.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/dictionaryScrabble.txt" />
     <entry file="file://$PROJECT_DIR$/scrLibraries/rapidcsv.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="e#268#288#0" expanded="true" />
-            <element signature="e#344#362#0" expanded="true" />
-            <element signature="e#370#388#0" expanded="true" />
-            <element signature="e#522#567#0" expanded="true" />
-            <element signature="e#623#663#0" expanded="true" />
-            <element signature="e#3174#3186#0" expanded="true" />
-            <element signature="e#7781#7783#0" expanded="true" />
-            <element signature="e#8119#8121#0" expanded="true" />
-            <element signature="e#14851#14863#0" expanded="true" />
-            <element signature="e#15693#15705#0" expanded="true" />
-            <element signature="e#16256#16268#0" expanded="true" />
-            <element signature="e#17558#17570#0" expanded="true" />
-            <element signature="e#19263#19275#0" expanded="true" />
-            <element signature="e#20094#20106#0" expanded="true" />
-            <element signature="e#20612#20624#0" expanded="true" />
-            <element signature="e#21834#21846#0" expanded="true" />
-            <element signature="e#23360#23372#0" expanded="true" />
-            <element signature="e#24020#24032#0" expanded="true" />
-            <element signature="e#24838#24850#0" expanded="true" />
-            <element signature="e#26009#26021#0" expanded="true" />
-            <element signature="e#30532#31918#0" expanded="true" />
-            <element signature="e#35391#36258#0" expanded="true" />
-            <element signature="e#38461#39159#0" expanded="true" />
-            <element signature="e#39508#39554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/dictionary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/dictionary.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/gameTokens.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.cpp">
+    <entry file="file://$PROJECT_DIR$/util/gameTokens.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4740">
-          <caret line="316" column="9" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/gameTokens.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/socketTests/ui_mainwindow.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/socketTests/Proyecto1_Scrabble.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/qtTests/mainwindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/qtTests/mainwindow.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/qtTests/mainwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
           <folding>
-            <element signature="e#76#88#0" expanded="true" />
-            <element signature="e#180#192#0" expanded="true" />
-            <element signature="e#542#554#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.h">
+    <entry file="file://$PROJECT_DIR$/tests/qtTests/mainClient.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="1205400">
+          <caret line="80360" column="7" selection-start-line="80360" selection-start-column="7" selection-end-line="80360" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/socketServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
           <folding>
-            <element signature="e#276#294#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,43 +481,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/dictionary.txt">
+    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1205400">
-          <caret line="80360" column="7" selection-start-line="80360" selection-start-column="7" selection-end-line="80360" selection-end-column="7" />
+        <state relative-caret-position="-4847">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#76#88#0" expanded="true" />
+            <element signature="e#180#192#0" expanded="true" />
+            <element signature="e#542#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/gameTokens.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
+    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+          <folding>
+            <element signature="e#276#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/socketServer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/words.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <element signature="e#168#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/chips.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/chips.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/gameLogic/words.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/gameTokens.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/node.h">
+    <entry file="file://$PROJECT_DIR$/gameLogic/player.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
+        <state relative-caret-position="253">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/dictionary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#295#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/dictionary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/socketClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/socketClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,9 +5,6 @@
  * @autor angelortizv
  * @title Clase Lista
  * @brief Contiene métodos de la clase List formada por objetos de tipo Node
- * @code
- *
- * @endcode
  */
 
 #ifndef PROYECTO1_SCRABBLE_LIST_H

@@ -123,6 +123,60 @@ Proyecto1_Scrabble/fast:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/build
 .PHONY : Proyecto1_Scrabble/fast
 
+communication/socketClient.o: communication/socketClient.cpp.o
+
+.PHONY : communication/socketClient.o
+
+# target to build an object file
+communication/socketClient.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
+.PHONY : communication/socketClient.cpp.o
+
+communication/socketClient.i: communication/socketClient.cpp.i
+
+.PHONY : communication/socketClient.i
+
+# target to preprocess a source file
+communication/socketClient.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.i
+.PHONY : communication/socketClient.cpp.i
+
+communication/socketClient.s: communication/socketClient.cpp.s
+
+.PHONY : communication/socketClient.s
+
+# target to generate assembly for a file
+communication/socketClient.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.s
+.PHONY : communication/socketClient.cpp.s
+
+communication/socketServer.o: communication/socketServer.cpp.o
+
+.PHONY : communication/socketServer.o
+
+# target to build an object file
+communication/socketServer.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o
+.PHONY : communication/socketServer.cpp.o
+
+communication/socketServer.i: communication/socketServer.cpp.i
+
+.PHONY : communication/socketServer.i
+
+# target to preprocess a source file
+communication/socketServer.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.i
+.PHONY : communication/socketServer.cpp.i
+
+communication/socketServer.s: communication/socketServer.cpp.s
+
+.PHONY : communication/socketServer.s
+
+# target to generate assembly for a file
+communication/socketServer.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.s
+.PHONY : communication/socketServer.cpp.s
+
 dataStructures/linkedList/list.o: dataStructures/linkedList/list.cpp.o
 
 .PHONY : dataStructures/linkedList/list.o
@@ -177,6 +231,33 @@ dataStructures/linkedList/node.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.s
 .PHONY : dataStructures/linkedList/node.cpp.s
 
+gameLogic/chips.o: gameLogic/chips.cpp.o
+
+.PHONY : gameLogic/chips.o
+
+# target to build an object file
+gameLogic/chips.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o
+.PHONY : gameLogic/chips.cpp.o
+
+gameLogic/chips.i: gameLogic/chips.cpp.i
+
+.PHONY : gameLogic/chips.i
+
+# target to preprocess a source file
+gameLogic/chips.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.i
+.PHONY : gameLogic/chips.cpp.i
+
+gameLogic/chips.s: gameLogic/chips.cpp.s
+
+.PHONY : gameLogic/chips.s
+
+# target to generate assembly for a file
+gameLogic/chips.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.s
+.PHONY : gameLogic/chips.cpp.s
+
 gameLogic/gameBoard.o: gameLogic/gameBoard.cpp.o
 
 .PHONY : gameLogic/gameBoard.o
@@ -230,6 +311,33 @@ gameLogic/player.s: gameLogic/player.cpp.s
 gameLogic/player.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s
 .PHONY : gameLogic/player.cpp.s
+
+gameLogic/words.o: gameLogic/words.cpp.o
+
+.PHONY : gameLogic/words.o
+
+# target to build an object file
+gameLogic/words.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o
+.PHONY : gameLogic/words.cpp.o
+
+gameLogic/words.i: gameLogic/words.cpp.i
+
+.PHONY : gameLogic/words.i
+
+# target to preprocess a source file
+gameLogic/words.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.i
+.PHONY : gameLogic/words.cpp.i
+
+gameLogic/words.s: gameLogic/words.cpp.s
+
+.PHONY : gameLogic/words.s
+
+# target to generate assembly for a file
+gameLogic/words.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.s
+.PHONY : gameLogic/words.cpp.s
 
 main.o: main.cpp.o
 
@@ -321,18 +429,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto1_Scrabble"
 	@echo "... edit_cache"
+	@echo "... communication/socketClient.o"
+	@echo "... communication/socketClient.i"
+	@echo "... communication/socketClient.s"
+	@echo "... communication/socketServer.o"
+	@echo "... communication/socketServer.i"
+	@echo "... communication/socketServer.s"
 	@echo "... dataStructures/linkedList/list.o"
 	@echo "... dataStructures/linkedList/list.i"
 	@echo "... dataStructures/linkedList/list.s"
 	@echo "... dataStructures/linkedList/node.o"
 	@echo "... dataStructures/linkedList/node.i"
 	@echo "... dataStructures/linkedList/node.s"
+	@echo "... gameLogic/chips.o"
+	@echo "... gameLogic/chips.i"
+	@echo "... gameLogic/chips.s"
 	@echo "... gameLogic/gameBoard.o"
 	@echo "... gameLogic/gameBoard.i"
 	@echo "... gameLogic/gameBoard.s"
 	@echo "... gameLogic/player.o"
 	@echo "... gameLogic/player.i"
 	@echo "... gameLogic/player.s"
+	@echo "... gameLogic/words.o"
+	@echo "... gameLogic/words.i"
+	@echo "... gameLogic/words.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
