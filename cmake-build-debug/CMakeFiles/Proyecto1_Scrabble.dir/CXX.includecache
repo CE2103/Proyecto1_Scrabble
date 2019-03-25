@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp
 ../../../communication/socketClient.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/V4TL2CSWTB/moc_mainwindow.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/V4TL2CSWTB/moc_mainwindow.cpp
 ../../../tests/qt/mainwindow.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/mainwindow.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
 HAGZTRH3L5/moc_socketClient.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp
 V4TL2CSWTB/moc_mainwindow.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/V4TL2CSWTB/moc_mainwindow.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/V4TL2CSWTB/moc_mainwindow.cpp
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp
 socketClient.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
 sys/socket.h
 -
 sys/types.h
@@ -60,13 +60,13 @@ QObject
 QString
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketServer.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.cpp
 socketServer.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketServer.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketServer.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
 sys/socket.h
 -
 sys/types.h
@@ -86,11 +86,11 @@ vector
 unistd.h
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
 list.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 fstream
 -
 iostream
@@ -100,87 +100,87 @@ string
 stdlib.h
 -
 node.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
 node.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
 node.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/queue/clientQueue.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.cpp
 clientQueue.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/chips.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.cpp
 chips.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/chips.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/chips.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/gameBoard.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.cpp
 gameBoard.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/gameBoard.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/gameBoard.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/player.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp
 player.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/player.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
 gameBoard.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/gameBoard.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/player.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/words.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp
 iostream
 -
 words.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/words.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/words.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.h
 iostream
 -
 string
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/main.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
 iostream
 -
 util/dictionary.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/util/dictionary.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 dataStructures/linkedList/list.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 dataStructures/linkedList/list.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/test.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp
 communication/socketServer.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketServer.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/dataStructures/linkedList/main.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/main.cpp
 iostream
 -
 string
 -
 stringlist.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.cpp
 stringlist.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
 string.h
 -
 stdlib.h
@@ -188,29 +188,29 @@ stdlib.h
 stdio.h
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/main.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp
 mainwindow.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/mainwindow.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h
 QApplication
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/mainwindow.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp
 mainwindow.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/mainwindow.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h
 ui_mainwindow.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/ui_mainwindow.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/ui_mainwindow.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/tests/qt/mainwindow.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h
 QMainWindow
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/util/dictionary.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
 iostream
 -
 dictionary.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/util/dictionary.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/util/dictionary.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 fstream
 -
 string.h

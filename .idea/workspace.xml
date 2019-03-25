@@ -110,10 +110,19 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mainwindow_autogen.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble.cbp" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/linkedList/list.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataStructures/linkedList/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/linkedList/list.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/include/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/include/ui_mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameLogic/words.h" beforeDir="false" afterPath="$PROJECT_DIR$/gameLogic/words.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qt/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/qt/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qt/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/qt/mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qt/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/tests/qt/mainwindow.ui" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,6 +175,18 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> Stashed changes
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructures/linkedList/list.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -280,10 +301,17 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="656" />
     <option name="height" value="743" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="30" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -382,23 +410,37 @@
       <workItem from="1553066432962" duration="14342000" />
       <workItem from="1553136781059" duration="5370000" />
       <workItem from="1553389189579" duration="39070000" />
+<<<<<<< Updated upstream
       <workItem from="1553531739716" duration="3023000" />
       <workItem from="1553545409637" duration="801000" />
+=======
+      <workItem from="1553531739716" duration="3311000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="68104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="655" y="25" width="656" height="743" extended-state="4" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245901" />
+=======
+    <option name="totallyTimeSpent" value="67591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34961998" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34961998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -647,6 +689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gameLogic/gameBoard.h">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="90">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
@@ -686,6 +729,10 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="405">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
