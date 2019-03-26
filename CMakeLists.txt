@@ -21,7 +21,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 set(SOURCE_FILES
-        main.cpp test.cpp
+        main.cpp
 
         communication/socketServer.cpp communication/socketServer.h
         communication/socketClient.cpp communication/socketClient.h
@@ -29,18 +29,6 @@ set(SOURCE_FILES
         dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
         dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
         dataStructures/queue/clientQueue.cpp dataStructures/queue/clientQueue.h
-
-        gameLogic/gameBoard.cpp gameLogic/gameBoard.h
-        gameLogic/player.cpp gameLogic/player.h
-        gameLogic/words.cpp gameLogic/words.h
-        gameLogic/chips.cpp gameLogic/chips.h
-
-        tests/qt/main.cpp
-        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
-        tests/qt/mainwindow.ui
-
-        tests/dataStructures/linkedList/main.cpp
-        tests/dataStructures/linkedList/stringlist.cpp tests/dataStructures/linkedList/stringlist.h
 
         util/dictionary.cpp util/dictionary.h
 

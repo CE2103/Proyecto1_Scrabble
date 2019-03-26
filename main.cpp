@@ -8,11 +8,9 @@
 
 using namespace std;
 
-
 int main() {
 
     string letra="";
-
     List<string> d;
 
     d.add_head("arbol");

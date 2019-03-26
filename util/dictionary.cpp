@@ -5,7 +5,6 @@ using namespace std;
 
 bool dictionary::search(string word) {
 
-
     dictionary.open("../util/dictionary.txt");
 
     if(dictionary.fail()){
