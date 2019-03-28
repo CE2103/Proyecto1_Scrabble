@@ -7,7 +7,6 @@
  * @brief
  */
 
-
 #ifndef PROYECTO1_SCRABBLE_JSONCOMM_H
 #define PROYECTO1_SCRABBLE_JSONCOMM_H
 

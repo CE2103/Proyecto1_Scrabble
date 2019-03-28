@@ -34,8 +34,12 @@ CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o: ../dataS
 CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o: ../dataStructures/linkedList/node.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o: ../dataStructures/linkedList/node.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o: ../dataStructures/queue/clientQueue.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o: ../dataStructures/queue/clientQueue.h
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o: ../dataStructures/queue/queue.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o: ../dataStructures/queue/queue.h
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o: ../dataStructures/queue/queueItem.h
+
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.o: ../dataStructures/queue/queueItem.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.o: ../dataStructures/queue/queueItem.h
 
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o: ../gameLogic/chips.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o: ../gameLogic/chips.h
@@ -57,6 +61,10 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/node.
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/node.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../util/dictionary.h
+
+CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o: ../dataStructures/queue/queue.h
+CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o: ../dataStructures/queue/queueItem.h
+CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o: ../serverTests/queueTest.cpp
 
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o: ../util/dictionary.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o: ../util/dictionary.h

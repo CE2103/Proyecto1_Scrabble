@@ -35,14 +35,16 @@ set(SOURCE_FILES
 
         dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
         dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
-        dataStructures/queue/clientQueue.cpp dataStructures/queue/clientQueue.h
+
+        dataStructures/queue/queue.cpp dataStructures/queue/queue.h
+        dataStructures/queue/queueItem.cpp dataStructures/queue/queueItem.h
 
         gameLogic/chips.cpp gameLogic/chips.h
         gameLogic/gameBoard.cpp gameLogic/gameBoard.h
         gameLogic/player.cpp gameLogic/player.h
         gameLogic/words.cpp gameLogic/words.h
 
-        serverTests/test.cpp
+        serverTests/queueTest.cpp
 
         util/dictionary.cpp util/dictionary.h
 

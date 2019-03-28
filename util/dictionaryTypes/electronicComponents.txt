@@ -1,0 +1,17 @@
+amplificadoroperacional
+bobina
+capacitor
+diac
+diodo
+fusible
+inductor
+led
+potenciometro
+rele
+relevador
+resistencia
+tiristor
+transformador
+transistor
+triac
+varistor

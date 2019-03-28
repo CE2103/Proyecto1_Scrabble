@@ -14,20 +14,14 @@
 class gameBoard {
 
 private:
+    int gameBoardField[15][15] = {};
+
 public:
     gameBoard();
-    /**
-     * @title generateGameBoard
-     * @autor angelortizv
-     * @brief Genera Cuadrícula de tamaño 15x15
-     */
     void generateGameBoard();
-    /**
-     * @title printGameBoard
-     * @autor angelortizv
-     * @brief
-     */
     void printGameBoard();
+    void posValue();
+    void chipValue();
 };
 
 

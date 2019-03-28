@@ -271,32 +271,59 @@ dataStructures/linkedList/node.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.s
 .PHONY : dataStructures/linkedList/node.cpp.s
 
-dataStructures/queue/clientQueue.o: dataStructures/queue/clientQueue.cpp.o
+dataStructures/queue/queue.o: dataStructures/queue/queue.cpp.o
 
-.PHONY : dataStructures/queue/clientQueue.o
+.PHONY : dataStructures/queue/queue.o
 
 # target to build an object file
-dataStructures/queue/clientQueue.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o
-.PHONY : dataStructures/queue/clientQueue.cpp.o
+dataStructures/queue/queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o
+.PHONY : dataStructures/queue/queue.cpp.o
 
-dataStructures/queue/clientQueue.i: dataStructures/queue/clientQueue.cpp.i
+dataStructures/queue/queue.i: dataStructures/queue/queue.cpp.i
 
-.PHONY : dataStructures/queue/clientQueue.i
+.PHONY : dataStructures/queue/queue.i
 
 # target to preprocess a source file
-dataStructures/queue/clientQueue.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.i
-.PHONY : dataStructures/queue/clientQueue.cpp.i
+dataStructures/queue/queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.i
+.PHONY : dataStructures/queue/queue.cpp.i
 
-dataStructures/queue/clientQueue.s: dataStructures/queue/clientQueue.cpp.s
+dataStructures/queue/queue.s: dataStructures/queue/queue.cpp.s
 
-.PHONY : dataStructures/queue/clientQueue.s
+.PHONY : dataStructures/queue/queue.s
 
 # target to generate assembly for a file
-dataStructures/queue/clientQueue.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.s
-.PHONY : dataStructures/queue/clientQueue.cpp.s
+dataStructures/queue/queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.s
+.PHONY : dataStructures/queue/queue.cpp.s
+
+dataStructures/queue/queueItem.o: dataStructures/queue/queueItem.cpp.o
+
+.PHONY : dataStructures/queue/queueItem.o
+
+# target to build an object file
+dataStructures/queue/queueItem.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.o
+.PHONY : dataStructures/queue/queueItem.cpp.o
+
+dataStructures/queue/queueItem.i: dataStructures/queue/queueItem.cpp.i
+
+.PHONY : dataStructures/queue/queueItem.i
+
+# target to preprocess a source file
+dataStructures/queue/queueItem.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.i
+.PHONY : dataStructures/queue/queueItem.cpp.i
+
+dataStructures/queue/queueItem.s: dataStructures/queue/queueItem.cpp.s
+
+.PHONY : dataStructures/queue/queueItem.s
+
+# target to generate assembly for a file
+dataStructures/queue/queueItem.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.s
+.PHONY : dataStructures/queue/queueItem.cpp.s
 
 gameLogic/chips.o: gameLogic/chips.cpp.o
 
@@ -433,32 +460,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-serverTests/test.o: serverTests/test.cpp.o
+serverTests/queueTest.o: serverTests/queueTest.cpp.o
 
-.PHONY : serverTests/test.o
+.PHONY : serverTests/queueTest.o
 
 # target to build an object file
-serverTests/test.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/test.cpp.o
-.PHONY : serverTests/test.cpp.o
+serverTests/queueTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o
+.PHONY : serverTests/queueTest.cpp.o
 
-serverTests/test.i: serverTests/test.cpp.i
+serverTests/queueTest.i: serverTests/queueTest.cpp.i
 
-.PHONY : serverTests/test.i
+.PHONY : serverTests/queueTest.i
 
 # target to preprocess a source file
-serverTests/test.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/test.cpp.i
-.PHONY : serverTests/test.cpp.i
+serverTests/queueTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.i
+.PHONY : serverTests/queueTest.cpp.i
 
-serverTests/test.s: serverTests/test.cpp.s
+serverTests/queueTest.s: serverTests/queueTest.cpp.s
 
-.PHONY : serverTests/test.s
+.PHONY : serverTests/queueTest.s
 
 # target to generate assembly for a file
-serverTests/test.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/test.cpp.s
-.PHONY : serverTests/test.cpp.s
+serverTests/queueTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.s
+.PHONY : serverTests/queueTest.cpp.s
 
 util/dictionary.o: util/dictionary.cpp.o
 
@@ -512,9 +539,12 @@ help:
 	@echo "... dataStructures/linkedList/node.o"
 	@echo "... dataStructures/linkedList/node.i"
 	@echo "... dataStructures/linkedList/node.s"
-	@echo "... dataStructures/queue/clientQueue.o"
-	@echo "... dataStructures/queue/clientQueue.i"
-	@echo "... dataStructures/queue/clientQueue.s"
+	@echo "... dataStructures/queue/queue.o"
+	@echo "... dataStructures/queue/queue.i"
+	@echo "... dataStructures/queue/queue.s"
+	@echo "... dataStructures/queue/queueItem.o"
+	@echo "... dataStructures/queue/queueItem.i"
+	@echo "... dataStructures/queue/queueItem.s"
 	@echo "... gameLogic/chips.o"
 	@echo "... gameLogic/chips.i"
 	@echo "... gameLogic/chips.s"
@@ -530,9 +560,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... serverTests/test.o"
-	@echo "... serverTests/test.i"
-	@echo "... serverTests/test.s"
+	@echo "... serverTests/queueTest.o"
+	@echo "... serverTests/queueTest.i"
+	@echo "... serverTests/queueTest.s"
 	@echo "... util/dictionary.o"
 	@echo "... util/dictionary.i"
 	@echo "... util/dictionary.s"

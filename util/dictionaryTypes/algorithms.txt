@@ -1,3 +1,9 @@
-selectionSort
-radixSort
-binarySearch
+binarysearch
+bubblesort
+heapsort
+insertionsort
+mergesort
+radixsort
+randomsort
+selectionsort
+shellsort

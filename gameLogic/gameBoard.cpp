@@ -1,4 +1,3 @@
-
 #include "gameBoard.h"
 
 #include <iostream>
@@ -15,7 +14,7 @@ void gameBoard::generateGameBoard(){
 
     for (int i = 0; i < row; i++){
         for (int j = 0; j < col; j++){
-
+            cout << "do some cool functions" << endl;
         }
     }
 }
@@ -23,3 +22,12 @@ void gameBoard::generateGameBoard(){
 void gameBoard::printGameBoard(){
 
 }
+
+void gameBoard::posValue(){
+
+}
+
+void gameBoard::chipValue(){
+
+}
+

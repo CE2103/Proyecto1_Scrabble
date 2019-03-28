@@ -34,9 +34,13 @@ CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o
 CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queueItem.h
+CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queueItem.cpp.o
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queueItem.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queueItem.h
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
@@ -58,6 +62,10 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
+CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o
+ ..//dataStructures/queue/queue.h
+ ..//dataStructures/queue/queueItem.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queueTest.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h

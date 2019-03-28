@@ -143,10 +143,16 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queueItem.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queueItem.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.cpp">
@@ -176,7 +182,7 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/test.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queueTest.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp">
