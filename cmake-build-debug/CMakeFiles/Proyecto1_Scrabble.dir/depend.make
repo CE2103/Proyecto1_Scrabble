@@ -112,6 +112,26 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/prettywriter.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/allocators.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/encodings.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/diyfp.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/dtoa.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/ieee754.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/itoa.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/meta.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/stack.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/strfunc.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/internal/swap.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/msinttypes/inttypes.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/msinttypes/stdint.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/rapidjson.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/stream.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/stringbuffer.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapidjson/writer.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../communication/JSON/jsonComm.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../communication/JSON/jsonComm.h
+
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: ../communication/socketClient.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: ../communication/socketClient.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -163,33 +183,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: /usr/include
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o: ../communication/socketServer.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o: ../communication/socketServer.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o: ../dataStructures/linkedList/list.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o: ../dataStructures/linkedList/list.h
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o: ../dataStructures/linkedList/node.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o: ../dataStructures/linkedList/node.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o: ../dataStructures/linkedList/node.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o: ../dataStructures/linkedList/node.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o: ../dataStructures/queue/clientQueue.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o: ../dataStructures/queue/clientQueue.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o: ../gameLogic/chips.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o: ../gameLogic/chips.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o: ../gameLogic/gameBoard.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o: ../gameLogic/gameBoard.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/gameBoard.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/player.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/player.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: ../gameLogic/words.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: ../gameLogic/words.h
-
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/list.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/list.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/node.cpp
@@ -197,14 +190,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/node.
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../util/dictionary.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o: ../communication/socketServer.h
 CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o: ../test.cpp
-
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/main.cpp.o: ../tests/dataStructures/linkedList/main.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/main.cpp.o: ../tests/dataStructures/linkedList/stringlist.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/stringlist.cpp.o: ../tests/dataStructures/linkedList/stringlist.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/stringlist.cpp.o: ../tests/dataStructures/linkedList/stringlist.h
 
 CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o: ../tests/qt/main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o: ../tests/qt/mainwindow.h

@@ -112,6 +112,26 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
+ ..//lib/rapidjson/prettywriter.h
+ ../lib/rapidjson/allocators.h
+ ../lib/rapidjson/encodings.h
+ ../lib/rapidjson/internal/diyfp.h
+ ../lib/rapidjson/internal/dtoa.h
+ ../lib/rapidjson/internal/ieee754.h
+ ../lib/rapidjson/internal/itoa.h
+ ../lib/rapidjson/internal/meta.h
+ ../lib/rapidjson/internal/stack.h
+ ../lib/rapidjson/internal/strfunc.h
+ ../lib/rapidjson/internal/swap.h
+ ../lib/rapidjson/msinttypes/inttypes.h
+ ../lib/rapidjson/msinttypes/stdint.h
+ ../lib/rapidjson/rapidjson.h
+ ../lib/rapidjson/stream.h
+ ../lib/rapidjson/stringbuffer.h
+ ../lib/rapidjson/writer.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
@@ -163,33 +183,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
-CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/clientQueue.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/clientQueue.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
@@ -198,14 +191,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/main.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/main.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
-CMakeFiles/Proyecto1_Scrabble.dir/tests/dataStructures/linkedList/stringlist.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/dataStructures/linkedList/stringlist.h
 CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h
