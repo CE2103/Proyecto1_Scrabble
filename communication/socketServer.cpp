@@ -3,13 +3,12 @@
 
 using namespace std;
 
-
 socketServer::socketServer(){
 
 }
 
 
-bool socketServer::crear_Socket() {
+bool socketServer::crear_Socket(){
 
     descriptor = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
     if(descriptor < 0)
@@ -21,10 +20,10 @@ bool socketServer::crear_Socket() {
     return true;
 }
 
-bool socketServer::ligar_kernel() {
+bool socketServer::ligar_kernel(){
 
     if((bind(descriptor,(sockaddr *)&info,(socklen_t)sizeof(info))) < 0)
-    return false;
+        return false;
 
     listen(descriptor,5);
     return true;
@@ -78,7 +77,7 @@ void * socketServer::controladorCliente(void *obj) {
 }
 
 
-void socketServer::setMensaje(const char *msn) {
+void socketServer::setMensaje(const char *msn){
 
     for(unsigned int i = 0 ; i < clientes.size() ; i++)
         cout << "bytes enviados "<< send(clientes[i],msn,strlen(msn),0);

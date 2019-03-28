@@ -5,53 +5,37 @@
 #include "dataStructures/linkedList/list.h"
 #include "dataStructures/linkedList/list.cpp"
 
+#include  "communication/socketServer.h"
 
 using namespace std;
 
-int main() {
+socketServer *server;
 
-    string letra="";
-    List<string> d;
-
-    d.add_head("arbol");
-    d.add_head("carro");
-    d.add_head("perro");
-    d.add_head("casa");
-    d.add_head("caballo");
-
-    List<string> lista;
-
-    cout<< "ingrese una palabra";
-    cin >> letra;
-    lista.add_head(letra);
-    cout<< "ingrese una palabra";
-    cin >> letra;
-    lista.add_end(letra);
-    cout<< "ingrese una palabra" ;
-    cin >> letra;
-    lista.add_end(letra);
-    cout<< "ingrese una palabra" ;
-    cin >> letra;
-    lista.add_end(letra);
-    cout<< "ingrese una palabra" ;
-    cin >> letra;
-    lista.add_end(letra);
-
-
-    string compara= lista.Unir();
-    if (d.search(compara)){
-        cout << "La palabra se encuentra en el diccionario"<< endl;
+void * serverRun(void *)
+{
+    try{
+        server->run();
+    }catch(string ex)
+    {
+        cout << ex;
     }
-    else{
-        lista.invert();
-        string compara2= lista.Unir();
 
-        if (d.search(compara2)){
-            cout << "La palabra se encuentra en el diccionario"<< endl;
-        }
-        else {
-            cout << "La palabra NO se encuentra en el diccionario"<< endl;
-        }
+    pthread_exit(NULL);
+}
+
+int main(int argc, char *argv[])
+{
+    server = new socketServer;
+    pthread_t hiloServer;
+    pthread_create(&hiloServer,0,serverRun,NULL);
+    pthread_detach(hiloServer);
+
+    while (1) {
+        string mensaje;
+        cin >> mensaje;
+        server->setMensaje(mensaje.c_str());
     }
+
+    delete server;
     return 0;
 }

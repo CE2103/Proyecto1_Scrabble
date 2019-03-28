@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -march=native -Wall -Wextra -Werror -pthread -g  -rdynamic CMakeFiles/lookaheadparser.dir/lookaheadparser/lookaheadparser.cpp.o CMakeFiles/lookaheadparser.dir/lookaheadparser_autogen/mocs_compilation.cpp.o  -o ../../../bin/lookaheadparser 

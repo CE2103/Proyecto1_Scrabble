@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -march=native -Wall -Wextra -Werror -pthread -g  -rdynamic CMakeFiles/jsonx.dir/jsonx/jsonx.cpp.o CMakeFiles/jsonx.dir/jsonx_autogen/mocs_compilation.cpp.o  -o ../../../bin/jsonx 

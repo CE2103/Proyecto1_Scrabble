@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -march=native -Wall -Wextra -Werror -pthread -g  -rdynamic CMakeFiles/simplereader.dir/simplereader/simplereader.cpp.o CMakeFiles/simplereader.dir/simplereader_autogen/mocs_compilation.cpp.o  -o ../../../bin/simplereader 

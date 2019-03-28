@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -march=native -Wall -Wextra -Werror -pthread -g  -rdynamic CMakeFiles/tutorial.dir/tutorial/tutorial.cpp.o CMakeFiles/tutorial.dir/tutorial_autogen/mocs_compilation.cpp.o  -o ../../../bin/tutorial 

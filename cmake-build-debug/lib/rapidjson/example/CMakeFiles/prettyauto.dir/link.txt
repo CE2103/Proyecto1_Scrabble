@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -march=native -Wall -Wextra -Werror -pthread -g  -rdynamic CMakeFiles/prettyauto.dir/prettyauto/prettyauto.cpp.o CMakeFiles/prettyauto.dir/prettyauto_autogen/mocs_compilation.cpp.o  -o ../../../bin/prettyauto 
