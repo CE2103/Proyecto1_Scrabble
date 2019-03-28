@@ -30,14 +30,13 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 set(SOURCE_FILES
-        main.cpp test.cpp
+        main.cpp
 
         communication/socketClient.cpp communication/socketClient.h
         communication/JSON/jsonComm.cpp communication/JSON/jsonComm.h
 
         tests/qt/main.cpp
         tests/qt/mainwindow.cpp tests/qt/mainwindow.h
-        tests/qt/mainwindow.ui
 
         util/dictionary.cpp util/dictionary.h
 

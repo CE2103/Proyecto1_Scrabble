@@ -14,9 +14,11 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
-#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPlainTextEdit>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
@@ -27,7 +29,9 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QLabel *label;
+    QLineEdit *txt_mensaje;
+    QPushButton *b_enviar;
+    QPlainTextEdit *txt_log;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -36,16 +40,22 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(400, 300);
+        MainWindow->resize(546, 331);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        label = new QLabel(centralWidget);
-        label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(140, 20, 81, 41));
+        txt_mensaje = new QLineEdit(centralWidget);
+        txt_mensaje->setObjectName(QStringLiteral("txt_mensaje"));
+        txt_mensaje->setGeometry(QRect(20, 230, 401, 22));
+        b_enviar = new QPushButton(centralWidget);
+        b_enviar->setObjectName(QStringLiteral("b_enviar"));
+        b_enviar->setGeometry(QRect(440, 230, 81, 22));
+        txt_log = new QPlainTextEdit(centralWidget);
+        txt_log->setObjectName(QStringLiteral("txt_log"));
+        txt_log->setGeometry(QRect(10, 10, 511, 201));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 400, 25));
+        menuBar->setGeometry(QRect(0, 0, 546, 19));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -62,7 +72,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        label->setText(QApplication::translate("MainWindow", "hello world 123", Q_NULLPTR));
+        b_enviar->setText(QApplication::translate("MainWindow", "OK", Q_NULLPTR));
     } // retranslateUi
 
 };

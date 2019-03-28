@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/test.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"

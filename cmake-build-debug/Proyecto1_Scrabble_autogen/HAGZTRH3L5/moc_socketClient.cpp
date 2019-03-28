@@ -20,28 +20,28 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_socketClient_t {
+struct qt_meta_stringdata_SocketCliente_t {
     QByteArrayData data[4];
-    char stringdata0[31];
+    char stringdata0[30];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_socketClient_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_SocketCliente_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_socketClient_t qt_meta_stringdata_socketClient = {
+static const qt_meta_stringdata_SocketCliente_t qt_meta_stringdata_SocketCliente = {
     {
-QT_MOC_LITERAL(0, 0, 12), // "socketClient"
-QT_MOC_LITERAL(1, 13, 12), // "NuevoMensaje"
-QT_MOC_LITERAL(2, 26, 0), // ""
-QT_MOC_LITERAL(3, 27, 3) // "msn"
+QT_MOC_LITERAL(0, 0, 13), // "SocketCliente"
+QT_MOC_LITERAL(1, 14, 10), // "NewMensaje"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 3) // "msn"
 
     },
-    "socketClient\0NuevoMensaje\0\0msn"
+    "SocketCliente\0NewMensaje\0\0msn"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_socketClient[] = {
+static const uint qt_meta_data_SocketCliente[] = {
 
  // content:
        7,       // revision
@@ -63,20 +63,20 @@ static const uint qt_meta_data_socketClient[] = {
        0        // eod
 };
 
-void socketClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void SocketCliente::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        socketClient *_t = static_cast<socketClient *>(_o);
+        SocketCliente *_t = static_cast<SocketCliente *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->NuevoMensaje((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 0: _t->NewMensaje((*reinterpret_cast< QString(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            typedef void (socketClient::*_t)(QString );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&socketClient::NuevoMensaje)) {
+            typedef void (SocketCliente::*_t)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SocketCliente::NewMensaje)) {
                 *result = 0;
                 return;
             }
@@ -84,26 +84,26 @@ void socketClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     }
 }
 
-const QMetaObject socketClient::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_socketClient.data,
-      qt_meta_data_socketClient,  qt_static_metacall, nullptr, nullptr}
+const QMetaObject SocketCliente::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_SocketCliente.data,
+      qt_meta_data_SocketCliente,  qt_static_metacall, nullptr, nullptr}
 };
 
 
-const QMetaObject *socketClient::metaObject() const
+const QMetaObject *SocketCliente::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *socketClient::qt_metacast(const char *_clname)
+void *SocketCliente::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_socketClient.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_SocketCliente.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int socketClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int SocketCliente::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -121,7 +121,7 @@ int socketClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void socketClient::NuevoMensaje(QString _t1)
+void SocketCliente::NewMensaje(QString _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

@@ -11,7 +11,7 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen")
 set(AM_INCLUDE_DIR "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include")
 # Files
-set(AM_SOURCES "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/test.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp")
+set(AM_SOURCES "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp")
 set(AM_HEADERS "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/tests/qt/mainwindow.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h")
 set(AM_SETTINGS_FILE "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
 # Qt

@@ -17,42 +17,25 @@
 #include <string>
 #include <iostream>
 #include <pthread.h>
-#include <vector>
 #include <unistd.h>
-#include <arpa/inet.h>
 #include <QObject>
-#include <QString>
+#include <arpa/inet.h>
 
 using namespace std;
 
-class socketClient:public QObject
+class SocketCliente: public QObject
 {
 Q_OBJECT
-
+public:
+    SocketCliente();
+    bool connectar();
+    void setMensaje(const char *msn);
 private:
     int descriptor;
     sockaddr_in info;
-    static void * getMensaje(void *obj);
-
-public:
-    socketClient();
-    /**
-     * @title Conectar
-     * @autor angelortizv
-     * @brief Realiza la conexión del Socket a una IP determinada.
-     */
-    bool Conectar();
-    /**
-     * @title setMensaje
-     * @autor angelortizv
-     * @param QString msn
-     * @return String , Mensaje Enviado por Cliente
-     * @brief Envia Mensaje al Servidor si existe una conexión.
-     */
-    void setMensaje(QString msn);
-
+    static void * controlador(void *obj);
 signals:
-    void NuevoMensaje(QString msn);
-
+    void NewMensaje(QString msn);
 };
+
 #endif //PROYECTO1_SCRABBLE_SOCKETCLIENT_H

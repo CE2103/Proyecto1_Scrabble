@@ -6,25 +6,45 @@
             <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>400</width>
-                <height>300</height>
+                <width>546</width>
+                <height>331</height>
             </rect>
         </property>
         <property name="windowTitle">
             <string>MainWindow</string>
         </property>
         <widget class="QWidget" name="centralWidget">
-            <widget class="QLabel" name="label">
+            <widget class="QLineEdit" name="txt_mensaje">
                 <property name="geometry">
                     <rect>
-                        <x>140</x>
-                        <y>20</y>
+                        <x>20</x>
+                        <y>230</y>
+                        <width>401</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="b_enviar">
+                <property name="geometry">
+                    <rect>
+                        <x>440</x>
+                        <y>230</y>
                         <width>81</width>
-                        <height>41</height>
+                        <height>22</height>
                     </rect>
                 </property>
                 <property name="text">
-                    <string>hello world 123</string>
+                    <string>OK</string>
+                </property>
+            </widget>
+            <widget class="QPlainTextEdit" name="txt_log">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>10</y>
+                        <width>511</width>
+                        <height>201</height>
+                    </rect>
                 </property>
             </widget>
         </widget>
@@ -33,8 +53,8 @@
                 <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>400</width>
-                    <height>25</height>
+                    <width>546</width>
+                    <height>19</height>
                 </rect>
             </property>
         </widget>

@@ -2,6 +2,8 @@
 #define PROYECTO1_SCRABBLE_MAINWINDOW_H
 
 #include <QMainWindow>
+#include <communication/socketClient.h>
+#include <QMessageBox>
 
 namespace Ui {
     class MainWindow;
@@ -17,7 +19,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    SocketCliente *conexion;
+private slots:
+    void printMensaje(QString msn);
+    void sendMensaje();
 };
-
 
 #endif //PROYECTO1_SCRABBLE_MAINWINDOW_H
