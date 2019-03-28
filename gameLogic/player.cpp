@@ -6,13 +6,9 @@ using namespace std;
 
 player::player(){
 
-    gameBoard gb1;
-    gb1.generateGameBoard();
-
     this->setTurn(false);
     this->setScore(0);
     this->setAmChips(0);
-
 
 }
 

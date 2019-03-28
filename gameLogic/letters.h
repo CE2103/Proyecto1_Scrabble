@@ -15,14 +15,14 @@
 
 using namespace std;
 
-class words {
+class letters {
 
 private:
     string letter;
     int score;
 
 public:
-    words();
+    letters();
     void letterField(string letter, int score);
 
     // Getters and Setters for Letter and Score

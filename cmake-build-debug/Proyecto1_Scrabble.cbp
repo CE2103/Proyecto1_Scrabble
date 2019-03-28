@@ -167,16 +167,22 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">

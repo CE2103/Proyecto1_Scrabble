@@ -47,13 +47,20 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.h
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp

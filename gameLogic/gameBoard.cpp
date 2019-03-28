@@ -8,6 +8,9 @@ gameBoard::gameBoard(){
 
 }
 
+/**
+ * @brief
+ */
 void gameBoard::generateGameBoard(){
 
     int row = 15; int col = 15;
@@ -19,14 +22,23 @@ void gameBoard::generateGameBoard(){
     }
 }
 
+/**
+ * @brief
+ */
 void gameBoard::printGameBoard(){
 
 }
 
+/**
+ * @brief
+ */
 void gameBoard::posValue(){
 
 }
 
+/**
+ * @brief
+ */
 void gameBoard::chipValue(){
 
 }

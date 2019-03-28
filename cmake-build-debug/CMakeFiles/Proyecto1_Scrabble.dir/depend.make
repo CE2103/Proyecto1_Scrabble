@@ -47,12 +47,19 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o: ../gameLogic/chips.h
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o: ../gameLogic/gameBoard.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o: ../gameLogic/gameBoard.h
 
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/chips.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/gameBoard.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/gameController.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/gameController.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/letters.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/player.h
+
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o: ../gameLogic/letters.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o: ../gameLogic/letters.h
+
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/gameBoard.h
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/player.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o: ../gameLogic/player.h
-
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: ../gameLogic/words.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: ../gameLogic/words.h
 
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../communication/socketServer.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../dataStructures/linkedList/list.cpp

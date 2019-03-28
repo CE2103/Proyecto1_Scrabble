@@ -39,18 +39,7 @@ private:
     vector<int> clientes;
 public:
     socketServer();
-    /**
-     * @title run
-     * @autor angelortizv
-     * @brief Espera nuevas conexiones de clientes al servidor.
-     */
     void run();
-    /**
-     * @title setMesaje
-     * @autor angelortizv
-     * @param msn
-     * @brief Muestra cuántos clientes hay en el Server.
-     */
     void setMensaje(const char *msn);
 
 };

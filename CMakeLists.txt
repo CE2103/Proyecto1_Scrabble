@@ -42,7 +42,8 @@ set(SOURCE_FILES
         gameLogic/chips.cpp gameLogic/chips.h
         gameLogic/gameBoard.cpp gameLogic/gameBoard.h
         gameLogic/player.cpp gameLogic/player.h
-        gameLogic/words.cpp gameLogic/words.h
+        gameLogic/gameController.cpp gameLogic/gameController.h
+        gameLogic/letters.cpp gameLogic/letters.h
 
         serverTests/queueTest.cpp
 

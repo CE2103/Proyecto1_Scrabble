@@ -187,22 +187,35 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s
 
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o: ../gameLogic/words.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o: ../gameLogic/gameController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.cpp
 
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp > CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.i
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.cpp > CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.i
 
-CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/words.cpp -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.s
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameController.cpp -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o: ../gameLogic/letters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp
+
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp > CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp -o CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.s
 
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o: ../serverTests/queueTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queueTest.cpp
 
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.s: cmake_force
 
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o: ../util/dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
 
 CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.s: cmake_force
 
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: Proyecto1_Scrabble_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
 
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i: cmake_force
@@ -251,7 +264,8 @@ Proyecto1_Scrabble_OBJECTS = \
 "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o" \
-"CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
@@ -269,7 +283,8 @@ Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o
-Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
@@ -278,7 +293,7 @@ Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Proyecto1_Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Proyecto1_Scrabble"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto1_Scrabble.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,10 +8,16 @@ jsonComm::jsonComm(){
 
 }
 
+/**
+ * @brief
+ */
 void jsonComm::Serializer(){
 
 }
 
+/**
+ * @brief
+ */
 void jsonComm::Deserializer(){
 
 }

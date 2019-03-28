@@ -379,6 +379,60 @@ gameLogic/gameBoard.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameBoard.cpp.s
 .PHONY : gameLogic/gameBoard.cpp.s
 
+gameLogic/gameController.o: gameLogic/gameController.cpp.o
+
+.PHONY : gameLogic/gameController.o
+
+# target to build an object file
+gameLogic/gameController.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o
+.PHONY : gameLogic/gameController.cpp.o
+
+gameLogic/gameController.i: gameLogic/gameController.cpp.i
+
+.PHONY : gameLogic/gameController.i
+
+# target to preprocess a source file
+gameLogic/gameController.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.i
+.PHONY : gameLogic/gameController.cpp.i
+
+gameLogic/gameController.s: gameLogic/gameController.cpp.s
+
+.PHONY : gameLogic/gameController.s
+
+# target to generate assembly for a file
+gameLogic/gameController.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.s
+.PHONY : gameLogic/gameController.cpp.s
+
+gameLogic/letters.o: gameLogic/letters.cpp.o
+
+.PHONY : gameLogic/letters.o
+
+# target to build an object file
+gameLogic/letters.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o
+.PHONY : gameLogic/letters.cpp.o
+
+gameLogic/letters.i: gameLogic/letters.cpp.i
+
+.PHONY : gameLogic/letters.i
+
+# target to preprocess a source file
+gameLogic/letters.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.i
+.PHONY : gameLogic/letters.cpp.i
+
+gameLogic/letters.s: gameLogic/letters.cpp.s
+
+.PHONY : gameLogic/letters.s
+
+# target to generate assembly for a file
+gameLogic/letters.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.s
+.PHONY : gameLogic/letters.cpp.s
+
 gameLogic/player.o: gameLogic/player.cpp.o
 
 .PHONY : gameLogic/player.o
@@ -405,33 +459,6 @@ gameLogic/player.s: gameLogic/player.cpp.s
 gameLogic/player.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s
 .PHONY : gameLogic/player.cpp.s
-
-gameLogic/words.o: gameLogic/words.cpp.o
-
-.PHONY : gameLogic/words.o
-
-# target to build an object file
-gameLogic/words.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.o
-.PHONY : gameLogic/words.cpp.o
-
-gameLogic/words.i: gameLogic/words.cpp.i
-
-.PHONY : gameLogic/words.i
-
-# target to preprocess a source file
-gameLogic/words.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.i
-.PHONY : gameLogic/words.cpp.i
-
-gameLogic/words.s: gameLogic/words.cpp.s
-
-.PHONY : gameLogic/words.s
-
-# target to generate assembly for a file
-gameLogic/words.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/words.cpp.s
-.PHONY : gameLogic/words.cpp.s
 
 main.o: main.cpp.o
 
@@ -551,12 +578,15 @@ help:
 	@echo "... gameLogic/gameBoard.o"
 	@echo "... gameLogic/gameBoard.i"
 	@echo "... gameLogic/gameBoard.s"
+	@echo "... gameLogic/gameController.o"
+	@echo "... gameLogic/gameController.i"
+	@echo "... gameLogic/gameController.s"
+	@echo "... gameLogic/letters.o"
+	@echo "... gameLogic/letters.i"
+	@echo "... gameLogic/letters.s"
 	@echo "... gameLogic/player.o"
 	@echo "... gameLogic/player.i"
 	@echo "... gameLogic/player.s"
-	@echo "... gameLogic/words.o"
-	@echo "... gameLogic/words.i"
-	@echo "... gameLogic/words.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
