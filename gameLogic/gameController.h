@@ -23,6 +23,9 @@ class gameController {
 private:
 public:
     gameController();
+    bool receiveMessage(string json);
+    bool addWord(string word);
+
 
 };
 

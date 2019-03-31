@@ -11,14 +11,26 @@
 #define PROYECTO1_SCRABBLE_JSONCOMM_H
 
 #include <iostream>
+#include "lib/rapidjson/document.h"
 #include "lib/rapidjson/prettywriter.h"
+#include "lib/rapidjson/writer.h"
+
+using namespace std;
 
 class jsonComm {
 private:
+    string word;
 public:
     jsonComm();
-    void Serializer();
-    void Deserializer();
+    void setMessage(string word);
+
+    template<typename Writer>
+    void Serializer(Writer& writer) const;
+    string serialize();
+    jsonComm* Deserializer(const char* json);
+
+
+    string toString();
 
 };
 

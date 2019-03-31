@@ -17,6 +17,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/letters.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/jsonTest2.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/jsonTests.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queueTest.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"
   )

@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o"
+  "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.o"
+  "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
   "Proyecto1_Scrabble.pdb"

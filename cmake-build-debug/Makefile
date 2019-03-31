@@ -487,6 +487,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+serverTests/jsonTest2.o: serverTests/jsonTest2.cpp.o
+
+.PHONY : serverTests/jsonTest2.o
+
+# target to build an object file
+serverTests/jsonTest2.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.o
+.PHONY : serverTests/jsonTest2.cpp.o
+
+serverTests/jsonTest2.i: serverTests/jsonTest2.cpp.i
+
+.PHONY : serverTests/jsonTest2.i
+
+# target to preprocess a source file
+serverTests/jsonTest2.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.i
+.PHONY : serverTests/jsonTest2.cpp.i
+
+serverTests/jsonTest2.s: serverTests/jsonTest2.cpp.s
+
+.PHONY : serverTests/jsonTest2.s
+
+# target to generate assembly for a file
+serverTests/jsonTest2.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.s
+.PHONY : serverTests/jsonTest2.cpp.s
+
+serverTests/jsonTests.o: serverTests/jsonTests.cpp.o
+
+.PHONY : serverTests/jsonTests.o
+
+# target to build an object file
+serverTests/jsonTests.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.o
+.PHONY : serverTests/jsonTests.cpp.o
+
+serverTests/jsonTests.i: serverTests/jsonTests.cpp.i
+
+.PHONY : serverTests/jsonTests.i
+
+# target to preprocess a source file
+serverTests/jsonTests.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.i
+.PHONY : serverTests/jsonTests.cpp.i
+
+serverTests/jsonTests.s: serverTests/jsonTests.cpp.s
+
+.PHONY : serverTests/jsonTests.s
+
+# target to generate assembly for a file
+serverTests/jsonTests.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.s
+.PHONY : serverTests/jsonTests.cpp.s
+
 serverTests/queueTest.o: serverTests/queueTest.cpp.o
 
 .PHONY : serverTests/queueTest.o
@@ -590,6 +644,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... serverTests/jsonTest2.o"
+	@echo "... serverTests/jsonTest2.i"
+	@echo "... serverTests/jsonTest2.s"
+	@echo "... serverTests/jsonTests.o"
+	@echo "... serverTests/jsonTests.i"
+	@echo "... serverTests/jsonTests.s"
 	@echo "... serverTests/queueTest.o"
 	@echo "... serverTests/queueTest.i"
 	@echo "... serverTests/queueTest.s"

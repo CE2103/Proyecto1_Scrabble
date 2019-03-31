@@ -46,6 +46,8 @@ set(SOURCE_FILES
         gameLogic/letters.cpp gameLogic/letters.h
 
         serverTests/queueTest.cpp
+        serverTests/jsonTests.cpp
+        serverTests/jsonTest2.cpp
 
         util/dictionary.cpp util/dictionary.h
 
