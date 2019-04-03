@@ -35,8 +35,16 @@ set(SOURCE_FILES
         communication/socketClient.cpp communication/socketClient.h
         communication/JSON/jsonComm.cpp communication/JSON/jsonComm.h
 
-        tests/qt/main.cpp
-        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
+#        tests/qt/main.cpp
+#        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
+
+        principal/main.cpp
+        principal/configurefile.h principal/configurefile.cpp
+        principal/fourthdialog.h principal/fourthdialog.cpp
+        principal/lobbywindow.h principal/lobbywindow.cpp
+        principal/mainwindow.h principal/mainwindow.cpp
+        principal/secdialog.h principal/secdialog.cpp
+        principal/thirddialog.h principal/thirddialog.cpp
 
         util/dictionary.cpp util/dictionary.h
 

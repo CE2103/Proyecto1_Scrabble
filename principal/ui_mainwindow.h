@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -47,7 +44,7 @@ public:
         label->setGeometry(QRect(300, 205, 701, 291));
         label->setMaximumSize(QSize(10000000, 16777215));
         label->setAutoFillBackground(true);
-        label->setPixmap(QPixmap(QString::fromUtf8("../img/logo.png")));
+        label->setPixmap(QPixmap(QString::fromUtf8("../logo.png")));
         label->setScaledContents(true);
         label->setAlignment(Qt::AlignCenter);
         label->setTextInteractionFlags(Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse);
@@ -62,7 +59,7 @@ public:
         font.setPointSize(16);
         StartButton->setFont(font);
         StartButton->setStyleSheet(QLatin1String("background-color: rgb(237, 212, 0);\n"
-"                    "));
+""));
         MainWindow->setCentralWidget(centralWidget);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -78,10 +75,10 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Scrabble", Q_NULLPTR));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Scrabble", nullptr));
         label->setText(QString());
-        authors->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">Creado por</p><p align=\"center\"><span style=\" font-size:12pt;\">Ricardo Artavia | Romario Ram\303\255rez | Angelo Ort\303\255z</span></p></body></html>", Q_NULLPTR));
-        StartButton->setText(QApplication::translate("MainWindow", "Iniciar", Q_NULLPTR));
+        authors->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">Creado por</p><p align=\"center\"><span style=\" font-size:12pt;\">Ricardo Artavia | Romario Ram\303\255rez | Angelo Ort\303\255z</span></p></body></html>", nullptr));
+        StartButton->setText(QApplication::translate("MainWindow", "Iniciar", nullptr));
     } // retranslateUi
 
 };

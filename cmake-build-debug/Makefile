@@ -244,59 +244,194 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tests/qt/main.o: tests/qt/main.cpp.o
+principal/configurefile.o: principal/configurefile.cpp.o
 
-.PHONY : tests/qt/main.o
-
-# target to build an object file
-tests/qt/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.o
-.PHONY : tests/qt/main.cpp.o
-
-tests/qt/main.i: tests/qt/main.cpp.i
-
-.PHONY : tests/qt/main.i
-
-# target to preprocess a source file
-tests/qt/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.i
-.PHONY : tests/qt/main.cpp.i
-
-tests/qt/main.s: tests/qt/main.cpp.s
-
-.PHONY : tests/qt/main.s
-
-# target to generate assembly for a file
-tests/qt/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/main.cpp.s
-.PHONY : tests/qt/main.cpp.s
-
-tests/qt/mainwindow.o: tests/qt/mainwindow.cpp.o
-
-.PHONY : tests/qt/mainwindow.o
+.PHONY : principal/configurefile.o
 
 # target to build an object file
-tests/qt/mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.o
-.PHONY : tests/qt/mainwindow.cpp.o
+principal/configurefile.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
+.PHONY : principal/configurefile.cpp.o
 
-tests/qt/mainwindow.i: tests/qt/mainwindow.cpp.i
+principal/configurefile.i: principal/configurefile.cpp.i
 
-.PHONY : tests/qt/mainwindow.i
+.PHONY : principal/configurefile.i
 
 # target to preprocess a source file
-tests/qt/mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.i
-.PHONY : tests/qt/mainwindow.cpp.i
+principal/configurefile.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.i
+.PHONY : principal/configurefile.cpp.i
 
-tests/qt/mainwindow.s: tests/qt/mainwindow.cpp.s
+principal/configurefile.s: principal/configurefile.cpp.s
 
-.PHONY : tests/qt/mainwindow.s
+.PHONY : principal/configurefile.s
 
 # target to generate assembly for a file
-tests/qt/mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/tests/qt/mainwindow.cpp.s
-.PHONY : tests/qt/mainwindow.cpp.s
+principal/configurefile.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.s
+.PHONY : principal/configurefile.cpp.s
+
+principal/fourthdialog.o: principal/fourthdialog.cpp.o
+
+.PHONY : principal/fourthdialog.o
+
+# target to build an object file
+principal/fourthdialog.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
+.PHONY : principal/fourthdialog.cpp.o
+
+principal/fourthdialog.i: principal/fourthdialog.cpp.i
+
+.PHONY : principal/fourthdialog.i
+
+# target to preprocess a source file
+principal/fourthdialog.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.i
+.PHONY : principal/fourthdialog.cpp.i
+
+principal/fourthdialog.s: principal/fourthdialog.cpp.s
+
+.PHONY : principal/fourthdialog.s
+
+# target to generate assembly for a file
+principal/fourthdialog.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.s
+.PHONY : principal/fourthdialog.cpp.s
+
+principal/lobbywindow.o: principal/lobbywindow.cpp.o
+
+.PHONY : principal/lobbywindow.o
+
+# target to build an object file
+principal/lobbywindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
+.PHONY : principal/lobbywindow.cpp.o
+
+principal/lobbywindow.i: principal/lobbywindow.cpp.i
+
+.PHONY : principal/lobbywindow.i
+
+# target to preprocess a source file
+principal/lobbywindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.i
+.PHONY : principal/lobbywindow.cpp.i
+
+principal/lobbywindow.s: principal/lobbywindow.cpp.s
+
+.PHONY : principal/lobbywindow.s
+
+# target to generate assembly for a file
+principal/lobbywindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.s
+.PHONY : principal/lobbywindow.cpp.s
+
+principal/main.o: principal/main.cpp.o
+
+.PHONY : principal/main.o
+
+# target to build an object file
+principal/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
+.PHONY : principal/main.cpp.o
+
+principal/main.i: principal/main.cpp.i
+
+.PHONY : principal/main.i
+
+# target to preprocess a source file
+principal/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.i
+.PHONY : principal/main.cpp.i
+
+principal/main.s: principal/main.cpp.s
+
+.PHONY : principal/main.s
+
+# target to generate assembly for a file
+principal/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.s
+.PHONY : principal/main.cpp.s
+
+principal/mainwindow.o: principal/mainwindow.cpp.o
+
+.PHONY : principal/mainwindow.o
+
+# target to build an object file
+principal/mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o
+.PHONY : principal/mainwindow.cpp.o
+
+principal/mainwindow.i: principal/mainwindow.cpp.i
+
+.PHONY : principal/mainwindow.i
+
+# target to preprocess a source file
+principal/mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.i
+.PHONY : principal/mainwindow.cpp.i
+
+principal/mainwindow.s: principal/mainwindow.cpp.s
+
+.PHONY : principal/mainwindow.s
+
+# target to generate assembly for a file
+principal/mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.s
+.PHONY : principal/mainwindow.cpp.s
+
+principal/secdialog.o: principal/secdialog.cpp.o
+
+.PHONY : principal/secdialog.o
+
+# target to build an object file
+principal/secdialog.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o
+.PHONY : principal/secdialog.cpp.o
+
+principal/secdialog.i: principal/secdialog.cpp.i
+
+.PHONY : principal/secdialog.i
+
+# target to preprocess a source file
+principal/secdialog.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.i
+.PHONY : principal/secdialog.cpp.i
+
+principal/secdialog.s: principal/secdialog.cpp.s
+
+.PHONY : principal/secdialog.s
+
+# target to generate assembly for a file
+principal/secdialog.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.s
+.PHONY : principal/secdialog.cpp.s
+
+principal/thirddialog.o: principal/thirddialog.cpp.o
+
+.PHONY : principal/thirddialog.o
+
+# target to build an object file
+principal/thirddialog.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o
+.PHONY : principal/thirddialog.cpp.o
+
+principal/thirddialog.i: principal/thirddialog.cpp.i
+
+.PHONY : principal/thirddialog.i
+
+# target to preprocess a source file
+principal/thirddialog.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.i
+.PHONY : principal/thirddialog.cpp.i
+
+principal/thirddialog.s: principal/thirddialog.cpp.s
+
+.PHONY : principal/thirddialog.s
+
+# target to generate assembly for a file
+principal/thirddialog.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.s
+.PHONY : principal/thirddialog.cpp.s
 
 util/dictionary.o: util/dictionary.cpp.o
 
@@ -347,12 +482,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tests/qt/main.o"
-	@echo "... tests/qt/main.i"
-	@echo "... tests/qt/main.s"
-	@echo "... tests/qt/mainwindow.o"
-	@echo "... tests/qt/mainwindow.i"
-	@echo "... tests/qt/mainwindow.s"
+	@echo "... principal/configurefile.o"
+	@echo "... principal/configurefile.i"
+	@echo "... principal/configurefile.s"
+	@echo "... principal/fourthdialog.o"
+	@echo "... principal/fourthdialog.i"
+	@echo "... principal/fourthdialog.s"
+	@echo "... principal/lobbywindow.o"
+	@echo "... principal/lobbywindow.i"
+	@echo "... principal/lobbywindow.s"
+	@echo "... principal/main.o"
+	@echo "... principal/main.i"
+	@echo "... principal/main.s"
+	@echo "... principal/mainwindow.o"
+	@echo "... principal/mainwindow.i"
+	@echo "... principal/mainwindow.s"
+	@echo "... principal/secdialog.o"
+	@echo "... principal/secdialog.i"
+	@echo "... principal/secdialog.s"
+	@echo "... principal/thirddialog.o"
+	@echo "... principal/thirddialog.i"
+	@echo "... principal/thirddialog.s"
 	@echo "... util/dictionary.o"
 	@echo "... util/dictionary.i"
 	@echo "... util/dictionary.s"
