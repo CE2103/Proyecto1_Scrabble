@@ -4,42 +4,31 @@
 
 using namespace std;
 
+int row = 15; int col = 15;
+
 gameBoard::gameBoard(){
 
+
+    generateGameBoard();
 }
 
-/**
- * @brief
- */
 void gameBoard::generateGameBoard(){
 
-    int row = 15; int col = 15;
+//    List<string> wordList;
 
     for (int i = 0; i < row; i++){
         for (int j = 0; j < col; j++){
-            cout << "do some cool functions" << endl;
+//            cout << "selacome" << endl;
+//            board[i][j] = nullptr;
+
         }
     }
 }
 
-/**
- * @brief
- */
-void gameBoard::printGameBoard(){
+void gameBoard::printGameBoard() {
+
+
 
 }
 
-/**
- * @brief
- */
-void gameBoard::posValue(){
-
-}
-
-/**
- * @brief
- */
-void gameBoard::chipValue(){
-
-}
 

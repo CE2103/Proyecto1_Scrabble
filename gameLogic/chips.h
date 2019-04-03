@@ -4,7 +4,7 @@
  * @date 24/03/2019
  * @autor angelortizv
  * @title Fichas de Juego
- * @brief
+ * @brief Contiene los valores de cada ficha
  */
 
 
@@ -13,25 +13,31 @@
 
 #include <string>
 #include <iostream>
+#include<QObject>
+#include <QGraphicsPixmapItem>
+#include <QGraphicsSceneMouseEvent>
+#include <QMouseEvent>
+#include <QEvent>
 
 using namespace std;
 
-class chips {
+class chips:  public QObject, public QGraphicsPixmapItem {
 private:
-    string letter;
-    int value, x, y;
+    char letter;
+    int value;
 
 public:
-    chips();
-    int getX();
-    void setX(int x);
-    int getY();
-    void setY(int y);
-    string getLetter();
-    void setLetter(string value);
+    chips(QGraphicsItem * parent = nullptr);
+
+    chips(char letter);
+
+    char getLetter();
+    void setLetter(char letter);
+
     int getValue();
     void setValue(int value);
 
+protected:
 
 };
 

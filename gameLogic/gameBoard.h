@@ -10,18 +10,21 @@
 #ifndef PROYECTO1_SCRABBLE_GAMEBOARD_H
 #define PROYECTO1_SCRABBLE_GAMEBOARD_H
 
+#include <iostream>
+#include "dataStructures/linkedList/list.h"
+
+using namespace std;
+
 
 class gameBoard {
 
 private:
-    int gameBoardField[15][15] = {};
+    char gameBoardField[15][15];
 
 public:
     gameBoard();
     void generateGameBoard();
     void printGameBoard();
-    void posValue();
-    void chipValue();
 };
 
 

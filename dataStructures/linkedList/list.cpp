@@ -384,5 +384,7 @@ string List<T>::Unir()
     return nuevo;
 }
 
+
 template<typename T>
 List<T>::~List() {}
+

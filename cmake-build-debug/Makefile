@@ -352,6 +352,33 @@ gameLogic/chips.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chips.cpp.s
 .PHONY : gameLogic/chips.cpp.s
 
+gameLogic/chipsManager.o: gameLogic/chipsManager.cpp.o
+
+.PHONY : gameLogic/chipsManager.o
+
+# target to build an object file
+gameLogic/chipsManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chipsManager.cpp.o
+.PHONY : gameLogic/chipsManager.cpp.o
+
+gameLogic/chipsManager.i: gameLogic/chipsManager.cpp.i
+
+.PHONY : gameLogic/chipsManager.i
+
+# target to preprocess a source file
+gameLogic/chipsManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chipsManager.cpp.i
+.PHONY : gameLogic/chipsManager.cpp.i
+
+gameLogic/chipsManager.s: gameLogic/chipsManager.cpp.s
+
+.PHONY : gameLogic/chipsManager.s
+
+# target to generate assembly for a file
+gameLogic/chipsManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/chipsManager.cpp.s
+.PHONY : gameLogic/chipsManager.cpp.s
+
 gameLogic/gameBoard.o: gameLogic/gameBoard.cpp.o
 
 .PHONY : gameLogic/gameBoard.o
@@ -405,33 +432,6 @@ gameLogic/gameController.s: gameLogic/gameController.cpp.s
 gameLogic/gameController.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.s
 .PHONY : gameLogic/gameController.cpp.s
-
-gameLogic/letters.o: gameLogic/letters.cpp.o
-
-.PHONY : gameLogic/letters.o
-
-# target to build an object file
-gameLogic/letters.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.o
-.PHONY : gameLogic/letters.cpp.o
-
-gameLogic/letters.i: gameLogic/letters.cpp.i
-
-.PHONY : gameLogic/letters.i
-
-# target to preprocess a source file
-gameLogic/letters.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.i
-.PHONY : gameLogic/letters.cpp.i
-
-gameLogic/letters.s: gameLogic/letters.cpp.s
-
-.PHONY : gameLogic/letters.s
-
-# target to generate assembly for a file
-gameLogic/letters.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/letters.cpp.s
-.PHONY : gameLogic/letters.cpp.s
 
 gameLogic/player.o: gameLogic/player.cpp.o
 
@@ -487,59 +487,86 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-serverTests/jsonTest2.o: serverTests/jsonTest2.cpp.o
+serverTests/gameLogic/logicTests.o: serverTests/gameLogic/logicTests.cpp.o
 
-.PHONY : serverTests/jsonTest2.o
-
-# target to build an object file
-serverTests/jsonTest2.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.o
-.PHONY : serverTests/jsonTest2.cpp.o
-
-serverTests/jsonTest2.i: serverTests/jsonTest2.cpp.i
-
-.PHONY : serverTests/jsonTest2.i
-
-# target to preprocess a source file
-serverTests/jsonTest2.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.i
-.PHONY : serverTests/jsonTest2.cpp.i
-
-serverTests/jsonTest2.s: serverTests/jsonTest2.cpp.s
-
-.PHONY : serverTests/jsonTest2.s
-
-# target to generate assembly for a file
-serverTests/jsonTest2.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTest2.cpp.s
-.PHONY : serverTests/jsonTest2.cpp.s
-
-serverTests/jsonTests.o: serverTests/jsonTests.cpp.o
-
-.PHONY : serverTests/jsonTests.o
+.PHONY : serverTests/gameLogic/logicTests.o
 
 # target to build an object file
-serverTests/jsonTests.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.o
-.PHONY : serverTests/jsonTests.cpp.o
+serverTests/gameLogic/logicTests.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o
+.PHONY : serverTests/gameLogic/logicTests.cpp.o
 
-serverTests/jsonTests.i: serverTests/jsonTests.cpp.i
+serverTests/gameLogic/logicTests.i: serverTests/gameLogic/logicTests.cpp.i
 
-.PHONY : serverTests/jsonTests.i
+.PHONY : serverTests/gameLogic/logicTests.i
 
 # target to preprocess a source file
-serverTests/jsonTests.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.i
-.PHONY : serverTests/jsonTests.cpp.i
+serverTests/gameLogic/logicTests.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.i
+.PHONY : serverTests/gameLogic/logicTests.cpp.i
 
-serverTests/jsonTests.s: serverTests/jsonTests.cpp.s
+serverTests/gameLogic/logicTests.s: serverTests/gameLogic/logicTests.cpp.s
 
-.PHONY : serverTests/jsonTests.s
+.PHONY : serverTests/gameLogic/logicTests.s
 
 # target to generate assembly for a file
-serverTests/jsonTests.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests.cpp.s
-.PHONY : serverTests/jsonTests.cpp.s
+serverTests/gameLogic/logicTests.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.s
+.PHONY : serverTests/gameLogic/logicTests.cpp.s
+
+serverTests/json/jsonTest2.o: serverTests/json/jsonTest2.cpp.o
+
+.PHONY : serverTests/json/jsonTest2.o
+
+# target to build an object file
+serverTests/json/jsonTest2.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.o
+.PHONY : serverTests/json/jsonTest2.cpp.o
+
+serverTests/json/jsonTest2.i: serverTests/json/jsonTest2.cpp.i
+
+.PHONY : serverTests/json/jsonTest2.i
+
+# target to preprocess a source file
+serverTests/json/jsonTest2.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.i
+.PHONY : serverTests/json/jsonTest2.cpp.i
+
+serverTests/json/jsonTest2.s: serverTests/json/jsonTest2.cpp.s
+
+.PHONY : serverTests/json/jsonTest2.s
+
+# target to generate assembly for a file
+serverTests/json/jsonTest2.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.s
+.PHONY : serverTests/json/jsonTest2.cpp.s
+
+serverTests/json/jsonTests.o: serverTests/json/jsonTests.cpp.o
+
+.PHONY : serverTests/json/jsonTests.o
+
+# target to build an object file
+serverTests/json/jsonTests.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.o
+.PHONY : serverTests/json/jsonTests.cpp.o
+
+serverTests/json/jsonTests.i: serverTests/json/jsonTests.cpp.i
+
+.PHONY : serverTests/json/jsonTests.i
+
+# target to preprocess a source file
+serverTests/json/jsonTests.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.i
+.PHONY : serverTests/json/jsonTests.cpp.i
+
+serverTests/json/jsonTests.s: serverTests/json/jsonTests.cpp.s
+
+.PHONY : serverTests/json/jsonTests.s
+
+# target to generate assembly for a file
+serverTests/json/jsonTests.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.s
+.PHONY : serverTests/json/jsonTests.cpp.s
 
 serverTests/queueTest.o: serverTests/queueTest.cpp.o
 
@@ -629,27 +656,30 @@ help:
 	@echo "... gameLogic/chips.o"
 	@echo "... gameLogic/chips.i"
 	@echo "... gameLogic/chips.s"
+	@echo "... gameLogic/chipsManager.o"
+	@echo "... gameLogic/chipsManager.i"
+	@echo "... gameLogic/chipsManager.s"
 	@echo "... gameLogic/gameBoard.o"
 	@echo "... gameLogic/gameBoard.i"
 	@echo "... gameLogic/gameBoard.s"
 	@echo "... gameLogic/gameController.o"
 	@echo "... gameLogic/gameController.i"
 	@echo "... gameLogic/gameController.s"
-	@echo "... gameLogic/letters.o"
-	@echo "... gameLogic/letters.i"
-	@echo "... gameLogic/letters.s"
 	@echo "... gameLogic/player.o"
 	@echo "... gameLogic/player.i"
 	@echo "... gameLogic/player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... serverTests/jsonTest2.o"
-	@echo "... serverTests/jsonTest2.i"
-	@echo "... serverTests/jsonTest2.s"
-	@echo "... serverTests/jsonTests.o"
-	@echo "... serverTests/jsonTests.i"
-	@echo "... serverTests/jsonTests.s"
+	@echo "... serverTests/gameLogic/logicTests.o"
+	@echo "... serverTests/gameLogic/logicTests.i"
+	@echo "... serverTests/gameLogic/logicTests.s"
+	@echo "... serverTests/json/jsonTest2.o"
+	@echo "... serverTests/json/jsonTest2.i"
+	@echo "... serverTests/json/jsonTest2.s"
+	@echo "... serverTests/json/jsonTests.o"
+	@echo "... serverTests/json/jsonTests.i"
+	@echo "... serverTests/json/jsonTests.s"
 	@echo "... serverTests/queueTest.o"
 	@echo "... serverTests/queueTest.i"
 	@echo "... serverTests/queueTest.s"

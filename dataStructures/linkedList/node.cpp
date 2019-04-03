@@ -2,7 +2,6 @@
 
 // Constructor por defecto
 template<typename T>
-
 Node<T>::Node()
 {
     data = NULL;

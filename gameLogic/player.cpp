@@ -6,12 +6,19 @@ using namespace std;
 
 player::player(){
 
+    this->setName("");
     this->setTurn(false);
     this->setScore(0);
     this->setAmChips(0);
 
 }
 
+string player::getName(){
+    return this->name;
+}
+void player::setName(string name){
+    this->name = name;
+}
 bool player::getTurn(){
     return this->turn;
 }

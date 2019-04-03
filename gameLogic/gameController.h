@@ -12,7 +12,6 @@
 #include "chips.h"
 #include "gameBoard.h"
 #include "player.h"
-#include "letters.h"
 
 #include <iostream>
 
@@ -23,8 +22,8 @@ class gameController {
 private:
 public:
     gameController();
-    bool receiveMessage(string json);
-    bool addWord(string word);
+    void generateGameCode();
+    void joinGamewCode();
 
 
 };

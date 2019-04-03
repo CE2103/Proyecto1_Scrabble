@@ -40,14 +40,16 @@ set(SOURCE_FILES
         dataStructures/queue/queueItem.cpp dataStructures/queue/queueItem.h
 
         gameLogic/chips.cpp gameLogic/chips.h
+        gameLogic/chipsManager.cpp gameLogic/chipsManager.h
         gameLogic/gameBoard.cpp gameLogic/gameBoard.h
         gameLogic/player.cpp gameLogic/player.h
         gameLogic/gameController.cpp gameLogic/gameController.h
-        gameLogic/letters.cpp gameLogic/letters.h
 
         serverTests/queueTest.cpp
-        serverTests/jsonTests.cpp
-        serverTests/jsonTest2.cpp
+        serverTests/json/jsonTests.cpp
+        serverTests/json/jsonTest2.cpp
+
+        serverTests/gameLogic/logicTests.cpp serverTests/gameLogic/logicTests.h
 
         util/dictionary.cpp util/dictionary.h
 

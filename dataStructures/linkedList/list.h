@@ -47,8 +47,10 @@ public:
     string Unir();
     void sort();
 
-private:
     Node<T> *m_head;
+
+private:
+//    Node<T> *m_head;
     int m_num_nodes;
 };
 
