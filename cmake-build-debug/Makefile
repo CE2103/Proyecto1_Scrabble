@@ -39,10 +39,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< Updated upstream
 CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +66,11 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< Updated upstream
 	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> Stashed changes
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +81,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< Updated upstream
 	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> Stashed changes
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache

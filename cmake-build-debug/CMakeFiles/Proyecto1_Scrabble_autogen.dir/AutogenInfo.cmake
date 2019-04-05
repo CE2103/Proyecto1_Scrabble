@@ -26,7 +26,11 @@ set(AM_MOC_OPTIONS "")
 set(AM_MOC_RELAXED_MODE "")
 set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
 set(AM_MOC_DEPEND_FILTERS "")
+<<<<<<< Updated upstream
 set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/opt/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp")
+=======
+set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/snap/clion/67/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp")
+>>>>>>> Stashed changes
 # UIC settings
 set(AM_UIC_SKIP "")
 set(AM_UIC_TARGET_OPTIONS "")

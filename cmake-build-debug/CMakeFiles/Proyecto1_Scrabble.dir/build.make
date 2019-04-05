@@ -34,10 +34,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< Updated upstream
 CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
