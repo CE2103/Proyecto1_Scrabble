@@ -12,7 +12,6 @@ find_package(Qt5Gui REQUIRED)
 find_package(Qt5Core 5.3 REQUIRED)
 
 list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core)
-#set(CMAKE_CXX_FLAGS "${Qt5Core_EXECUTABLE_COMPILE_FLAGS}")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
@@ -21,34 +20,12 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 set(SOURCE_FILES
-        main.cpp test.cpp
-
-        communication/socketServer.cpp communication/socketServer.h
-        communication/socketClient.cpp communication/socketClient.h
-
-        dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
-        dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
-        dataStructures/queue/clientQueue.cpp dataStructures/queue/clientQueue.h
-
-        gameLogic/gameBoard.cpp gameLogic/gameBoard.h
-        gameLogic/player.cpp gameLogic/player.h
-        gameLogic/words.cpp gameLogic/words.h
-        gameLogic/chips.cpp gameLogic/chips.h
-
-        tests/qt/main.cpp
-        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
-        tests/qt/mainwindow.ui
-
-        tests/dataStructures/linkedList/main.cpp
-        tests/dataStructures/linkedList/stringlist.cpp tests/dataStructures/linkedList/stringlist.h
-
-        util/dictionary.cpp util/dictionary.h
+        main.cpp
 
 
         )
 
 add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
-#add_library(mainwindow tests/qt/mainwindow.cpp)
 
 qt5_use_modules(Proyecto1_Scrabble Widgets Core Gui)
 
@@ -57,5 +34,3 @@ target_link_libraries(Proyecto1_Scrabble
         Qt5::Widgets
 #        Qt5:Gui
         )
-
-#target_link_libraries(Proyecto1_Scrabble Qt5::Widgets mainwindow)
