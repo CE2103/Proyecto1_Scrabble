@@ -4,31 +4,6 @@
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
- ..//lib/rapidjson/document.h
- ..//lib/rapidjson/rapidjson.h
- ..//lib/rapidjson/writer.h
- ../lib/rapidjson/allocators.h
- ../lib/rapidjson/encodedstream.h
- ../lib/rapidjson/encodings.h
- ../lib/rapidjson/error/error.h
- ../lib/rapidjson/internal/biginteger.h
- ../lib/rapidjson/internal/diyfp.h
- ../lib/rapidjson/internal/dtoa.h
- ../lib/rapidjson/internal/ieee754.h
- ../lib/rapidjson/internal/itoa.h
- ../lib/rapidjson/internal/meta.h
- ../lib/rapidjson/internal/pow10.h
- ../lib/rapidjson/internal/stack.h
- ../lib/rapidjson/internal/strfunc.h
- ../lib/rapidjson/internal/strtod.h
- ../lib/rapidjson/internal/swap.h
- ../lib/rapidjson/memorystream.h
- ../lib/rapidjson/msinttypes/inttypes.h
- ../lib/rapidjson/msinttypes/stdint.h
- ../lib/rapidjson/rapidjson.h
- ../lib/rapidjson/reader.h
- ../lib/rapidjson/stream.h
- ../lib/rapidjson/stringbuffer.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o
@@ -568,30 +543,9 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o
  ..//dataStructures/queue/queue.h
  ..//dataStructures/queue/queueItem.h
  ..//gameLogic/chips.h
- ..//lib/rapidjson/document.h
- ..//lib/rapidjson/rapidjson.h
  ../dataStructures/auxLinkedList/nodeaux.h
  ../dataStructures/linkedList/node.cpp
  ../dataStructures/linkedList/node.h
- ../lib/rapidjson/allocators.h
- ../lib/rapidjson/encodedstream.h
- ../lib/rapidjson/encodings.h
- ../lib/rapidjson/error/error.h
- ../lib/rapidjson/internal/biginteger.h
- ../lib/rapidjson/internal/diyfp.h
- ../lib/rapidjson/internal/ieee754.h
- ../lib/rapidjson/internal/meta.h
- ../lib/rapidjson/internal/pow10.h
- ../lib/rapidjson/internal/stack.h
- ../lib/rapidjson/internal/strfunc.h
- ../lib/rapidjson/internal/strtod.h
- ../lib/rapidjson/internal/swap.h
- ../lib/rapidjson/memorystream.h
- ../lib/rapidjson/msinttypes/inttypes.h
- ../lib/rapidjson/msinttypes/stdint.h
- ../lib/rapidjson/rapidjson.h
- ../lib/rapidjson/reader.h
- ../lib/rapidjson/stream.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chips.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/chipsManager.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/gameBoard.h
@@ -823,8 +777,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o
  ..//gameLogic/chipsManager.h
  ..//gameLogic/gameController.h
  ..//gameLogic/player.h
- ..//lib/rapidjson/document.h
- ..//lib/rapidjson/rapidjson.h
  ../dataStructures/auxLinkedList/nodeaux.h
  ../dataStructures/linkedList/node.cpp
  ../dataStructures/linkedList/node.h
@@ -832,25 +784,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o
  ../gameLogic/chipsManager.h
  ../gameLogic/gameBoard.h
  ../gameLogic/player.h
- ../lib/rapidjson/allocators.h
- ../lib/rapidjson/encodedstream.h
- ../lib/rapidjson/encodings.h
- ../lib/rapidjson/error/error.h
- ../lib/rapidjson/internal/biginteger.h
- ../lib/rapidjson/internal/diyfp.h
- ../lib/rapidjson/internal/ieee754.h
- ../lib/rapidjson/internal/meta.h
- ../lib/rapidjson/internal/pow10.h
- ../lib/rapidjson/internal/stack.h
- ../lib/rapidjson/internal/strfunc.h
- ../lib/rapidjson/internal/strtod.h
- ../lib/rapidjson/internal/swap.h
- ../lib/rapidjson/memorystream.h
- ../lib/rapidjson/msinttypes/inttypes.h
- ../lib/rapidjson/msinttypes/stdint.h
- ../lib/rapidjson/rapidjson.h
- ../lib/rapidjson/reader.h
- ../lib/rapidjson/stream.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/gameLogic/logicTests.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/gameLogic/logicTests.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent

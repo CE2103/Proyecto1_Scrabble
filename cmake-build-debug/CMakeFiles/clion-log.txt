@@ -1,8 +1,10 @@
 /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/angelortizv/CLionProjects/Proyecto1_Scrabble
+-- Found Doxygen: /usr/local/bin/doxygen (found version "1.8.16") found components:  doxygen missing components:  dot
+CMake Error: File /home/angelortizv/CLionProjects/Proyecto1_Scrabble/Doxyfile.in does not exist.
+CMake Error at CMakeLists.txt:18 (configure_file):
+  configure_file Problem configuring file
+
+
 -- RapidJSON found. Headers: @RapidJSON_INCLUDE_DIR@
--- Configuring done
-CMake Error at CMakeLists.txt:61 (add_executable):
-  No SOURCES given to target: Proyecto1_Scrabble
-
-
--- Build files have been written to: /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/CMakeOutput.log".
