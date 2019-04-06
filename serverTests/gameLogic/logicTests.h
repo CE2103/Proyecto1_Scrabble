@@ -14,8 +14,8 @@ class logicTests{
 
 private:
 
-
 public:
+
 
 };
 

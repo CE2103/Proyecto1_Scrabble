@@ -1,13 +1,11 @@
 #include <iostream>
 
-#include "util/dictionary.h"
-
 #include "dataStructures/linkedList/list.h"
 #include "dataStructures/linkedList/list.cpp"
-
 #include  "communication/socketServer.h"
 
 using namespace std;
+
 
 socketServer *server;
 
@@ -22,7 +20,7 @@ void * serverRun(void *)
 
     pthread_exit(NULL);
 }
-//
+
 //int main(int argc, char *argv[])
 //{
 //    server = new socketServer;

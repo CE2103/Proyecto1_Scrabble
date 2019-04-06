@@ -119,10 +119,10 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.cpp">
@@ -131,16 +131,16 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/listaux.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/listaux.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/nodeaux.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/nodeaux.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.cpp">
@@ -185,6 +185,12 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
@@ -194,16 +200,10 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/gameLogic/logicTests.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/json/jsonTest2.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/json/jsonTests.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queueTest.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queue/queueTest.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h">

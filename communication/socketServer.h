@@ -4,7 +4,7 @@
  * @date 23/03/2019
  * @autor angelortizv
  * @title Socket Server
- * @brief
+ * @brief Estructura básica para la comunicación entre el cliente y el servidor.
  */
 
 

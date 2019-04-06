@@ -10,8 +10,10 @@
 #ifndef PROYECTO1_SCRABBLE_PLAYER_H
 #define PROYECTO1_SCRABBLE_PLAYER_H
 
-#include <string>
 #include <iostream>
+#include <string>
+#include "dataStructures/auxLinkedList/listaux.h"
+#include "dataStructures/auxLinkedList/nodeaux.h"
 
 using namespace std;
 
@@ -22,10 +24,10 @@ private:
     int score;
     int amChips;
     string name;
+    listaux* chipsList = new listaux();
 
 public:
     player();
-
     string getName();
     void setName(string name);
     bool getTurn();
@@ -34,8 +36,7 @@ public:
     void setScore(int score);
     int getAmChips();
     void setAmChips(int amChips);
-
-
+    listaux* getList();
 
 };
 

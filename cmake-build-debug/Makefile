@@ -163,32 +163,32 @@ Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 
-communication/JSON/jsonComm.o: communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.o: communication/JSON/read_write.cpp.o
 
-.PHONY : communication/JSON/jsonComm.o
+.PHONY : communication/JSON/read_write.o
 
 # target to build an object file
-communication/JSON/jsonComm.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
-.PHONY : communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
+.PHONY : communication/JSON/read_write.cpp.o
 
-communication/JSON/jsonComm.i: communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.i: communication/JSON/read_write.cpp.i
 
-.PHONY : communication/JSON/jsonComm.i
+.PHONY : communication/JSON/read_write.i
 
 # target to preprocess a source file
-communication/JSON/jsonComm.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.i
-.PHONY : communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.i
+.PHONY : communication/JSON/read_write.cpp.i
 
-communication/JSON/jsonComm.s: communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.s: communication/JSON/read_write.cpp.s
 
-.PHONY : communication/JSON/jsonComm.s
+.PHONY : communication/JSON/read_write.s
 
 # target to generate assembly for a file
-communication/JSON/jsonComm.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.s
-.PHONY : communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.s
+.PHONY : communication/JSON/read_write.cpp.s
 
 communication/socketServer.o: communication/socketServer.cpp.o
 
@@ -217,59 +217,59 @@ communication/socketServer.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.s
 .PHONY : communication/socketServer.cpp.s
 
-dataStructures/linkedList/list.o: dataStructures/linkedList/list.cpp.o
+dataStructures/auxLinkedList/listaux.o: dataStructures/auxLinkedList/listaux.cpp.o
 
-.PHONY : dataStructures/linkedList/list.o
-
-# target to build an object file
-dataStructures/linkedList/list.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.o
-.PHONY : dataStructures/linkedList/list.cpp.o
-
-dataStructures/linkedList/list.i: dataStructures/linkedList/list.cpp.i
-
-.PHONY : dataStructures/linkedList/list.i
-
-# target to preprocess a source file
-dataStructures/linkedList/list.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.i
-.PHONY : dataStructures/linkedList/list.cpp.i
-
-dataStructures/linkedList/list.s: dataStructures/linkedList/list.cpp.s
-
-.PHONY : dataStructures/linkedList/list.s
-
-# target to generate assembly for a file
-dataStructures/linkedList/list.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/list.cpp.s
-.PHONY : dataStructures/linkedList/list.cpp.s
-
-dataStructures/linkedList/node.o: dataStructures/linkedList/node.cpp.o
-
-.PHONY : dataStructures/linkedList/node.o
+.PHONY : dataStructures/auxLinkedList/listaux.o
 
 # target to build an object file
-dataStructures/linkedList/node.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.o
-.PHONY : dataStructures/linkedList/node.cpp.o
+dataStructures/auxLinkedList/listaux.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.o
+.PHONY : dataStructures/auxLinkedList/listaux.cpp.o
 
-dataStructures/linkedList/node.i: dataStructures/linkedList/node.cpp.i
+dataStructures/auxLinkedList/listaux.i: dataStructures/auxLinkedList/listaux.cpp.i
 
-.PHONY : dataStructures/linkedList/node.i
+.PHONY : dataStructures/auxLinkedList/listaux.i
 
 # target to preprocess a source file
-dataStructures/linkedList/node.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.i
-.PHONY : dataStructures/linkedList/node.cpp.i
+dataStructures/auxLinkedList/listaux.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.i
+.PHONY : dataStructures/auxLinkedList/listaux.cpp.i
 
-dataStructures/linkedList/node.s: dataStructures/linkedList/node.cpp.s
+dataStructures/auxLinkedList/listaux.s: dataStructures/auxLinkedList/listaux.cpp.s
 
-.PHONY : dataStructures/linkedList/node.s
+.PHONY : dataStructures/auxLinkedList/listaux.s
 
 # target to generate assembly for a file
-dataStructures/linkedList/node.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/linkedList/node.cpp.s
-.PHONY : dataStructures/linkedList/node.cpp.s
+dataStructures/auxLinkedList/listaux.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.s
+.PHONY : dataStructures/auxLinkedList/listaux.cpp.s
+
+dataStructures/auxLinkedList/nodeaux.o: dataStructures/auxLinkedList/nodeaux.cpp.o
+
+.PHONY : dataStructures/auxLinkedList/nodeaux.o
+
+# target to build an object file
+dataStructures/auxLinkedList/nodeaux.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/nodeaux.cpp.o
+.PHONY : dataStructures/auxLinkedList/nodeaux.cpp.o
+
+dataStructures/auxLinkedList/nodeaux.i: dataStructures/auxLinkedList/nodeaux.cpp.i
+
+.PHONY : dataStructures/auxLinkedList/nodeaux.i
+
+# target to preprocess a source file
+dataStructures/auxLinkedList/nodeaux.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/nodeaux.cpp.i
+.PHONY : dataStructures/auxLinkedList/nodeaux.cpp.i
+
+dataStructures/auxLinkedList/nodeaux.s: dataStructures/auxLinkedList/nodeaux.cpp.s
+
+.PHONY : dataStructures/auxLinkedList/nodeaux.s
+
+# target to generate assembly for a file
+dataStructures/auxLinkedList/nodeaux.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/nodeaux.cpp.s
+.PHONY : dataStructures/auxLinkedList/nodeaux.cpp.s
 
 dataStructures/queue/queue.o: dataStructures/queue/queue.cpp.o
 
@@ -460,6 +460,33 @@ gameLogic/player.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.s
 .PHONY : gameLogic/player.cpp.s
 
+gameLogic/wordsManager.o: gameLogic/wordsManager.cpp.o
+
+.PHONY : gameLogic/wordsManager.o
+
+# target to build an object file
+gameLogic/wordsManager.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o
+.PHONY : gameLogic/wordsManager.cpp.o
+
+gameLogic/wordsManager.i: gameLogic/wordsManager.cpp.i
+
+.PHONY : gameLogic/wordsManager.i
+
+# target to preprocess a source file
+gameLogic/wordsManager.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.i
+.PHONY : gameLogic/wordsManager.cpp.i
+
+gameLogic/wordsManager.s: gameLogic/wordsManager.cpp.s
+
+.PHONY : gameLogic/wordsManager.s
+
+# target to generate assembly for a file
+gameLogic/wordsManager.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.s
+.PHONY : gameLogic/wordsManager.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -514,33 +541,6 @@ serverTests/gameLogic/logicTests.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.s
 .PHONY : serverTests/gameLogic/logicTests.cpp.s
 
-serverTests/json/jsonTest2.o: serverTests/json/jsonTest2.cpp.o
-
-.PHONY : serverTests/json/jsonTest2.o
-
-# target to build an object file
-serverTests/json/jsonTest2.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.o
-.PHONY : serverTests/json/jsonTest2.cpp.o
-
-serverTests/json/jsonTest2.i: serverTests/json/jsonTest2.cpp.i
-
-.PHONY : serverTests/json/jsonTest2.i
-
-# target to preprocess a source file
-serverTests/json/jsonTest2.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.i
-.PHONY : serverTests/json/jsonTest2.cpp.i
-
-serverTests/json/jsonTest2.s: serverTests/json/jsonTest2.cpp.s
-
-.PHONY : serverTests/json/jsonTest2.s
-
-# target to generate assembly for a file
-serverTests/json/jsonTest2.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTest2.cpp.s
-.PHONY : serverTests/json/jsonTest2.cpp.s
-
 serverTests/json/jsonTests.o: serverTests/json/jsonTests.cpp.o
 
 .PHONY : serverTests/json/jsonTests.o
@@ -568,59 +568,32 @@ serverTests/json/jsonTests.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.s
 .PHONY : serverTests/json/jsonTests.cpp.s
 
-serverTests/queueTest.o: serverTests/queueTest.cpp.o
+serverTests/queue/queueTest.o: serverTests/queue/queueTest.cpp.o
 
-.PHONY : serverTests/queueTest.o
-
-# target to build an object file
-serverTests/queueTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.o
-.PHONY : serverTests/queueTest.cpp.o
-
-serverTests/queueTest.i: serverTests/queueTest.cpp.i
-
-.PHONY : serverTests/queueTest.i
-
-# target to preprocess a source file
-serverTests/queueTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.i
-.PHONY : serverTests/queueTest.cpp.i
-
-serverTests/queueTest.s: serverTests/queueTest.cpp.s
-
-.PHONY : serverTests/queueTest.s
-
-# target to generate assembly for a file
-serverTests/queueTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queueTest.cpp.s
-.PHONY : serverTests/queueTest.cpp.s
-
-util/dictionary.o: util/dictionary.cpp.o
-
-.PHONY : util/dictionary.o
+.PHONY : serverTests/queue/queueTest.o
 
 # target to build an object file
-util/dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
-.PHONY : util/dictionary.cpp.o
+serverTests/queue/queueTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o
+.PHONY : serverTests/queue/queueTest.cpp.o
 
-util/dictionary.i: util/dictionary.cpp.i
+serverTests/queue/queueTest.i: serverTests/queue/queueTest.cpp.i
 
-.PHONY : util/dictionary.i
+.PHONY : serverTests/queue/queueTest.i
 
 # target to preprocess a source file
-util/dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.i
-.PHONY : util/dictionary.cpp.i
+serverTests/queue/queueTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.i
+.PHONY : serverTests/queue/queueTest.cpp.i
 
-util/dictionary.s: util/dictionary.cpp.s
+serverTests/queue/queueTest.s: serverTests/queue/queueTest.cpp.s
 
-.PHONY : util/dictionary.s
+.PHONY : serverTests/queue/queueTest.s
 
 # target to generate assembly for a file
-util/dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.s
-.PHONY : util/dictionary.cpp.s
+serverTests/queue/queueTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.s
+.PHONY : serverTests/queue/queueTest.cpp.s
 
 # Help Target
 help:
@@ -635,18 +608,18 @@ help:
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
-	@echo "... communication/JSON/jsonComm.o"
-	@echo "... communication/JSON/jsonComm.i"
-	@echo "... communication/JSON/jsonComm.s"
+	@echo "... communication/JSON/read_write.o"
+	@echo "... communication/JSON/read_write.i"
+	@echo "... communication/JSON/read_write.s"
 	@echo "... communication/socketServer.o"
 	@echo "... communication/socketServer.i"
 	@echo "... communication/socketServer.s"
-	@echo "... dataStructures/linkedList/list.o"
-	@echo "... dataStructures/linkedList/list.i"
-	@echo "... dataStructures/linkedList/list.s"
-	@echo "... dataStructures/linkedList/node.o"
-	@echo "... dataStructures/linkedList/node.i"
-	@echo "... dataStructures/linkedList/node.s"
+	@echo "... dataStructures/auxLinkedList/listaux.o"
+	@echo "... dataStructures/auxLinkedList/listaux.i"
+	@echo "... dataStructures/auxLinkedList/listaux.s"
+	@echo "... dataStructures/auxLinkedList/nodeaux.o"
+	@echo "... dataStructures/auxLinkedList/nodeaux.i"
+	@echo "... dataStructures/auxLinkedList/nodeaux.s"
 	@echo "... dataStructures/queue/queue.o"
 	@echo "... dataStructures/queue/queue.i"
 	@echo "... dataStructures/queue/queue.s"
@@ -668,24 +641,21 @@ help:
 	@echo "... gameLogic/player.o"
 	@echo "... gameLogic/player.i"
 	@echo "... gameLogic/player.s"
+	@echo "... gameLogic/wordsManager.o"
+	@echo "... gameLogic/wordsManager.i"
+	@echo "... gameLogic/wordsManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... serverTests/gameLogic/logicTests.o"
 	@echo "... serverTests/gameLogic/logicTests.i"
 	@echo "... serverTests/gameLogic/logicTests.s"
-	@echo "... serverTests/json/jsonTest2.o"
-	@echo "... serverTests/json/jsonTest2.i"
-	@echo "... serverTests/json/jsonTest2.s"
 	@echo "... serverTests/json/jsonTests.o"
 	@echo "... serverTests/json/jsonTests.i"
 	@echo "... serverTests/json/jsonTests.s"
-	@echo "... serverTests/queueTest.o"
-	@echo "... serverTests/queueTest.i"
-	@echo "... serverTests/queueTest.s"
-	@echo "... util/dictionary.o"
-	@echo "... util/dictionary.i"
-	@echo "... util/dictionary.s"
+	@echo "... serverTests/queue/queueTest.o"
+	@echo "... serverTests/queue/queueTest.i"
+	@echo "... serverTests/queue/queueTest.s"
 .PHONY : help
 
 

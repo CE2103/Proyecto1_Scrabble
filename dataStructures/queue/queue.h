@@ -1,24 +1,32 @@
+/**
+ * @file queue.h
+ * @version 1.0
+ * @date 01/04/2019
+ * @autor angelortizv
+ * @title Métodos de Cola para Jugadores
+ * @brief Incluye métodos básicos de cola como: enqueue, dequeue, print, removeItems
+ */
+
 #ifndef PROYECTO1_SCRABBLE_queue_H
 #define PROYECTO1_SCRABBLE_queue_H
 
 
-class queueItem;    // forward class description
+class queueItem;
 
-
-class queue
-{
+class queue{
+private:
+    queueItem *_pHead;
+    queueItem *_pTail;
+    int _itemCounter;
 public:
-    queue();                    // ctor inits a new empty queue
-    ~queue();                   // dtor erases any remaining queueItems
+    queue();
+    ~queue();
     void addItem(char *pData);
     void removeItem();
     void print();
     void erase();
-private:
-    queueItem *_pHead;      // always points to first queueItem in the list
-    queueItem *_pTail;      // always points to last queueItem in the list
-    int _itemCounter;       // always increasing for a unique id to assign to each new queueItem
-};   // end definition class queue
+
+};
 
 
 

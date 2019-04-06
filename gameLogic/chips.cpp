@@ -1,11 +1,12 @@
 #include "chips.h"
 
-chips::chips(QGraphicsItem *parent) {}
+chips::chips() {
+
+}
 
 chips::chips(char letter) {
 
     switch(letter){
-
 
         //Puntuación igual a 0
         case ' ' : setLetter(' ');

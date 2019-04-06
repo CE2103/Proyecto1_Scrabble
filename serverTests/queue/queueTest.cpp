@@ -1,11 +1,8 @@
-//#include "stdafx.h"
 #include <iostream>
-using std::cout;
-using std::endl;
-
 #include "dataStructures/queue/queueItem.h"
 #include "dataStructures/queue/queue.h"
 
+using namespace std;
 //int main()
 //{
 //    queue myQueue;

@@ -13,7 +13,6 @@ find_package(Qt5Gui REQUIRED)
 find_package(Qt5Core 5.3 REQUIRED)
 
 list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core)
-#set(CMAKE_CXX_FLAGS "${Qt5Core_EXECUTABLE_COMPILE_FLAGS}")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 set(CMAKE_CXX_STANDARD 11)
 
@@ -28,13 +27,17 @@ set( RapidJSON_INCLUDE_DIRS  "@RapidJSON_INCLUDE_DIR@" )
 message(STATUS "RapidJSON found. Headers: ${RapidJSON_INCLUDE_DIRS}")
 
 set(SOURCE_FILES
+
         main.cpp
 
         communication/socketServer.cpp communication/socketServer.h
-        communication/JSON/jsonComm.cpp communication/JSON/jsonComm.h
+        communication/JSON/read_write.cpp communication/JSON/read_write.h
 
-        dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
-        dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
+#        dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
+#        dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
+
+        dataStructures/auxLinkedList/listaux.cpp dataStructures/auxLinkedList/listaux.h
+        dataStructures/auxLinkedList/nodeaux.cpp dataStructures/auxLinkedList/nodeaux.h
 
         dataStructures/queue/queue.cpp dataStructures/queue/queue.h
         dataStructures/queue/queueItem.cpp dataStructures/queue/queueItem.h
@@ -44,19 +47,18 @@ set(SOURCE_FILES
         gameLogic/gameBoard.cpp gameLogic/gameBoard.h
         gameLogic/player.cpp gameLogic/player.h
         gameLogic/gameController.cpp gameLogic/gameController.h
+        gameLogic/wordsManager.cpp gameLogic/wordsManager.h
 
-        serverTests/queueTest.cpp
+        serverTests/queue/queueTest.cpp
         serverTests/json/jsonTests.cpp
-        serverTests/json/jsonTest2.cpp
 
         serverTests/gameLogic/logicTests.cpp serverTests/gameLogic/logicTests.h
 
-        util/dictionary.cpp util/dictionary.h
+        util/dictionary.h
 
         )
 
 add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
-#add_library(mainwindow tests/qt/mainwindow.cpp)
 
 qt5_use_modules(Proyecto1_Scrabble Widgets Core Gui)
 
@@ -67,5 +69,3 @@ target_link_libraries(Proyecto1_Scrabble
         )
 
 target_link_libraries(Proyecto1_Scrabble ${CMAKE_THREAD_LIBS_INIT})
-
-#target_link_libraries(Proyecto1_Scrabble Qt5::Widgets mainwindow)

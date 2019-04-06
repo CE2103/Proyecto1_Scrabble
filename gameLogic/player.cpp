@@ -1,5 +1,4 @@
 #include "player.h"
-#include "gameBoard.h"
 #include <iostream>
 
 using namespace std;
@@ -37,4 +36,8 @@ int player::getAmChips(){
 }
 void player::setAmChips(int amChips){
     this->amChips = amChips;
+}
+
+listaux* player::getList() {
+    return chipsList;
 }

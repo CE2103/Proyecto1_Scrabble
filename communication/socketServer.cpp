@@ -1,5 +1,5 @@
-#include "socketServer.h"
 #include <iostream>
+#include "socketServer.h"
 
 using namespace std;
 
@@ -29,11 +29,7 @@ bool socketServer::ligar_kernel(){
     return true;
 }
 
-/**
- * @title run
- * @autor angelortizv
- * @brief Espera nuevas conexiones de clientes al servidor.
- */
+
 void socketServer::run() {
 
     if(!crear_Socket())
@@ -80,13 +76,6 @@ void * socketServer::controladorCliente(void *obj) {
     pthread_exit(NULL);
 }
 
-
-/**
- * @title setMesaje
- * @autor angelortizv
- * @param msn
- * @brief Muestra cuántos clientes hay en el Server.
- */
 void socketServer::setMensaje(const char *msn){
 
     for(unsigned int i = 0 ; i < clientes.size() ; i++)

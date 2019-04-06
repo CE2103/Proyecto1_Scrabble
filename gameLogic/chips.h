@@ -21,19 +21,16 @@
 
 using namespace std;
 
-class chips:  public QObject, public QGraphicsPixmapItem {
+class chips  {
 private:
     char letter;
     int value;
 
 public:
-    chips(QGraphicsItem * parent = nullptr);
-
+    chips();
     chips(char letter);
-
     char getLetter();
     void setLetter(char letter);
-
     int getValue();
     void setValue(int value);
 

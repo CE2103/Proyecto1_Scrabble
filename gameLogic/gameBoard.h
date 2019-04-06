@@ -4,22 +4,22 @@
  * @date 24/03/2019
  * @autor angelortizv
  * @title Tablero de Juego
- * @brief
+ * @brief Crea la matriz de juego
  */
 
 #ifndef PROYECTO1_SCRABBLE_GAMEBOARD_H
 #define PROYECTO1_SCRABBLE_GAMEBOARD_H
 
 #include <iostream>
-#include "dataStructures/linkedList/list.h"
+#include "dataStructures/auxLinkedList/listaux.h"
+#include "dataStructures/auxLinkedList/nodeaux.h"
 
 using namespace std;
-
 
 class gameBoard {
 
 private:
-    char gameBoardField[15][15];
+    listaux *posiciones = new listaux();
 
 public:
     gameBoard();
