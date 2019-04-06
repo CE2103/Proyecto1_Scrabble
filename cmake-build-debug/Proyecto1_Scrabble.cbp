@@ -119,10 +119,10 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp">
@@ -171,12 +171,6 @@
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/CMakeLists.txt">

@@ -163,32 +163,32 @@ Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 
-communication/JSON/jsonComm.o: communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.o: communication/JSON/read_write.cpp.o
 
-.PHONY : communication/JSON/jsonComm.o
+.PHONY : communication/JSON/read_write.o
 
 # target to build an object file
-communication/JSON/jsonComm.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
-.PHONY : communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
+.PHONY : communication/JSON/read_write.cpp.o
 
-communication/JSON/jsonComm.i: communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.i: communication/JSON/read_write.cpp.i
 
-.PHONY : communication/JSON/jsonComm.i
+.PHONY : communication/JSON/read_write.i
 
 # target to preprocess a source file
-communication/JSON/jsonComm.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.i
-.PHONY : communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.i
+.PHONY : communication/JSON/read_write.cpp.i
 
-communication/JSON/jsonComm.s: communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.s: communication/JSON/read_write.cpp.s
 
-.PHONY : communication/JSON/jsonComm.s
+.PHONY : communication/JSON/read_write.s
 
 # target to generate assembly for a file
-communication/JSON/jsonComm.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.s
-.PHONY : communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.s
+.PHONY : communication/JSON/read_write.cpp.s
 
 communication/socketClient.o: communication/socketClient.cpp.o
 
@@ -433,33 +433,6 @@ principal/thirddialog.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.s
 .PHONY : principal/thirddialog.cpp.s
 
-util/dictionary.o: util/dictionary.cpp.o
-
-.PHONY : util/dictionary.o
-
-# target to build an object file
-util/dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
-.PHONY : util/dictionary.cpp.o
-
-util/dictionary.i: util/dictionary.cpp.i
-
-.PHONY : util/dictionary.i
-
-# target to preprocess a source file
-util/dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.i
-.PHONY : util/dictionary.cpp.i
-
-util/dictionary.s: util/dictionary.cpp.s
-
-.PHONY : util/dictionary.s
-
-# target to generate assembly for a file
-util/dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.s
-.PHONY : util/dictionary.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -473,9 +446,9 @@ help:
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
-	@echo "... communication/JSON/jsonComm.o"
-	@echo "... communication/JSON/jsonComm.i"
-	@echo "... communication/JSON/jsonComm.s"
+	@echo "... communication/JSON/read_write.o"
+	@echo "... communication/JSON/read_write.i"
+	@echo "... communication/JSON/read_write.s"
 	@echo "... communication/socketClient.o"
 	@echo "... communication/socketClient.i"
 	@echo "... communication/socketClient.s"
@@ -503,9 +476,6 @@ help:
 	@echo "... principal/thirddialog.o"
 	@echo "... principal/thirddialog.i"
 	@echo "... principal/thirddialog.s"
-	@echo "... util/dictionary.o"
-	@echo "... util/dictionary.i"
-	@echo "... util/dictionary.s"
 .PHONY : help
 
 

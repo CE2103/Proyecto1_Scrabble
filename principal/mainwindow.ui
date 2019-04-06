@@ -42,7 +42,7 @@
                     <string/>
                 </property>
                 <property name="pixmap">
-                    <pixmap>../img/logo.png</pixmap>
+                    <pixmap>img/logo.png</pixmap>
                 </property>
                 <property name="scaledContents">
                     <bool>true</bool>
@@ -64,7 +64,7 @@
                     </rect>
                 </property>
                 <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Creado por&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ricardo Artavia | Romario Ramírez | Angelo Ortíz&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    <!--<string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Creado por&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ricardo Artavia | Romario Ramírez | Angelo Ortíz&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>-->
                 </property>
                 <property name="alignment">
                     <set>Qt::AlignCenter</set>

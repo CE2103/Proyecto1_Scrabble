@@ -123,26 +123,34 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
- ..//lib/rapidjson/prettywriter.h
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
+ ..//lib/rapidjson/document.h
+ ..//lib/rapidjson/rapidjson.h
+ ..//lib/rapidjson/writer.h
  ../lib/rapidjson/allocators.h
+ ../lib/rapidjson/encodedstream.h
  ../lib/rapidjson/encodings.h
+ ../lib/rapidjson/error/error.h
+ ../lib/rapidjson/internal/biginteger.h
  ../lib/rapidjson/internal/diyfp.h
  ../lib/rapidjson/internal/dtoa.h
  ../lib/rapidjson/internal/ieee754.h
  ../lib/rapidjson/internal/itoa.h
  ../lib/rapidjson/internal/meta.h
+ ../lib/rapidjson/internal/pow10.h
  ../lib/rapidjson/internal/stack.h
  ../lib/rapidjson/internal/strfunc.h
+ ../lib/rapidjson/internal/strtod.h
  ../lib/rapidjson/internal/swap.h
+ ../lib/rapidjson/memorystream.h
  ../lib/rapidjson/msinttypes/inttypes.h
  ../lib/rapidjson/msinttypes/stdint.h
  ../lib/rapidjson/rapidjson.h
+ ../lib/rapidjson/reader.h
  ../lib/rapidjson/stream.h
  ../lib/rapidjson/stringbuffer.h
- ../lib/rapidjson/writer.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
@@ -199,7 +207,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
@@ -338,8 +345,8 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_fourthdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -369,7 +376,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -391,7 +397,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -443,57 +448,37 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
- Proyecto1_Scrabble_autogen/include/ui_fourthdialog.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_lobbywindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -523,7 +508,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -545,7 +529,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -575,7 +558,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -593,39 +575,18 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
- Proyecto1_Scrabble_autogen/include/ui_lobbywindow.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h
@@ -1135,6 +1096,3 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/util/dictionary.h
