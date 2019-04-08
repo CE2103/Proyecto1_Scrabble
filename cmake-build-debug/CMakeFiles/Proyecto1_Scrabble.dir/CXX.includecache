@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_helloworld.cpp
+../../../principal/helloworld.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
+GSPTRPMYDD/moc_helloworld.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_helloworld.cpp
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.cpp
 helloworld.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
 ui_helloworld.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/ui_helloworld.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_helloworld.h
 QMouseEvent
 -
 QMessageBox
@@ -28,13 +40,13 @@ QGraphicsRectItem
 stdlib.h
 -
 list.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.h
 list.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.cpp
 nodoespecial.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
 QMainWindow
 -
 QtCore
@@ -44,21 +56,21 @@ QtGui
 QGraphicsScene
 -
 list.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.h
 QLabel
 -
 iostream
 -
 nodoespecial.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.cpp
 list.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.h
 QString
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/list.h
 fstream
 -
 iostream
@@ -68,19 +80,31 @@ QString
 stdlib.h
 -
 node.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.h
 node.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.cpp
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp
+helloworld.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
+QApplication
+-
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.cpp
 node.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.h
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.h
 iostream
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.cpp
+nodoespecial.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
+QString
+-
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
 QString
 -
 iostream

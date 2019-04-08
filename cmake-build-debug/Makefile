@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
+CMAKE_SOURCE_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -163,140 +163,140 @@ Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 
-client/helloworld.o: client/helloworld.cpp.o
+principal/helloworld.o: principal/helloworld.cpp.o
 
-.PHONY : client/helloworld.o
-
-# target to build an object file
-client/helloworld.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o
-.PHONY : client/helloworld.cpp.o
-
-client/helloworld.i: client/helloworld.cpp.i
-
-.PHONY : client/helloworld.i
-
-# target to preprocess a source file
-client/helloworld.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.i
-.PHONY : client/helloworld.cpp.i
-
-client/helloworld.s: client/helloworld.cpp.s
-
-.PHONY : client/helloworld.s
-
-# target to generate assembly for a file
-client/helloworld.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.s
-.PHONY : client/helloworld.cpp.s
-
-client/list.o: client/list.cpp.o
-
-.PHONY : client/list.o
+.PHONY : principal/helloworld.o
 
 # target to build an object file
-client/list.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o
-.PHONY : client/list.cpp.o
+principal/helloworld.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/helloworld.cpp.o
+.PHONY : principal/helloworld.cpp.o
 
-client/list.i: client/list.cpp.i
+principal/helloworld.i: principal/helloworld.cpp.i
 
-.PHONY : client/list.i
+.PHONY : principal/helloworld.i
 
 # target to preprocess a source file
-client/list.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.i
-.PHONY : client/list.cpp.i
+principal/helloworld.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/helloworld.cpp.i
+.PHONY : principal/helloworld.cpp.i
 
-client/list.s: client/list.cpp.s
+principal/helloworld.s: principal/helloworld.cpp.s
 
-.PHONY : client/list.s
+.PHONY : principal/helloworld.s
 
 # target to generate assembly for a file
-client/list.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s
-.PHONY : client/list.cpp.s
+principal/helloworld.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/helloworld.cpp.s
+.PHONY : principal/helloworld.cpp.s
 
-client/main.o: client/main.cpp.o
+principal/list.o: principal/list.cpp.o
 
-.PHONY : client/main.o
+.PHONY : principal/list.o
 
 # target to build an object file
-client/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
-.PHONY : client/main.cpp.o
+principal/list.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/list.cpp.o
+.PHONY : principal/list.cpp.o
 
-client/main.i: client/main.cpp.i
+principal/list.i: principal/list.cpp.i
 
-.PHONY : client/main.i
+.PHONY : principal/list.i
 
 # target to preprocess a source file
-client/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i
-.PHONY : client/main.cpp.i
+principal/list.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/list.cpp.i
+.PHONY : principal/list.cpp.i
 
-client/main.s: client/main.cpp.s
+principal/list.s: principal/list.cpp.s
 
-.PHONY : client/main.s
+.PHONY : principal/list.s
 
 # target to generate assembly for a file
-client/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s
-.PHONY : client/main.cpp.s
+principal/list.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/list.cpp.s
+.PHONY : principal/list.cpp.s
 
-client/node.o: client/node.cpp.o
+principal/main.o: principal/main.cpp.o
 
-.PHONY : client/node.o
+.PHONY : principal/main.o
 
 # target to build an object file
-client/node.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o
-.PHONY : client/node.cpp.o
+principal/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
+.PHONY : principal/main.cpp.o
 
-client/node.i: client/node.cpp.i
+principal/main.i: principal/main.cpp.i
 
-.PHONY : client/node.i
+.PHONY : principal/main.i
 
 # target to preprocess a source file
-client/node.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.i
-.PHONY : client/node.cpp.i
+principal/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.i
+.PHONY : principal/main.cpp.i
 
-client/node.s: client/node.cpp.s
+principal/main.s: principal/main.cpp.s
 
-.PHONY : client/node.s
+.PHONY : principal/main.s
 
 # target to generate assembly for a file
-client/node.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.s
-.PHONY : client/node.cpp.s
+principal/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.s
+.PHONY : principal/main.cpp.s
 
-client/nodoespecial.o: client/nodoespecial.cpp.o
+principal/node.o: principal/node.cpp.o
 
-.PHONY : client/nodoespecial.o
+.PHONY : principal/node.o
 
 # target to build an object file
-client/nodoespecial.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o
-.PHONY : client/nodoespecial.cpp.o
+principal/node.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/node.cpp.o
+.PHONY : principal/node.cpp.o
 
-client/nodoespecial.i: client/nodoespecial.cpp.i
+principal/node.i: principal/node.cpp.i
 
-.PHONY : client/nodoespecial.i
+.PHONY : principal/node.i
 
 # target to preprocess a source file
-client/nodoespecial.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.i
-.PHONY : client/nodoespecial.cpp.i
+principal/node.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/node.cpp.i
+.PHONY : principal/node.cpp.i
 
-client/nodoespecial.s: client/nodoespecial.cpp.s
+principal/node.s: principal/node.cpp.s
 
-.PHONY : client/nodoespecial.s
+.PHONY : principal/node.s
 
 # target to generate assembly for a file
-client/nodoespecial.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.s
-.PHONY : client/nodoespecial.cpp.s
+principal/node.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/node.cpp.s
+.PHONY : principal/node.cpp.s
+
+principal/nodoespecial.o: principal/nodoespecial.cpp.o
+
+.PHONY : principal/nodoespecial.o
+
+# target to build an object file
+principal/nodoespecial.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/nodoespecial.cpp.o
+.PHONY : principal/nodoespecial.cpp.o
+
+principal/nodoespecial.i: principal/nodoespecial.cpp.i
+
+.PHONY : principal/nodoespecial.i
+
+# target to preprocess a source file
+principal/nodoespecial.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/nodoespecial.cpp.i
+.PHONY : principal/nodoespecial.cpp.i
+
+principal/nodoespecial.s: principal/nodoespecial.cpp.s
+
+.PHONY : principal/nodoespecial.s
+
+# target to generate assembly for a file
+principal/nodoespecial.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/nodoespecial.cpp.s
+.PHONY : principal/nodoespecial.cpp.s
 
 # Help Target
 help:
@@ -311,21 +311,21 @@ help:
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
-	@echo "... client/helloworld.o"
-	@echo "... client/helloworld.i"
-	@echo "... client/helloworld.s"
-	@echo "... client/list.o"
-	@echo "... client/list.i"
-	@echo "... client/list.s"
-	@echo "... client/main.o"
-	@echo "... client/main.i"
-	@echo "... client/main.s"
-	@echo "... client/node.o"
-	@echo "... client/node.i"
-	@echo "... client/node.s"
-	@echo "... client/nodoespecial.o"
-	@echo "... client/nodoespecial.i"
-	@echo "... client/nodoespecial.s"
+	@echo "... principal/helloworld.o"
+	@echo "... principal/helloworld.i"
+	@echo "... principal/helloworld.s"
+	@echo "... principal/list.o"
+	@echo "... principal/list.i"
+	@echo "... principal/list.s"
+	@echo "... principal/main.o"
+	@echo "... principal/main.i"
+	@echo "... principal/main.s"
+	@echo "... principal/node.o"
+	@echo "... principal/node.i"
+	@echo "... principal/node.s"
+	@echo "... principal/nodoespecial.o"
+	@echo "... principal/nodoespecial.i"
+	@echo "... principal/nodoespecial.s"
 .PHONY : help
 
 

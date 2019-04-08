@@ -13,9 +13,6 @@
 #include "nodoespecial.h"
 
 
-
-
-
 using namespace std;
 
 nodoespecial *nod2= new nodoespecial();
@@ -69,42 +66,6 @@ helloworld::helloworld(QWidget *parent) :
         x=-630;
 
     }
-   /*// prueba  para matriz
-
-    nod2->setX(730);
-    nod2->setY(590);
-    nod2->setLetra("");
-    nod2->setEstado(false);
-
-    for (int i=0 ; i<15; i++){
-        matrizprueba.add_end(nod2);
-    }
-
-
-    matriz2.add_end(matrizprueba);
-    matriz2.add_end(matrizprueba);
-    matriz2.add_end(matrizprueba);
-    matriz2.add_end(matrizprueba);
-    matriz2.add_end(matrizprueba);
-
-    cout << "esto es una prueba de matriz: " << matriz2.getbyposicion(4).getbyposicion(14)->getEstado() << endl;
-
-    cout<< "tamanio: " << matriz2.size()<< endl;
-
-
-    nodoespecial nod3= *(matrizprueba.getbyposicion(1));
-    nod3.setLetra("f");
-    nod3.setEstado(true);
-
-    matrizprueba.getbyposicion(1)->setLetra("hola");
-    matrizprueba.getbyposicion(1)->setEstado(true);
-
-    cout << " letra :  " << matrizprueba.getbyposicion(1)->getLetra()<<endl;
-
-    if (matrizprueba.getbyposicion(1)->getEstado()==true){
-        cout << "maeeeee"<<endl;
-    }*/
-
 
 
     char i;

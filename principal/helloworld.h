@@ -10,9 +10,7 @@
 #include <iostream>
 #include "nodoespecial.h"
 
-
 using namespace std;
-
 
 namespace Ui {
 class helloworld;
@@ -71,8 +69,6 @@ private:
     int xm;
     int ym;
 };
-
-
 
 
 #endif // HELLOWORLD_H
