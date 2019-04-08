@@ -14,12 +14,29 @@ propuestas por los jugadores sean correctas. Gana quien posea mayor puntaje.
 ## Pre Requisitos. 
 
 ```
+CMAKE VERSION 3.7 o superior
+Qt5::Widgets Qt5::Core
+rapidjson
 ```
 
 ## Instalación.
 
-```
-```
+
+Prerequisitos: Debe tener instalado [Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) en su consola.
+
+1. En GitHub, vaya a la página principal del [repositorio](https://github.com/CE2103/Proyecto1_Scrabble).
+2. Debajo del nombre del repositorio, haga clic en Clonar o descargar.
+3. En la sección Clonar con HTTPs, haga clic para copiar la URL de clonación del repositorio.
+4. Abre Git Bash.
+5. Cambie el directorio de trabajo actual a la ubicación donde desea que se realice el directorio clonado.
+6. Escriba 'git clone', y luego pegue la URL que copió en el Paso 2.
+
+    ```$ git clone https://github.com/CE2103/Proyecto1_Scrabble.git```
+    
+7. Presione Enter. Se creará su clon local para [Proyecto1_Scrabble](https://github.com/CE2103/Proyecto1_Scrabble).
+8. Seleccione el branch 'master' para obtener el código del cliente, y 'masterServer' para obtener el código del servidor.
+
+
 
 ## Autores.
 

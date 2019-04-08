@@ -39,26 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-<<<<<<< Updated upstream
-CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
-
-# The command to remove a file.
-RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
-=======
 CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
->>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble
+CMAKE_SOURCE_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,11 +59,7 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-<<<<<<< Updated upstream
-	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-=======
 	/snap/clion/67/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
->>>>>>> Stashed changes
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,11 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-<<<<<<< Updated upstream
-	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-=======
 	/snap/clion/67/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
->>>>>>> Stashed changes
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -95,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -178,32 +163,32 @@ Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 
-communication/JSON/jsonComm.o: communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.o: communication/JSON/read_write.cpp.o
 
-.PHONY : communication/JSON/jsonComm.o
+.PHONY : communication/JSON/read_write.o
 
 # target to build an object file
-communication/JSON/jsonComm.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
-.PHONY : communication/JSON/jsonComm.cpp.o
+communication/JSON/read_write.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
+.PHONY : communication/JSON/read_write.cpp.o
 
-communication/JSON/jsonComm.i: communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.i: communication/JSON/read_write.cpp.i
 
-.PHONY : communication/JSON/jsonComm.i
+.PHONY : communication/JSON/read_write.i
 
 # target to preprocess a source file
-communication/JSON/jsonComm.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.i
-.PHONY : communication/JSON/jsonComm.cpp.i
+communication/JSON/read_write.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.i
+.PHONY : communication/JSON/read_write.cpp.i
 
-communication/JSON/jsonComm.s: communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.s: communication/JSON/read_write.cpp.s
 
-.PHONY : communication/JSON/jsonComm.s
+.PHONY : communication/JSON/read_write.s
 
 # target to generate assembly for a file
-communication/JSON/jsonComm.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.s
-.PHONY : communication/JSON/jsonComm.cpp.s
+communication/JSON/read_write.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.s
+.PHONY : communication/JSON/read_write.cpp.s
 
 communication/socketClient.o: communication/socketClient.cpp.o
 
@@ -448,33 +433,6 @@ principal/thirddialog.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.s
 .PHONY : principal/thirddialog.cpp.s
 
-util/dictionary.o: util/dictionary.cpp.o
-
-.PHONY : util/dictionary.o
-
-# target to build an object file
-util/dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.o
-.PHONY : util/dictionary.cpp.o
-
-util/dictionary.i: util/dictionary.cpp.i
-
-.PHONY : util/dictionary.i
-
-# target to preprocess a source file
-util/dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.i
-.PHONY : util/dictionary.cpp.i
-
-util/dictionary.s: util/dictionary.cpp.s
-
-.PHONY : util/dictionary.s
-
-# target to generate assembly for a file
-util/dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/util/dictionary.cpp.s
-.PHONY : util/dictionary.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -488,9 +446,9 @@ help:
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
-	@echo "... communication/JSON/jsonComm.o"
-	@echo "... communication/JSON/jsonComm.i"
-	@echo "... communication/JSON/jsonComm.s"
+	@echo "... communication/JSON/read_write.o"
+	@echo "... communication/JSON/read_write.i"
+	@echo "... communication/JSON/read_write.s"
 	@echo "... communication/socketClient.o"
 	@echo "... communication/socketClient.i"
 	@echo "... communication/socketClient.s"
@@ -518,9 +476,6 @@ help:
 	@echo "... principal/thirddialog.o"
 	@echo "... principal/thirddialog.i"
 	@echo "... principal/thirddialog.s"
-	@echo "... util/dictionary.o"
-	@echo "... util/dictionary.i"
-	@echo "... util/dictionary.s"
 .PHONY : help
 
 

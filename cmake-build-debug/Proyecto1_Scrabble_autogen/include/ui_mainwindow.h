@@ -47,7 +47,7 @@ public:
         label->setGeometry(QRect(300, 205, 701, 291));
         label->setMaximumSize(QSize(10000000, 16777215));
         label->setAutoFillBackground(true);
-        label->setPixmap(QPixmap(QString::fromUtf8("../img/logo.png")));
+        label->setPixmap(QPixmap(QString::fromUtf8("img/logo.png")));
         label->setScaledContents(true);
         label->setAlignment(Qt::AlignCenter);
         label->setTextInteractionFlags(Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse);
@@ -80,7 +80,6 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Scrabble", Q_NULLPTR));
         label->setText(QString());
-        authors->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">Creado por</p><p align=\"center\"><span style=\" font-size:12pt;\">Ricardo Artavia | Romario Ram\303\255rez | Angelo Ort\303\255z</span></p></body></html>", Q_NULLPTR));
         StartButton->setText(QApplication::translate("MainWindow", "Iniciar", Q_NULLPTR));
     } // retranslateUi
 

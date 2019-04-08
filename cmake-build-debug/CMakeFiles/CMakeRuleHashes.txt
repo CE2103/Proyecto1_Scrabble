@@ -1,6 +1,2 @@
 # Hashes of file build rules.
-<<<<<<< Updated upstream
-2ee7f6c98e19ee47311df9edfcc878dd CMakeFiles/Proyecto1_Scrabble_autogen
-=======
 b303c49c94952a2b4b8adff7ce0a7bcf CMakeFiles/Proyecto1_Scrabble_autogen
->>>>>>> Stashed changes

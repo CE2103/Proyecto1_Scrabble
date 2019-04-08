@@ -34,26 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-<<<<<<< Updated upstream
-CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
-
-# The command to remove a file.
-RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
-=======
 CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
->>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble
+CMAKE_SOURCE_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"
 
 # Utility rule file for Proyecto1_Scrabble_autogen.
 
@@ -61,13 +54,8 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 include CMakeFiles/Proyecto1_Scrabble_autogen.dir/progress.make
 
 CMakeFiles/Proyecto1_Scrabble_autogen:
-<<<<<<< Updated upstream
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto1_Scrabble"
-	/opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autogen /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenInfo.cmake Debug
-=======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto1_Scrabble"
 	/snap/clion/67/bin/cmake/linux/bin/cmake -E cmake_autogen "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenInfo.cmake" Debug
->>>>>>> Stashed changes
 
 Proyecto1_Scrabble_autogen: CMakeFiles/Proyecto1_Scrabble_autogen
 Proyecto1_Scrabble_autogen: CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make
@@ -84,6 +72,6 @@ CMakeFiles/Proyecto1_Scrabble_autogen.dir/clean:
 .PHONY : CMakeFiles/Proyecto1_Scrabble_autogen.dir/clean
 
 CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend:
-	cd /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelortizv/CLionProjects/Proyecto1_Scrabble /home/angelortizv/CLionProjects/Proyecto1_Scrabble /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend
 
