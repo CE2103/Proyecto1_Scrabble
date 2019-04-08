@@ -20,9 +20,11 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 set(SOURCE_FILES
-        main.cpp
-
-
+        client/main.cpp
+        client/list.cpp
+        client/helloworld.cpp
+        client/node.cpp
+        client/nodoespecial.cpp
         )
 
 add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
