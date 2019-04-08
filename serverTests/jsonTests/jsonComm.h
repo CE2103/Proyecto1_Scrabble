@@ -1,0 +1,47 @@
+/**
+ * @file jsonComm.h
+ * @version 1.0
+ * @date 07/04/2019
+ * @autor angelortizv
+ * @title
+ * @brief
+ */
+
+#ifndef PROYECTO1_SCRABBLE_JSONCOMM_H
+#define PROYECTO1_SCRABBLE_JSONCOMM_H
+
+#include "lib/rapidjson/document.h"
+#include "lib/rapidjson/writer.h"
+#include "lib/rapidjson/stringbuffer.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
+using namespace rapidjson;
+
+class jsonComm {
+
+private:
+public:
+    jsonComm();
+
+    static jsonComm& getInstance(){
+        static jsonComm instance;
+        return instance;
+    }
+
+    string serializeCreateGame(string name, string ip);
+    void deserializeCreateGame(string json, int* gameCode);
+    string serializeJoinGame(string gameCode, string name);
+    void deserializeJoinGame(string json);
+
+    string serializeChips();
+    string serializeAddWord(string word);
+
+    void deserializePlayerInfo(string json, string* name, int* turn, int* score, int* amChips);
+    int getId(string json);
+
+};
+
+
+#endif //PROYECTO1_SCRABBLE_JSONCOMM_H

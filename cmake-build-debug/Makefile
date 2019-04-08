@@ -190,6 +190,33 @@ communication/JSON/read_write.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.s
 .PHONY : communication/JSON/read_write.cpp.s
 
+communication/oldSS.o: communication/oldSS.cpp.o
+
+.PHONY : communication/oldSS.o
+
+# target to build an object file
+communication/oldSS.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS.cpp.o
+.PHONY : communication/oldSS.cpp.o
+
+communication/oldSS.i: communication/oldSS.cpp.i
+
+.PHONY : communication/oldSS.i
+
+# target to preprocess a source file
+communication/oldSS.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS.cpp.i
+.PHONY : communication/oldSS.cpp.i
+
+communication/oldSS.s: communication/oldSS.cpp.s
+
+.PHONY : communication/oldSS.s
+
+# target to generate assembly for a file
+communication/oldSS.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS.cpp.s
+.PHONY : communication/oldSS.cpp.s
+
 communication/socketServer.o: communication/socketServer.cpp.o
 
 .PHONY : communication/socketServer.o
@@ -514,6 +541,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+principal.o: principal.cpp.o
+
+.PHONY : principal.o
+
+# target to build an object file
+principal.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal.cpp.o
+.PHONY : principal.cpp.o
+
+principal.i: principal.cpp.i
+
+.PHONY : principal.i
+
+# target to preprocess a source file
+principal.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal.cpp.i
+.PHONY : principal.cpp.i
+
+principal.s: principal.cpp.s
+
+.PHONY : principal.s
+
+# target to generate assembly for a file
+principal.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal.cpp.s
+.PHONY : principal.cpp.s
+
 serverTests/gameLogic/logicTests.o: serverTests/gameLogic/logicTests.cpp.o
 
 .PHONY : serverTests/gameLogic/logicTests.o
@@ -541,32 +595,32 @@ serverTests/gameLogic/logicTests.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.s
 .PHONY : serverTests/gameLogic/logicTests.cpp.s
 
-serverTests/json/jsonTests.o: serverTests/json/jsonTests.cpp.o
+serverTests/jsonTests/jsonComm.o: serverTests/jsonTests/jsonComm.cpp.o
 
-.PHONY : serverTests/json/jsonTests.o
+.PHONY : serverTests/jsonTests/jsonComm.o
 
 # target to build an object file
-serverTests/json/jsonTests.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.o
-.PHONY : serverTests/json/jsonTests.cpp.o
+serverTests/jsonTests/jsonComm.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests/jsonComm.cpp.o
+.PHONY : serverTests/jsonTests/jsonComm.cpp.o
 
-serverTests/json/jsonTests.i: serverTests/json/jsonTests.cpp.i
+serverTests/jsonTests/jsonComm.i: serverTests/jsonTests/jsonComm.cpp.i
 
-.PHONY : serverTests/json/jsonTests.i
+.PHONY : serverTests/jsonTests/jsonComm.i
 
 # target to preprocess a source file
-serverTests/json/jsonTests.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.i
-.PHONY : serverTests/json/jsonTests.cpp.i
+serverTests/jsonTests/jsonComm.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests/jsonComm.cpp.i
+.PHONY : serverTests/jsonTests/jsonComm.cpp.i
 
-serverTests/json/jsonTests.s: serverTests/json/jsonTests.cpp.s
+serverTests/jsonTests/jsonComm.s: serverTests/jsonTests/jsonComm.cpp.s
 
-.PHONY : serverTests/json/jsonTests.s
+.PHONY : serverTests/jsonTests/jsonComm.s
 
 # target to generate assembly for a file
-serverTests/json/jsonTests.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/json/jsonTests.cpp.s
-.PHONY : serverTests/json/jsonTests.cpp.s
+serverTests/jsonTests/jsonComm.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests/jsonComm.cpp.s
+.PHONY : serverTests/jsonTests/jsonComm.cpp.s
 
 serverTests/queue/queueTest.o: serverTests/queue/queueTest.cpp.o
 
@@ -595,6 +649,33 @@ serverTests/queue/queueTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.s
 .PHONY : serverTests/queue/queueTest.cpp.s
 
+serverTests/socketTests/socket.o: serverTests/socketTests/socket.cpp.o
+
+.PHONY : serverTests/socketTests/socket.o
+
+# target to build an object file
+serverTests/socketTests/socket.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/socketTests/socket.cpp.o
+.PHONY : serverTests/socketTests/socket.cpp.o
+
+serverTests/socketTests/socket.i: serverTests/socketTests/socket.cpp.i
+
+.PHONY : serverTests/socketTests/socket.i
+
+# target to preprocess a source file
+serverTests/socketTests/socket.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/socketTests/socket.cpp.i
+.PHONY : serverTests/socketTests/socket.cpp.i
+
+serverTests/socketTests/socket.s: serverTests/socketTests/socket.cpp.s
+
+.PHONY : serverTests/socketTests/socket.s
+
+# target to generate assembly for a file
+serverTests/socketTests/socket.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/socketTests/socket.cpp.s
+.PHONY : serverTests/socketTests/socket.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -611,6 +692,9 @@ help:
 	@echo "... communication/JSON/read_write.o"
 	@echo "... communication/JSON/read_write.i"
 	@echo "... communication/JSON/read_write.s"
+	@echo "... communication/oldSS.o"
+	@echo "... communication/oldSS.i"
+	@echo "... communication/oldSS.s"
 	@echo "... communication/socketServer.o"
 	@echo "... communication/socketServer.i"
 	@echo "... communication/socketServer.s"
@@ -647,15 +731,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... principal.o"
+	@echo "... principal.i"
+	@echo "... principal.s"
 	@echo "... serverTests/gameLogic/logicTests.o"
 	@echo "... serverTests/gameLogic/logicTests.i"
 	@echo "... serverTests/gameLogic/logicTests.s"
-	@echo "... serverTests/json/jsonTests.o"
-	@echo "... serverTests/json/jsonTests.i"
-	@echo "... serverTests/json/jsonTests.s"
+	@echo "... serverTests/jsonTests/jsonComm.o"
+	@echo "... serverTests/jsonTests/jsonComm.i"
+	@echo "... serverTests/jsonTests/jsonComm.s"
 	@echo "... serverTests/queue/queueTest.o"
 	@echo "... serverTests/queue/queueTest.i"
 	@echo "... serverTests/queue/queueTest.s"
+	@echo "... serverTests/socketTests/socket.o"
+	@echo "... serverTests/socketTests/socket.i"
+	@echo "... serverTests/socketTests/socket.s"
 .PHONY : help
 
 

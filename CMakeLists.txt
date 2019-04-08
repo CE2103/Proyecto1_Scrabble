@@ -12,17 +12,6 @@ find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Core 5.3 REQUIRED)
 
-# add a target to generate API documentation with Doxygen
-find_package(Doxygen)
-if(DOXYGEN_FOUND)
-    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile.in ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile @ONLY)
-    add_custom_target(doc
-            ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile
-            WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-            COMMENT "Generating API documentation with Doxygen" VERBATIM
-            )
-endif(DOXYGEN_FOUND)
-
 list(APPEND THIRD_PARTY_LIBS Qt5::Widgets Qt5::Core)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 set(CMAKE_CXX_STANDARD 11)
@@ -39,33 +28,32 @@ message(STATUS "RapidJSON found. Headers: ${RapidJSON_INCLUDE_DIRS}")
 
 set(SOURCE_FILES
 
-        main.cpp
+        main.cpp principal.cpp
 
-        communication/socketServer.cpp communication/socketServer.h
-        communication/JSON/read_write.cpp communication/JSON/read_write.h
+        communication/socketServer.cpp
+        communication/JSON/read_write.cpp
+        communication/oldSS.cpp
 
-#        dataStructures/linkedList/list.cpp dataStructures/linkedList/list.h
-#        dataStructures/linkedList/node.cpp dataStructures/linkedList/node.h
+#        dataStructures/linkedList/list.cpp
+#        dataStructures/linkedList/node.cpp
 
-        dataStructures/auxLinkedList/listaux.cpp dataStructures/auxLinkedList/listaux.h
-        dataStructures/auxLinkedList/nodeaux.cpp dataStructures/auxLinkedList/nodeaux.h
+        dataStructures/auxLinkedList/listaux.cpp
+        dataStructures/auxLinkedList/nodeaux.cpp
 
-        dataStructures/queue/queue.cpp dataStructures/queue/queue.h
-        dataStructures/queue/queueItem.cpp dataStructures/queue/queueItem.h
+        dataStructures/queue/queue.cpp
+        dataStructures/queue/queueItem.cpp
 
-        gameLogic/chips.cpp gameLogic/chips.h
-        gameLogic/chipsManager.cpp gameLogic/chipsManager.h
-        gameLogic/gameBoard.cpp gameLogic/gameBoard.h
-        gameLogic/player.cpp gameLogic/player.h
-        gameLogic/gameController.cpp gameLogic/gameController.h
-        gameLogic/wordsManager.cpp gameLogic/wordsManager.h
+        gameLogic/chips.cpp
+        gameLogic/chipsManager.cpp
+        gameLogic/gameBoard.cpp
+        gameLogic/player.cpp
+        gameLogic/gameController.cpp
+        gameLogic/wordsManager.cpp
 
+        serverTests/jsonTests/jsonComm.cpp
         serverTests/queue/queueTest.cpp
-        serverTests/json/jsonTests.cpp
-
-        serverTests/gameLogic/logicTests.cpp serverTests/gameLogic/logicTests.h
-
-        util/dictionary.h
+        serverTests/gameLogic/logicTests.cpp
+        serverTests/socketTests/socket.cpp
 
         )
 

@@ -37,7 +37,8 @@ void socketServer::run() {
     if(!ligar_kernel())
         throw string("Error al  ligar kernel");
 
-    while (true) {
+    bool running = true;
+    while (running) {
         cout << "Esperando nuevo cliente"<<endl;
         dataSocket data;
         socklen_t tam = sizeof(data.info);
@@ -51,6 +52,7 @@ void socketServer::run() {
             pthread_create(&hilo,0,socketServer::controladorCliente,(void *)&data);
             pthread_detach(hilo);
         }
+
     }
     close(descriptor);
 }
@@ -60,7 +62,8 @@ void socketServer::run() {
 void * socketServer::controladorCliente(void *obj) {
 
     dataSocket *data = (dataSocket*)obj;
-    while (true) {
+    bool  running = true;
+    while (running) {
         string mensaje;
         while (1) {
             char buffer[10] = {0};

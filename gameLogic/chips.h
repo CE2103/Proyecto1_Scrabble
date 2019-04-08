@@ -7,7 +7,6 @@
  * @brief Contiene los valores de cada ficha
  */
 
-
 #ifndef PROYECTO1_SCRABBLE_CHIPS_H
 #define PROYECTO1_SCRABBLE_CHIPS_H
 

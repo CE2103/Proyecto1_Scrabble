@@ -20,14 +20,15 @@ void gameController::generateGameCode() {
 //    int n = 5 ;
 //    cout << "Código de Juego: " << endl;
 //    for (int count = 0; count <= n; count++) {
-//
-//
+
 ////        cout << (1 + rand() % 9) ;
 //
 //    }
 //    cout << "\n" << endl;
 
 }
+
+
 
 void gameController::joinGamewCode(double code){
 

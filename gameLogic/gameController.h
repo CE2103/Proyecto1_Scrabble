@@ -11,6 +11,8 @@
 
 #include <stdlib.h>
 #include <time.h>
+#include <fstream>
+#include <vector>
 #include <iostream>
 #include "chips.h"
 #include "gameBoard.h"
@@ -39,6 +41,7 @@ public:
     void generateGameCode();
     void joinGamewCode(double code);
     void roomVerification();
+
 
 
 };
