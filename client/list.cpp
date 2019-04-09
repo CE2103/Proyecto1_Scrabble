@@ -1,4 +1,5 @@
 #include "list.h"
+#include <QString>
 
 using namespace std;
 
@@ -302,6 +303,42 @@ void List<T>::print()
     cout << endl << endl;
 }
 
+// obtener por posicion
+template<typename T>
+T List<T>::getbyposicion(int posicion)
+{
+    Node<T> *temp = m_head;
+    T elem;
+    for (int i=0; i<this->size(); i++ ){
+        if (i==posicion) {
+            elem=temp->data;
+            return elem;
+        }
+        else{
+            temp = temp->next;
+            }
+        }
+}
+
+//tamaño de la lista
+template<typename T>
+int List<T>::size(){
+    Node<T> *temp = m_head;
+    int tam=0;
+
+    if (!m_head) {
+        return tam;
+    } else {
+        while (temp) {
+            tam+=1;
+            if (!temp->next) return tam;
+            temp = temp->next;
+        }
+    }
+    return tam;
+}
+
+
 // Buscar el dato de un nodo
 template<typename T>
 bool List<T>::search(T data_)
@@ -371,9 +408,9 @@ void List<T>::save_file(string file)
 
 // unir los valores de una lista
 template<typename T>
-string List<T>::Unir()
+QString List<T>::Unir()
 {
-    string nuevo="";
+    QString nuevo="";
     Node<T> *temp = m_head;
 
     while (temp) {

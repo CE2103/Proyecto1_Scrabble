@@ -1,19 +1,10 @@
-/**
- * @file list.h
- * @version 1.0
- * @date 20/03/2019
- * @autor angelortizv
- * @title Clase Lista
- * @brief Contiene métodos de la clase List formada por objetos de tipo Node
- */
-
-#ifndef PROYECTO1_SCRABBLE_LIST_H
-#define PROYECTO1_SCRABBLE_LIST_H
+#ifndef LIST_H
+#define LIST_H
 
 
 #include <fstream>
 #include <iostream>
-#include <string>
+#include <QString>
 #include <stdlib.h>
 
 #include "node.h"
@@ -42,9 +33,11 @@ public:
     void invert();
     void load_file(string);
     void print();
+    int size();
+    T getbyposicion(int);
     void save_file(string);
     bool search(T);
-    string Unir();
+    QString Unir();
     void sort();
 
 private:
@@ -52,4 +45,5 @@ private:
     int m_num_nodes;
 };
 
-#endif //PROYECTO1_SCRABBLE_LIST_H
+#endif
+

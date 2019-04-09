@@ -116,6 +116,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
@@ -196,6 +197,38 @@
 		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+=======
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+>>>>>>> gui
 		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

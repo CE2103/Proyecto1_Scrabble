@@ -1,14 +1,5 @@
-/**
- * @file node.h
- * @version 1.0
- * @date 20/03/2019
- * @autor angelortiz
- * @title Clase Nodo
- * @brief Responsables de Almacenar un valor de tipo int y un puntero al nodo siguiente
- */
-
-#ifndef PROYECTO1_SCRABBLE_NODE_H
-#define PROYECTO1_SCRABBLE_NODE_H
+#ifndef NODE_H
+#define NODE_H
 
 
 #include <iostream>
@@ -40,4 +31,4 @@ public:
     void print();
 };
 
-#endif //PROYECTO1_SCRABBLE_NODE_H
+#endif

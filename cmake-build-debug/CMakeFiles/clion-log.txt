@@ -1,5 +1,8 @@
 /snap/clion/67/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
+<<<<<<< HEAD
 -- RapidJSON found. Headers: @RapidJSON_INCLUDE_DIR@
+=======
+>>>>>>> gui
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug

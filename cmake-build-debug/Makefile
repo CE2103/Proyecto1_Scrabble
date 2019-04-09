@@ -163,6 +163,7 @@ Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto1_Scrabble_autogen/mocs_compilation.cpp.s
 
+<<<<<<< HEAD
 communication/JSON/jsonComm.o: communication/JSON/jsonComm.cpp.o
 
 .PHONY : communication/JSON/jsonComm.o
@@ -191,32 +192,36 @@ communication/JSON/jsonComm.cpp.s:
 .PHONY : communication/JSON/jsonComm.cpp.s
 
 communication/socketClient.o: communication/socketClient.cpp.o
+=======
+client/helloworld.o: client/helloworld.cpp.o
+>>>>>>> gui
 
-.PHONY : communication/socketClient.o
+.PHONY : client/helloworld.o
 
 # target to build an object file
-communication/socketClient.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
-.PHONY : communication/socketClient.cpp.o
+client/helloworld.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o
+.PHONY : client/helloworld.cpp.o
 
-communication/socketClient.i: communication/socketClient.cpp.i
+client/helloworld.i: client/helloworld.cpp.i
 
-.PHONY : communication/socketClient.i
+.PHONY : client/helloworld.i
 
 # target to preprocess a source file
-communication/socketClient.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.i
-.PHONY : communication/socketClient.cpp.i
+client/helloworld.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.i
+.PHONY : client/helloworld.cpp.i
 
-communication/socketClient.s: communication/socketClient.cpp.s
+client/helloworld.s: client/helloworld.cpp.s
 
-.PHONY : communication/socketClient.s
+.PHONY : client/helloworld.s
 
 # target to generate assembly for a file
-communication/socketClient.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.s
-.PHONY : communication/socketClient.cpp.s
+client/helloworld.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.s
+.PHONY : client/helloworld.cpp.s
 
+<<<<<<< HEAD
 gameLogic/principal.o: gameLogic/principal.cpp.o
 
 .PHONY : gameLogic/principal.o
@@ -486,6 +491,115 @@ principal/thirddialog.s: principal/thirddialog.cpp.s
 principal/thirddialog.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.s
 .PHONY : principal/thirddialog.cpp.s
+=======
+client/list.o: client/list.cpp.o
+
+.PHONY : client/list.o
+
+# target to build an object file
+client/list.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o
+.PHONY : client/list.cpp.o
+
+client/list.i: client/list.cpp.i
+
+.PHONY : client/list.i
+
+# target to preprocess a source file
+client/list.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.i
+.PHONY : client/list.cpp.i
+
+client/list.s: client/list.cpp.s
+
+.PHONY : client/list.s
+
+# target to generate assembly for a file
+client/list.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s
+.PHONY : client/list.cpp.s
+
+client/main.o: client/main.cpp.o
+
+.PHONY : client/main.o
+
+# target to build an object file
+client/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
+.PHONY : client/main.cpp.o
+
+client/main.i: client/main.cpp.i
+
+.PHONY : client/main.i
+
+# target to preprocess a source file
+client/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i
+.PHONY : client/main.cpp.i
+
+client/main.s: client/main.cpp.s
+
+.PHONY : client/main.s
+
+# target to generate assembly for a file
+client/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s
+.PHONY : client/main.cpp.s
+
+client/node.o: client/node.cpp.o
+
+.PHONY : client/node.o
+
+# target to build an object file
+client/node.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o
+.PHONY : client/node.cpp.o
+
+client/node.i: client/node.cpp.i
+
+.PHONY : client/node.i
+
+# target to preprocess a source file
+client/node.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.i
+.PHONY : client/node.cpp.i
+
+client/node.s: client/node.cpp.s
+
+.PHONY : client/node.s
+
+# target to generate assembly for a file
+client/node.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.s
+.PHONY : client/node.cpp.s
+
+client/nodoespecial.o: client/nodoespecial.cpp.o
+
+.PHONY : client/nodoespecial.o
+
+# target to build an object file
+client/nodoespecial.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o
+.PHONY : client/nodoespecial.cpp.o
+
+client/nodoespecial.i: client/nodoespecial.cpp.i
+
+.PHONY : client/nodoespecial.i
+
+# target to preprocess a source file
+client/nodoespecial.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.i
+.PHONY : client/nodoespecial.cpp.i
+
+client/nodoespecial.s: client/nodoespecial.cpp.s
+
+.PHONY : client/nodoespecial.s
+
+# target to generate assembly for a file
+client/nodoespecial.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.s
+.PHONY : client/nodoespecial.cpp.s
+>>>>>>> gui
 
 # Help Target
 help:
@@ -500,6 +614,7 @@ help:
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.o"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.i"
 	@echo "... Proyecto1_Scrabble_autogen/mocs_compilation.s"
+<<<<<<< HEAD
 	@echo "... communication/JSON/jsonComm.o"
 	@echo "... communication/JSON/jsonComm.i"
 	@echo "... communication/JSON/jsonComm.s"
@@ -536,6 +651,23 @@ help:
 	@echo "... principal/thirddialog.o"
 	@echo "... principal/thirddialog.i"
 	@echo "... principal/thirddialog.s"
+=======
+	@echo "... client/helloworld.o"
+	@echo "... client/helloworld.i"
+	@echo "... client/helloworld.s"
+	@echo "... client/list.o"
+	@echo "... client/list.i"
+	@echo "... client/list.s"
+	@echo "... client/main.o"
+	@echo "... client/main.i"
+	@echo "... client/main.s"
+	@echo "... client/node.o"
+	@echo "... client/node.i"
+	@echo "... client/node.s"
+	@echo "... client/nodoespecial.o"
+	@echo "... client/nodoespecial.i"
+	@echo "... client/nodoespecial.s"
+>>>>>>> gui
 .PHONY : help
 
 

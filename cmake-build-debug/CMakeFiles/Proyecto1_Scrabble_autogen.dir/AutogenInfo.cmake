@@ -12,6 +12,7 @@ set(AM_BUILD_DIR "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/c
 set(AM_INCLUDE_DIR "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include")
 # Files
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(AM_SOURCES "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/read_write.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/main.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/main.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.cpp")
 set(AM_HEADERS "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/read_write.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h")
 set(AM_SETTINGS_FILE "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
@@ -20,6 +21,11 @@ set(AM_SOURCES "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication
 set(AM_HEADERS "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h")
 set(AM_SETTINGS_FILE "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
 >>>>>>> master
+=======
+set(AM_SOURCES "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp")
+set(AM_HEADERS "")
+set(AM_SETTINGS_FILE "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
+>>>>>>> gui
 # Qt
 set(AM_QT_VERSION_MAJOR 5)
 set(AM_QT_MOC_EXECUTABLE "/usr/lib/qt5/bin/moc")

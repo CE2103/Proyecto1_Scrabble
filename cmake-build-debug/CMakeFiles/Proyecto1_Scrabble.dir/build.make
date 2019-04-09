@@ -57,6 +57,7 @@ include CMakeFiles/Proyecto1_Scrabble.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto1_Scrabble.dir/flags.make
 
+<<<<<<< HEAD
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
@@ -272,6 +273,77 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o -c /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
 >>>>>>> master
+=======
+CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o: ../client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp"
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp" > CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp" -o CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o: ../client/list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp"
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp" > CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp" -o CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o: ../client/helloworld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp"
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp" > CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp" -o CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o: ../client/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp"
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp" > CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp" -o CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o: ../client/nodoespecial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp"
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp" > CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.i
+
+CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp" -o CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.s
+
+CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto1_Scrabble.dir/flags.make
+CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o: Proyecto1_Scrabble_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o -c "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp"
+>>>>>>> gui
 
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.i"
@@ -283,6 +355,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
 
 # Object files for target Proyecto1_Scrabble
 Proyecto1_Scrabble_OBJECTS = \
+<<<<<<< HEAD
 "CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o" \
@@ -295,11 +368,19 @@ Proyecto1_Scrabble_OBJECTS = \
 "CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o" \
 "CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o" \
+=======
+"CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o" \
+"CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o" \
+>>>>>>> gui
 "CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
 
 # External object files for target Proyecto1_Scrabble
 Proyecto1_Scrabble_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
@@ -312,6 +393,13 @@ Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o
+=======
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o
+Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o
+>>>>>>> gui
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/build.make
 Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
@@ -319,10 +407,14 @@ Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 Proyecto1_Scrabble: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 Proyecto1_Scrabble: CMakeFiles/Proyecto1_Scrabble.dir/link.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Proyecto1_Scrabble"
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Proyecto1_Scrabble"
 >>>>>>> master
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Proyecto1_Scrabble"
+>>>>>>> gui
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto1_Scrabble.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
