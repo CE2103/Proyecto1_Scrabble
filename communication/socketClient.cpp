@@ -51,12 +51,8 @@ string Socket::enviar(string Mensaje,int puerto,string ip, bool escuchar) {
     }
     return "";
 }
-/**
- * @brief Socket::escuchar2 espera una respuesta del servidor en forma de string
- * @param puerto puerto a escuchar
- * @return mensaje que recibe
- */
-string Socket::escuchar2(int puerto)
+
+string Socket::escuchar(int puerto)
 {
     int server_fd, new_socket, valread;
     struct sockaddr_in address;

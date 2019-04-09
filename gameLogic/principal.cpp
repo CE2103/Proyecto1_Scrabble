@@ -60,6 +60,5 @@ void principal::joinRoom() {
 
     string validation = socket->enviar(joinRoom, 8080, "127.0.0.1", true);
 
-//    util1->verification(idCont);
 
 }
