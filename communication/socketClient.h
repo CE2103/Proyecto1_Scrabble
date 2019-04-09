@@ -10,32 +10,28 @@
 #ifndef PROYECTO1_SCRABBLE_SOCKETCLIENT_H
 #define PROYECTO1_SCRABBLE_SOCKETCLIENT_H
 
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <netdb.h>
-#include <string.h>
-#include <string>
-#include <iostream>
-#include <pthread.h>
 #include <unistd.h>
-#include <QObject>
+#include <stdio.h>
+#include <sys/socket.h>
+#include <stdlib.h>
+#include <netinet/in.h>
 #include <arpa/inet.h>
-
+#include <unistd.h>
+#include <string.h>
+#include <bits/stdc++.h>
+#define PORT 8081
 using namespace std;
-
-class SocketCliente: public QObject
-{
-Q_OBJECT
-public:
-    SocketCliente();
-    bool connectar();
-    void setMensaje(const char *msn);
+class Socket {
 private:
-    int descriptor;
-    sockaddr_in info;
-    static void * controlador(void *obj);
-signals:
-    void NewMensaje(QString msn);
+public:
+    Socket();
+    string enviar(string Mensaje,int puerto,string ip, bool);
+    static Socket &getInstance(){
+        static Socket instance;
+        return instance;
+    }
+    string escuchar2(int puerto);
 };
+
 
 #endif //PROYECTO1_SCRABBLE_SOCKETCLIENT_H

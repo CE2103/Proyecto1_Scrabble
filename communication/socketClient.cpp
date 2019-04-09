@@ -1,57 +1,109 @@
 #include "socketClient.h"
-
-SocketCliente::SocketCliente()
-{
+#include <unistd.h>
+#include <stdio.h>
+#include <sys/socket.h>
+#include <stdlib.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <string.h>
+#include <bits/stdc++.h>
+#include "QDebug"
+#define PORT 8081
+using namespace std;
+Socket::Socket() {
 }
 
-bool SocketCliente::connectar()
-{
-    descriptor = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
-    if(descriptor < 0)
-        return false;
-    info.sin_family = AF_INET;
-    info.sin_addr.s_addr = inet_addr("127.0.0.1");
-    info.sin_port = ntohs(4050);
-    memset(&info.sin_zero,0,sizeof(info.sin_zero));
-
-    if((::connect(descriptor,(sockaddr*)&info,(socklen_t)sizeof(info))) < 0)
-        return false;
-
-    pthread_t hilo;
-    pthread_create(&hilo,0,SocketCliente::controlador,(void *)this);
-    pthread_detach(hilo);
-    return true;
-}
-
-
-void * SocketCliente::controlador(void *obj)
-{
-    SocketCliente *padre = (SocketCliente*)obj;
-
-    while (true) {
-        string mensaje;
-        while (1) {
-            char buffer[10] = {0};
-            int bytes = recv(padre->descriptor,buffer,10,0);
-            mensaje.append(buffer,bytes);
-            if(bytes <= 0)
-            {
-                close(padre->descriptor);
-                pthread_exit(NULL);
-            }
-            if(bytes < 10)
-                break;
-        }
-        emit padre->NewMensaje(QString::fromStdString(mensaje));
+string Socket::enviar(string Mensaje,int puerto,string ip, bool escuchar) {
+    int n = Mensaje.length();
+    char char_array[n + 1];
+    strcpy(char_array, Mensaje.c_str());
+    char *hello = char_array;
+    struct sockaddr_in address;
+    int sock = 0, valread;
+    struct sockaddr_in serv_addr;
+    char buffer[1024] = {0};
+    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+    {
+        printf("\n Socket creation error \n");
     }
-    close(padre->descriptor);
-    pthread_exit(NULL);
+
+    memset(&serv_addr, '0', sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(puerto);
+
+    // Convert IPv4 and IPv6 addresses from text to binary form
+    if(inet_pton(AF_INET, ip.c_str(), &serv_addr.sin_addr)<=0)
+    {
+        printf("\nInvalid address/ Address not supported \n");
+    }
+
+    if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
+    {
+        printf("\nConnection Failed \n");
+    }
+    send(sock , hello , strlen(hello) , 0 );
+//    printf("Hello message sent\n");
+    if(escuchar){
+        valread = read( sock , buffer, 1024);
+        return buffer;
+    }
+    return "";
 }
 
-
-void SocketCliente::setMensaje(const char *msn)
+string Socket::escuchar(int puerto)
 {
-    // char *mensaje = "GET / HTTP/1.1\r\nHost: www.google.com\r\nConnection: keep-alive\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36\r\nX-Client-Data: CIm2yQEIorbJAQiptskBCLiIygEI3pbKAQ==\r\nAccept-Encoding: gzip,deflate,sdch\r\nAccept-Language: es-419,es;q=0.8,en;q=0.6\r\n\n";
+    int server_fd, new_socket, valread;
+    struct sockaddr_in address;
+    int opt = 1;
+    int addrlen = sizeof(address);
+    char buffer[1024] = {0};
 
-    cout << "bytes enviados "<< send(descriptor,msn,strlen(msn),0) << endl;
+    // Creating socket file descriptor
+    if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
+    {
+        perror("socket failed");
+        exit(EXIT_FAILURE);
+    }
+
+    // Forcefully attaching socket to the port 8080
+    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
+                   &opt, sizeof(opt)))
+    {
+        perror("setsockopt");
+        exit(EXIT_FAILURE);
+    }
+    address.sin_family = AF_INET;
+    address.sin_addr.s_addr = INADDR_ANY;
+    address.sin_port = htons( puerto );
+    // Forcefully attaching socket to the port 8080
+    if (bind(server_fd, (struct sockaddr *)&address,
+             sizeof(address))<0)
+    {
+        perror("bind failed");
+        exit(EXIT_FAILURE);
+    }
+
+    if (listen(server_fd, 3) < 0)
+    {
+        perror("listen");
+        exit(EXIT_FAILURE);
+    }
+
+    if ((new_socket = accept(server_fd, (struct sockaddr *)&address,
+                             (socklen_t*)&addrlen))<0)
+    {
+        perror("accept");
+        exit(EXIT_FAILURE);
+    }
+
+    memset(buffer,0,1024);
+    char *hello = "Hello from server";
+    valread = read( new_socket , buffer, 1024);
+    send(new_socket , hello , strlen(hello) , 0 );
+    printf("Hello\n");
+    shutdown(new_socket,SHUT_RDWR);
+    close(server_fd);
+    return buffer;
 }

@@ -6,26 +6,36 @@
 
 #IncludeRegexTransform: 
 
-..//communication/socketClient.h
-sys/socket.h
--
-sys/types.h
--
-netdb.h
--
-string.h
--
+..//communication/JSON/jsonComm.h
+lib/rapidjson/document.h
+../communication/JSON/lib/rapidjson/document.h
+lib/rapidjson/writer.h
+../communication/JSON/lib/rapidjson/writer.h
+lib/rapidjson/stringbuffer.h
+../communication/JSON/lib/rapidjson/stringbuffer.h
 string
 -
 iostream
 -
-pthread.h
+
+..//communication/socketClient.h
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+arpa/inet.h
 -
 unistd.h
 -
-QObject
+string.h
 -
-arpa/inet.h
+bits/stdc++.h
 -
 
 ..//lib/rapidjson/document.h
@@ -48,29 +58,15 @@ iterator
 utility
 -
 
-..//lib/rapidjson/rapidjson.h
-cstdlib
+..//lib/rapidjson/stringbuffer.h
+stream.h
+../lib/rapidjson/stream.h
+internal/stack.h
+../lib/rapidjson/internal/stack.h
+utility
 -
-cstring
--
-rapidjson/...
-../lib/rapidjson/rapidjson/...
-string
--
-msinttypes/stdint.h
-../lib/rapidjson/msinttypes/stdint.h
-msinttypes/inttypes.h
-../lib/rapidjson/msinttypes/inttypes.h
-stdint.h
--
-inttypes.h
--
-endian.h
--
-rapidjson/...
-../lib/rapidjson/rapidjson/...
-cassert
--
+internal/stack.h
+../lib/rapidjson/internal/stack.h
 
 ..//lib/rapidjson/writer.h
 stream.h
@@ -278,6 +274,7 @@ utility
 internal/stack.h
 ../lib/rapidjson/internal/stack.h
 
+<<<<<<< HEAD
 /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_configurefile.cpp
 ../../../principal/configurefile.h
 /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h
@@ -405,10 +402,24 @@ list.h
 /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/dataStructures/linkedList/list.h
 fstream
 -
+=======
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp
+communication/socketClient.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/communication/socketClient.h
+communication/JSON/jsonComm.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/communication/JSON/jsonComm.h
+principal.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
+util.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
+>>>>>>> master
 iostream
 -
 string
 -
+<<<<<<< HEAD
 stdlib.h
 -
 node.h
@@ -1951,4 +1962,12 @@ QtGui/qkeysequence.h
 -
 QtGui/qevent.h
 -
+=======
+
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
+iostream
+-
+communication/socketClient.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/communication/socketClient.h
+>>>>>>> master
 
