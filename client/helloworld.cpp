@@ -173,12 +173,48 @@ bool helloworld::verificar(const QPoint &pos){ // verifica si donde se coloco la
 }
 
 
-void helloworld::formarPalabra(){
-    string nuevo;
+string helloworld::formarvertical() {
+    clonposMColum = posMColum;
+    clonposMFila = posMFila;
+    string nuevovertical;
     bool moviendo= true;
     bool formar= true;
-    int clonposMColum = posMColum;
-    int clonposMFila = posMFila;
+
+    while (moviendo){ // mueve las posiciones a uno de los posibles vertices dnd empezara la palabra vertical
+        if(clonposMFila>-1 && matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getEstado() &&
+           (!matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getUsadavertical())){
+
+            clonposMFila--;
+        }
+        else{
+            moviendo=false;
+        }
+    }
+    clonposMFila+=1;
+    while(formar){
+        if(clonposMFila<15 && matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getEstado() &&
+           (!matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getUsadavertical())){
+
+            nuevovertical+=matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getLetra();
+            matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->setUsadavertical(true);
+            clonposMFila++;
+        }
+        else{
+            formar=false;
+        }
+    }
+
+    clonposMFila--;
+
+    return nuevovertical;
+}
+
+
+string helloworld::formarhorizontal(){
+    string nuevohorizontal;
+    bool moviendo= true;
+    bool formar= true;
+
 
     while (moviendo){ // mueve las posiciones a uno de los posibles vertices dnd empezara la palabra horizontal
         if(posMColum>-1 && matriz.getbyposicion(posMFila).getbyposicion(posMColum)->getEstado() &&
@@ -196,7 +232,7 @@ void helloworld::formarPalabra(){
         if(posMColum<15 && matriz.getbyposicion(posMFila).getbyposicion(posMColum)->getEstado() &&
                 (!matriz.getbyposicion(posMFila).getbyposicion(posMColum)->getUsadahorizontal())){
 
-            nuevo+=matriz.getbyposicion(posMFila).getbyposicion(posMColum)->getLetra();
+            nuevohorizontal+=matriz.getbyposicion(posMFila).getbyposicion(posMColum)->getLetra();
             matriz.getbyposicion(posMFila).getbyposicion(posMColum)->setUsadahorizontal(true);
             posMColum++;
         }
@@ -206,57 +242,27 @@ void helloworld::formarPalabra(){
     }
 
     posMColum--;
-    if (nuevo.length()<4){
-        for (int i=0; i<nuevo.length(); i++){
+
+    //cout << "horizontal: " << nuevohorizontal <<endl;
+    return nuevohorizontal;
+}
+
+void helloworld::retroceso(string pal, bool selec) {
+
+    if (selec) {
+        for (int i = 0; i < pal.length(); i++) {
             matriz.getbyposicion(posMFila).getbyposicion(posMColum)->setUsadahorizontal(false);
             posMColum--;
         }
-    }
-
-        // arreglar que si solo imprime una palabra menos de 3
-    moviendo=true;
-    formar = true;
-    cout << "horizontal: " << nuevo <<endl;
-    nuevo= "";
-
-
-    //matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->setUsada(false);
-
-    while (moviendo){ // mueve las posiciones a uno de los posibles vertices dnd empezara la palabra vertical
-        if(clonposMFila>-1 && matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getEstado() &&
-                (!matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getUsadavertical())){
-
-            clonposMFila--;
-        }
-        else{
-            moviendo=false;
-        }
-    }
-        clonposMFila+=1;
-        while(formar){
-            if(clonposMFila<15 && matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getEstado() &&
-                    (!matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getUsadavertical())){
-
-                nuevo+=matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->getLetra();
-                matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->setUsadavertical(true);
-                clonposMFila++;
-            }
-            else{
-                formar=false;
-            }
-        }
-
-    clonposMFila--;
-    if (nuevo.length()<4){
-        for (int i=0; i<nuevo.length(); i++){
+    } else {
+        for (int i = 0; i < pal.length(); i++) {
             matriz.getbyposicion(clonposMFila).getbyposicion(clonposMColum)->setUsadavertical(false);
             clonposMFila--;
         }
     }
-        cout << "vertical: " << nuevo <<endl;
-        cout << "---------------------------------" << endl;
-
 }
+
+
 
 
 void helloworld::on_pedir_clicked(){
@@ -283,8 +289,58 @@ void helloworld::on_pedir_clicked(){
 
 void helloworld::on_Scrabble_clicked(){
 
-    formarPalabra();
+    string vertical= formarvertical();
+    string horizontal= formarhorizontal();
+
+    if (buscar(vertical)){
+        cout << "La palabra: " << vertical << ", SI se encuentra en el diccionario" << endl;
+    }
+    else{
+        retroceso(vertical , false);
+    }
+
+    if (buscar(horizontal)){
+        cout << "La palabra: " << horizontal << ", SI se encuentra en el diccionario" << endl;
+    }
+    else{
+        retroceso(horizontal , true);
+    }
 }
+
+bool helloworld::buscar(string palabra) {
+
+    string nombreArchivo;
+    nombreArchivo = "dictionaryprogrammingLanguajes.txt";
+    string ruta_archivo;
+    ruta_archivo = "../util/" + nombreArchivo;
+
+    ifstream archivo(ruta_archivo.c_str());
+
+
+    if (archivo.is_open()) {
+        string palabraDeArchivo;
+
+        while (archivo >> palabraDeArchivo) {
+            if (palabra == palabraDeArchivo) {
+                return true;
+            }
+        }
+
+        cout << "La palabra: " << palabra << ", NO se encuentra en el diccionario" << endl;
+        return false;
+
+    } else {
+        return false;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
