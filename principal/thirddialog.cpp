@@ -8,12 +8,17 @@
 
 using namespace std;
 
-
 ThirdDialog::ThirdDialog(QWidget *parent) :
         QDialog(parent),
         ui(new Ui::ThirdDialog)
 {
     ui->setupUi(this);
+    conexion = new SocketCliente;
+    if(!conexion->connectar())
+        QMessageBox::critical(this,"Error","Error al conectar con el servidor",QMessageBox::Ok);
+
+    connect(conexion,SIGNAL(NewMensaje(QString)),SLOT(printMensaje(QString)));
+    connect(ui->pushButton_3,SIGNAL(clicked()),SLOT(sendMensaje()));
 }
 
 ThirdDialog::~ThirdDialog()
@@ -40,14 +45,26 @@ void ThirdDialog::on_pushButton_2_clicked()
 
 void ThirdDialog::on_pushButton_3_clicked()
 {
-    QMessageBox::information(this, "Código de partida" , "<font size = 12 color = black >   </font> ");
-
-    close();
-    LobbyWindow lobbyWindow;
-    lobbyWindow.setStyleSheet("background-color: white;");
-    lobbyWindow.setModal(true);
-    lobbyWindow.exec();
+//    QMessageBox::information(this, "Código de partida" , "<font size = 12 color = black >   </font> ");
+//
+//    close();
+//    LobbyWindow lobbyWindow;
+//    lobbyWindow.setStyleSheet("background-color: white;");
+//    lobbyWindow.setModal(true);
+//    lobbyWindow.exec();
 }
 
+
+void ThirdDialog::sendMensaje()
+{
+    conexion->setMensaje(ui->lineEdit->text().toStdString().c_str());
+
+
+}
+
+void ThirdDialog::printMensaje(QString msn)
+{
+//    ui->txt_log->setPlainText(msn);
+}
 
 

@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+..//communication/socketClient.h
+sys/socket.h
+-
+sys/types.h
+-
+netdb.h
+-
+string.h
+-
+string
+-
+iostream
+-
+pthread.h
+-
+unistd.h
+-
+QObject
+-
+arpa/inet.h
+-
+
 ..//lib/rapidjson/document.h
 reader.h
 ../lib/rapidjson/reader.h
@@ -498,6 +520,8 @@ iostream
 QDialog
 -
 iostream
+-
+communication/socketClient.h
 -
 
 /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_configurefile.h
