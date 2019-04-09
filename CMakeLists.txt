@@ -28,11 +28,10 @@ message(STATUS "RapidJSON found. Headers: ${RapidJSON_INCLUDE_DIRS}")
 
 set(SOURCE_FILES
 
-        main.cpp principal.cpp
+        main.cpp
 
-        communication/socketServer.cpp
-        communication/JSON/read_write.cpp
-        communication/oldSS.cpp
+        communication/oldSS/socketServer.cpp
+        communication/oldSS/oldSS.cpp
 
 #        dataStructures/linkedList/list.cpp
 #        dataStructures/linkedList/node.cpp
@@ -50,10 +49,10 @@ set(SOURCE_FILES
         gameLogic/gameController.cpp
         gameLogic/wordsManager.cpp
 
-        serverTests/jsonTests/jsonComm.cpp
+        communication/JSON/jsonComm.cpp
         serverTests/queue/queueTest.cpp
         serverTests/gameLogic/logicTests.cpp
-        serverTests/socketTests/socket.cpp
+        communication/newSS/socket.cpp
 
         )
 

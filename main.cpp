@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "principal.h"
+#include "communication/newSS/socket.h"
 
 
 using namespace std;
@@ -26,3 +26,9 @@ using namespace std;
 //}
 
 
+int main(){
+
+    Socket* ss = &Socket::getInstance();
+    ss->escuchar("",8080);
+
+}

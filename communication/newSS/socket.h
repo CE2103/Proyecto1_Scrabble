@@ -11,7 +11,6 @@
 #define PROYECTO1_SCRABBLE_SOCKET_H
 
 #include <unistd.h>
-#include <unistd.h>
 #include <stdio.h>
 #include <sys/socket.h>
 #include <stdlib.h>
@@ -20,20 +19,31 @@
 #include <unistd.h>
 #include <string.h>
 #include <bits/stdc++.h>
-
+#include "qdebug.h"
+#define PORT 8081
 using namespace std;
-
 class Socket {
 private:
+    int Puerto=8080;
+    int sock = 0;
+    int server_fd, new_socket, valread;
+    struct sockaddr_in address;
+    int opt = 1;
+    int addrlen = sizeof(address);
+    char buffer[1024] = {0};
+    char char_array;
+    struct sockaddr_in serv_addr;
+    char *hello="------Scrabble Server------";
 public:
     Socket();
-    static Socket &getInstance(){
+    int enviar(string Mensaje,int puerto);
+    void escuchar(string Mensaje,int puerto);
+    void prueba(char *mensaje,int puerto);
+    static Socket& getInstance(){
         static Socket instance;
         return instance;
     }
-    string Send(string message, string ip, int port, bool socketListener);
-    string listener(int port);
-
 };
+
 
 #endif //PROYECTO1_SCRABBLE_SOCKET_H

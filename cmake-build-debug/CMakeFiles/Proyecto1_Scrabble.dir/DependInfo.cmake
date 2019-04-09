@@ -5,9 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/oldSS.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketServer.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socketServer.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/newSS/socket.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/oldSS/oldSS.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/oldSS.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/oldSS/socketServer.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/socketServer.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/listaux.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/auxLinkedList/nodeaux.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/nodeaux.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/queue/queue.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/queue/queue.cpp.o"
@@ -19,11 +20,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/player.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/gameLogic/logicTests.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/jsonTests/jsonComm.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/jsonTests/jsonComm.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queue/queueTest.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/socketTests/socket.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/socketTests/socket.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

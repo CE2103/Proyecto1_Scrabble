@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-buil
 CMakeFiles/Proyecto1_Scrabble.dir/all: CMakeFiles/Proyecto1_Scrabble_autogen.dir/all
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/depend
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Proyecto1_Scrabble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target Proyecto1_Scrabble"
 .PHONY : CMakeFiles/Proyecto1_Scrabble.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/Proyecto1_Scrabble.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Proyecto1_Scrabble.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Proyecto1_Scrabble.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Proyecto1_Scrabble.dir/rule
@@ -108,7 +108,7 @@ clean: CMakeFiles/Proyecto1_Scrabble.dir/clean
 CMakeFiles/Proyecto1_Scrabble_autogen.dir/all:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make CMakeFiles/Proyecto1_Scrabble_autogen.dir/depend
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble_autogen.dir/build.make CMakeFiles/Proyecto1_Scrabble_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=22 "Built target Proyecto1_Scrabble_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles --progress-num=20 "Built target Proyecto1_Scrabble_autogen"
 .PHONY : CMakeFiles/Proyecto1_Scrabble_autogen.dir/all
 
 # Build rule for subdir invocation for target.
