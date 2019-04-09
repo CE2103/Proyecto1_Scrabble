@@ -38,7 +38,7 @@ private slots:
 
 private:
     Ui::ThirdDialog *ui;
-    SocketCliente *conexion;
+    Socket* conexion;
 
 };
 

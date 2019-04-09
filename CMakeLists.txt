@@ -31,8 +31,11 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
-        communication/JSON/read_write.cpp communication/JSON/read_write.h
-        communication/socketClient.cpp communication/socketClient.h
+        communication/JSON/jsonComm.cpp
+        communication/socketClient.cpp
+
+        gameLogic/principal.cpp
+        gameLogic/util.cpp
 
 #        tests/qt/main.cpp
 #        tests/qt/mainwindow.cpp tests/qt/mainwindow.h

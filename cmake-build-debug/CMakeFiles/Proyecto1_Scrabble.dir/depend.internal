@@ -9,16 +9,13 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_mainwindow.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_secdialog.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_thirddialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/HAGZTRH3L5/moc_socketClient.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -124,9 +121,9 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
+CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
  ..//lib/rapidjson/document.h
- ..//lib/rapidjson/rapidjson.h
+ ..//lib/rapidjson/stringbuffer.h
  ..//lib/rapidjson/writer.h
  ../lib/rapidjson/allocators.h
  ../lib/rapidjson/encodedstream.h
@@ -150,12 +147,12 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/read_write.cpp.o
  ../lib/rapidjson/reader.h
  ../lib/rapidjson/stream.h
  ../lib/rapidjson/stringbuffer.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -170,15 +167,21 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -188,10 +191,15 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
@@ -199,14 +207,49 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/principal.cpp.o
+ ..//communication/JSON/jsonComm.h
+ ..//communication/socketClient.h
+ ..//lib/rapidjson/document.h
+ ..//lib/rapidjson/stringbuffer.h
+ ..//lib/rapidjson/writer.h
+ ../lib/rapidjson/allocators.h
+ ../lib/rapidjson/encodedstream.h
+ ../lib/rapidjson/encodings.h
+ ../lib/rapidjson/error/error.h
+ ../lib/rapidjson/internal/biginteger.h
+ ../lib/rapidjson/internal/diyfp.h
+ ../lib/rapidjson/internal/dtoa.h
+ ../lib/rapidjson/internal/ieee754.h
+ ../lib/rapidjson/internal/itoa.h
+ ../lib/rapidjson/internal/meta.h
+ ../lib/rapidjson/internal/pow10.h
+ ../lib/rapidjson/internal/stack.h
+ ../lib/rapidjson/internal/strfunc.h
+ ../lib/rapidjson/internal/strtod.h
+ ../lib/rapidjson/internal/swap.h
+ ../lib/rapidjson/memorystream.h
+ ../lib/rapidjson/msinttypes/inttypes.h
+ ../lib/rapidjson/msinttypes/stdint.h
+ ../lib/rapidjson/rapidjson.h
+ ../lib/rapidjson/reader.h
+ ../lib/rapidjson/stream.h
+ ../lib/rapidjson/stringbuffer.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
+CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/util.cpp.o
+ ..//communication/socketClient.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/dataStructures/linkedList/node.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
  ..//communication/socketClient.h
@@ -214,7 +257,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_configurefile.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -841,7 +883,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_secdialog.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -972,7 +1013,6 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_thirddialog.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h

@@ -119,16 +119,28 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/read_write.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">
