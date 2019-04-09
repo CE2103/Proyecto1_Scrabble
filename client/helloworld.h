@@ -57,9 +57,6 @@ private:
     List <nodoespecial*> celdasbloq;
     List <List<QGraphicsRectItem*>> celdas;
 
-    List <nodoespecial*> matrizprueba;
-    List <List<nodoespecial*>> matriz2;
-
 
     int posL;
     int posMColum;
