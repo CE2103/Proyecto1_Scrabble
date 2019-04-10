@@ -849,6 +849,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o: ../gameLogic/wor
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o: ../gameLogic/wordsManager.h
 
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../communication/newSS/socket.h
+CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../gameLogic/wordsManager.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h

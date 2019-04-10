@@ -20,8 +20,7 @@ class wordsManager {
 private:
 public:
     wordsManager();
-    ifstream dictionary;
-    bool isFound = false;
+
     bool search(string word);
 
 };

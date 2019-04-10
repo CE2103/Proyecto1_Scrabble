@@ -30,10 +30,10 @@ public:
         return instance;
     }
 
-    string serializeCreateGame(string name, string ip);
+    string serializeCreateGame(string name, string ip, string port, int id);
     void deserializeCreateGame(string json, int* gameCode);
-    string serializeJoinGame(string gameCode, string name);
-    void deserializeJoinGame(string json);
+    string serializeJoinGame(string gameCode, string name, string ip, int id);
+    void deserializeJoinGame(string json, int *turn, int *port);
 
     string serializeChips();
     string serializeAddWord(string word);

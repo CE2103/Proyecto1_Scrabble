@@ -13,6 +13,7 @@
 #include <iostream>
 #include "dataStructures/auxLinkedList/listaux.h"
 #include "dataStructures/auxLinkedList/nodeaux.h"
+#include "gameLogic/chips.h"
 
 using namespace std;
 
@@ -21,10 +22,12 @@ class gameBoard {
 private:
     listaux *posiciones = new listaux();
 
+    chips* inGameChips[15][15] = {};
+
 public:
     gameBoard();
     void generateGameBoard();
-    void printGameBoard();
+    void chipValue();
 };
 
 
