@@ -24,8 +24,6 @@ message(STATUS "RapidJSON found. Headers: ${RapidJSON_INCLUDE_DIRS}")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
-<<<<<<< HEAD
-
 set(CMAKE_CXX_STANDARD 11)
 
 
@@ -49,14 +47,12 @@ set(SOURCE_FILES
         principal/secdialog.h principal/secdialog.cpp
         principal/thirddialog.h principal/thirddialog.cpp
 
-=======
-set(SOURCE_FILES
+
         client/main.cpp
         client/list.cpp
         client/helloworld.cpp
         client/node.cpp
         client/nodoespecial.cpp
->>>>>>> gui
         )
 
 add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
@@ -67,10 +63,6 @@ target_link_libraries(Proyecto1_Scrabble
         Qt5::Core
         Qt5::Widgets
 #        Qt5:Gui
-<<<<<<< HEAD
         )
 
 target_link_libraries(Proyecto1_Scrabble ${CMAKE_THREAD_LIBS_INIT})
-=======
-        )
->>>>>>> gui

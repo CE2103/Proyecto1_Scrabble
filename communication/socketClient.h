@@ -30,7 +30,7 @@ public:
         static Socket instance;
         return instance;
     }
-    string escuchar2(int puerto);
+    string escuchar(int puerto);
 };
 
 
