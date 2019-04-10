@@ -35,7 +35,7 @@ int Socket::enviar(string Mensaje,int puerto) {
     serv_addr.sin_port = htons(puerto);
 
     // Convert IPv4 and IPv6 addresses from text to binary form
-    if(inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr)<=0)
+    if(inet_pton(AF_INET, "192.169.43.71", &serv_addr.sin_addr)<=0)
     {
         qDebug()<<("\nInvalid address/ Address not supported \n");
         return -1;
@@ -54,19 +54,15 @@ int Socket::enviar(string Mensaje,int puerto) {
     qDebug()<<("%s\n",buffer );
     return 0;
 }
-void Socket::escuchar(string Mensaje,int puerto) {
 
-    int n = Mensaje.length();
-    char char_array[n + 1];
-    strcpy(char_array, Mensaje.c_str());
-    char *mensaje_enviar=char_array;
-    /*for (int i = 0; i < n; i++)
-        cout << *(mensaje_enviar+i);*/
-    //cout<<*(hello+13)<<endl;
-    prueba(mensaje_enviar,puerto);
+string Socket::listener(int puerto)
+{
+    int server_fd, new_socket, valread;
+    struct sockaddr_in address;
+    int opt = 1;
+    int addrlen = sizeof(address);
+    char buffer[1024] = {0};
 
-}
-void Socket::prueba(char *mensaje,int puerto) {
     // Creating socket file descriptor
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
     {
@@ -83,10 +79,7 @@ void Socket::prueba(char *mensaje,int puerto) {
     }
     address.sin_family = AF_INET;
     address.sin_addr.s_addr = INADDR_ANY;
-    // address.sin_port = htons( PORT );
-    int puerto1=8081;
-    address.sin_port = htons(puerto);
-
+    address.sin_port = htons( puerto );
     // Forcefully attaching socket to the port 8080
     if (bind(server_fd, (struct sockaddr *)&address,
              sizeof(address))<0)
@@ -94,21 +87,25 @@ void Socket::prueba(char *mensaje,int puerto) {
         perror("bind failed");
         exit(EXIT_FAILURE);
     }
+
     if (listen(server_fd, 3) < 0)
     {
         perror("listen");
         exit(EXIT_FAILURE);
     }
+
     if ((new_socket = accept(server_fd, (struct sockaddr *)&address,
                              (socklen_t*)&addrlen))<0)
     {
         perror("accept");
         exit(EXIT_FAILURE);
     }
-    valread = read( new_socket , buffer, 1024);
-    qDebug()<<("%s\n",buffer );
-    send(new_socket , mensaje , strlen(mensaje) , 0 );
-    qDebug()<<("Hello message sent\n");
-    close(new_socket);
 
+    memset(buffer,0,1024);
+    char *hello = "Hello from server";
+    valread = read( new_socket , buffer, 1024);
+    send(new_socket , hello , strlen(hello) , 0 );
+    shutdown(new_socket,SHUT_RDWR);
+    close(server_fd);
+    return buffer;
 }

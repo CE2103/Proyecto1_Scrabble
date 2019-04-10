@@ -30,19 +30,22 @@ private:
     struct sockaddr_in address;
     int opt = 1;
     int addrlen = sizeof(address);
-    char buffer[1024] = {0};
     char char_array;
     struct sockaddr_in serv_addr;
     char *hello="------Scrabble Server------";
 public:
     Socket();
+
+
+    char buffer[1024] = {0};
     int enviar(string Mensaje,int puerto);
-    void escuchar(string Mensaje,int puerto);
-    void prueba(char *mensaje,int puerto);
     static Socket& getInstance(){
         static Socket instance;
         return instance;
     }
+    string listener(int puerto);
+
+
 };
 
 

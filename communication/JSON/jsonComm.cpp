@@ -89,8 +89,14 @@ string jsonComm::serializeAddWord(string word){
     d.Accept(writer);
 
     return buffer.GetString();
-
 }
+
+string jsonComm::deserializeAddWord(string json) {
+    Document d;
+    d.Parse(json.c_str());
+    return d["word"].GetString();
+}
+
 
 void jsonComm::deserializePlayerInfo(string json, string *name, int *turn, int *score, int *amChips) {
     Document d;
@@ -106,3 +112,4 @@ int jsonComm::getId(string json){
     d.Parse(json.c_str());
     return d["id"].GetInt();
 }
+

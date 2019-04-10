@@ -37,6 +37,8 @@ public:
 
     string serializeChips();
     string serializeAddWord(string word);
+    string deserializeAddWord(string json);
+
 
     void deserializePlayerInfo(string json, string* name, int* turn, int* score, int* amChips);
     int getId(string json);

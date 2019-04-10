@@ -849,6 +849,32 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.cpp
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
+ ..//lib/rapidjson/document.h
+ ..//lib/rapidjson/stringbuffer.h
+ ..//lib/rapidjson/writer.h
+ ../lib/rapidjson/allocators.h
+ ../lib/rapidjson/encodedstream.h
+ ../lib/rapidjson/encodings.h
+ ../lib/rapidjson/error/error.h
+ ../lib/rapidjson/internal/biginteger.h
+ ../lib/rapidjson/internal/diyfp.h
+ ../lib/rapidjson/internal/dtoa.h
+ ../lib/rapidjson/internal/ieee754.h
+ ../lib/rapidjson/internal/itoa.h
+ ../lib/rapidjson/internal/meta.h
+ ../lib/rapidjson/internal/pow10.h
+ ../lib/rapidjson/internal/stack.h
+ ../lib/rapidjson/internal/strfunc.h
+ ../lib/rapidjson/internal/strtod.h
+ ../lib/rapidjson/internal/swap.h
+ ../lib/rapidjson/memorystream.h
+ ../lib/rapidjson/msinttypes/inttypes.h
+ ../lib/rapidjson/msinttypes/stdint.h
+ ../lib/rapidjson/rapidjson.h
+ ../lib/rapidjson/reader.h
+ ../lib/rapidjson/stream.h
+ ../lib/rapidjson/stringbuffer.h
+ /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/newSS/socket.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.h
  /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
