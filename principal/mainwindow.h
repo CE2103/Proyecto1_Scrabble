@@ -1,31 +1,30 @@
-//
-// Created by angelortizv on 03/04/19.
-//
-
-#ifndef PROYECTO1_SCRABBLE_MAINWINDOW_H
-#define PROYECTO1_SCRABBLE_MAINWINDOW_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 #include <QMainWindow>
+
+
 
 namespace Ui {
     class MainWindow;}
 
-class MainWindow : public QMainWindow{
+    class MainWindow : public QMainWindow{
 
-Q_OBJECT
+        Q_OBJECT
 
-public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
-
-private slots:
-    void on_StartButton_clicked();
+    public:
+        explicit MainWindow(QWidget *parent = 0);
+            ~MainWindow();
 
 
-private:
+    public slots:
+        void on_StartButton_clicked();
 
-    Ui::MainWindow *ui;
+
+    private:
+
+        Ui::MainWindow *ui;
 
 };
 
-#endif //PROYECTO1_SCRABBLE_MAINWINDOW_H
+#endif // MAINWINDOW_H

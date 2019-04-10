@@ -1,12 +1,16 @@
-#include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "secdialog.h"
+#include "opcionregistro.h"
+#include "mainwindow.h"
+
 
 MainWindow::MainWindow(QWidget *parent) :
-        QMainWindow(parent),
-        ui(new Ui::MainWindow){
+    QMainWindow(parent),
+    ui(new Ui::MainWindow){
 
     ui->setupUi(this);
+
+    QPixmap imagenLogo("logo.png");
+    ui->label->setPixmap(imagenLogo);
 
 }
 
@@ -16,6 +20,7 @@ MainWindow::~MainWindow()
 }
 
 
+
 void MainWindow::on_StartButton_clicked()
 {
     close();
@@ -23,5 +28,6 @@ void MainWindow::on_StartButton_clicked()
     secDialog.setStyleSheet("background-color: white;");
     secDialog.setModal(true);
     secDialog.exec();
+
 }
 

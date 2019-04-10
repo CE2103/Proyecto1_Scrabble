@@ -5,31 +5,31 @@
 		<Option title="Proyecto1_Scrabble"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Scrabble">
-				<Option output="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option output="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -37,9 +37,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -55,15 +55,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Scrabble/fast">
-				<Option output="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option output="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,9 +71,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"/>
-					<Add directory="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble"/>
+					<Add directory="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -89,164 +89,164 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto1_Scrabble_autogen">
-				<Option working_dir="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug"/>
+				<Option working_dir="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble_autogen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/romario/Documentos/Datos\ 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto1_Scrabble_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/principal.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/principal.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/util.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/util.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/main.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/CMakeLists.txt">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

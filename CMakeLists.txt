@@ -38,16 +38,16 @@ set(SOURCE_FILES
 #        tests/qt/main.cpp
 #        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
 
-        #principal/main.cpp
-        principal/configurefile.h principal/configurefile.cpp
-        principal/fourthdialog.h principal/fourthdialog.cpp
-        principal/lobbywindow.h principal/lobbywindow.cpp
-        principal/mainwindow.h principal/mainwindow.cpp
-        principal/secdialog.h principal/secdialog.cpp
-        principal/thirddialog.h principal/thirddialog.cpp
+        principal/main.cpp
+        principal/tablerodejuego.cpp
+        principal/registrojugador1.cpp
+        principal/registrojugador2.cpp
+        principal/opcionregistro.cpp
+        principal/pantallaespera.cpp
+        principal/mainwindow.cpp
 
 
-        client/main.cpp
+#        client/main.cpp
         client/list.cpp
         client/helloworld.cpp
         client/node.cpp
