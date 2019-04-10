@@ -11,7 +11,7 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen")
 set(AM_INCLUDE_DIR "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include")
 # Files
-set(AM_SOURCES "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp;/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp")
+set(AM_SOURCES "")
 set(AM_HEADERS "")
 set(AM_SETTINGS_FILE "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
 # Qt

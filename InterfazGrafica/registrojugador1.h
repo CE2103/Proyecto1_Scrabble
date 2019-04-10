@@ -1,8 +1,11 @@
 #ifndef THIRDDIALOG_H
 #define THIRDDIALOG_H
 #include <QString>
+#include <string>
 
 #include <QDialog>
+
+using namespace std;
 
 namespace Ui {
 class ThirdDialog;
@@ -17,6 +20,9 @@ public:
     ~ThirdDialog();
 
 
+    string getNombreJugador1() const;
+    void setNombreJugador1(const string &value);
+
 private slots:
 
     void on_regresarJ1_clicked();
@@ -25,6 +31,7 @@ private slots:
 
 private:
     Ui::ThirdDialog *ui;
+    string nombreJugador1;
 };
 
 #endif // THIRDDIALOG_H

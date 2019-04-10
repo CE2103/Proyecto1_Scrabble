@@ -11,8 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     ui->setupUi(this);
 
-    QPixmap imagenLogo("/home/ricardo/Documents/TEC/InterfazGrafica/logo.png");
-    ui->label->setPixmap(imagenLogo);
+
 
 }
 

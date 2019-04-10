@@ -7,6 +7,7 @@
 #include <QString>
 #include "registrojugador2.h"
 #include "tablerodejuego.h"
+#include <helloworld.h>
 
 
 FourthDialog::FourthDialog(QWidget *parent) :
@@ -24,18 +25,22 @@ FourthDialog::~FourthDialog()
 
 void FourthDialog::on_continuarJugador2_clicked()
 {
-    close();
-    TableroDeJuego tableroDeJuego;
-    tableroDeJuego.setStyleSheet("background-color: white;");
-    tableroDeJuego.setModal(true);
-    tableroDeJuego.exec();
+
+    //TableroDeJuego tableroDeJuego;
+    //tableroDeJuego.setStyleSheet("background-color: white;");
+    //tableroDeJuego.setModal(true);
+    //tableroDeJuego.exec();
 
     QString nombreJugador2 = ui->nombreJugador2->text();
 
 
     QStringList datosJugador2;
     datosJugador2.append(nombreJugador2);
-    qDebug() << "Los datos que ingresó el jugador 2 son: "<<datosJugador2;
+
+    close();
+    helloworld w;
+    w.setModal(true);
+    w.exec();
 
 }
 

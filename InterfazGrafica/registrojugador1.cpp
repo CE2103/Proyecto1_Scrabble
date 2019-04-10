@@ -6,10 +6,16 @@
 #include <QStringList>
 #include <QDebug>
 #include "registrojugador1.h"
-
 #include <QFile>
 #include <QCoreApplication>
 #include <QTextStream>
+#include <string>
+#include "socketclient.h"
+#include "jsonComm.h"
+#include <helloworld.h>
+
+
+using namespace std;
 
 
 
@@ -40,26 +46,44 @@ void ThirdDialog::on_regresarJ1_clicked()
     secDialog.setModal(true);
     secDialog.exec();}
 
+
+
+
 void ThirdDialog::on_continuarJ1_clicked(){
 
-    close();
-    LobbyWindow lobbyWindow;
-    lobbyWindow.setStyleSheet("background-color: white;");
-    lobbyWindow.setModal(true);
-    lobbyWindow.exec();
-
-    QString nombreJugador1 = ui->NombreJugador1->text();
-    QString direccionIP = ui->IPservidor->text();
-    QString telefonoExperto = ui->TelefonoExperto->text();
-    QString puertoServidor = ui->PuertoServidor->currentText();
 
 
-    QStringList datosJugador1;
-    datosJugador1.append(nombreJugador1);
-    datosJugador1.append(direccionIP);
-    datosJugador1.append(puertoServidor);
-    datosJugador1.append(telefonoExperto);
-    qDebug() << "Los datos que ingresó el jugador 1 son: "<<datosJugador1;
+    QString nombre= ui->NombreJugador1->text();
+    std :: string nombreju = nombre.toLocal8Bit (). constData ();
+    nombreJugador1 = nombreju;
+
+    QString nombre1= ui->IPservidor->text();
+    std :: string IP = nombre1.toLocal8Bit (). constData ();
+    string direccionIP =IP;
+
+    QString nombre2= ui->TelefonoExperto->text();
+    std :: string telexp = nombre2.toLocal8Bit (). constData ();
+    string telefonoExperto =telexp;
+
+    QString nombre3= ui->PuertoServidor->currentText();
+    std :: string puertoserv = nombre3.toLocal8Bit (). constData ();
+    string puertoServidor = puertoserv;
+
+
+
+    string datosJugador1[4];
+    datosJugador1->append(nombreJugador1);
+    datosJugador1->append(direccionIP);
+    datosJugador1->append(puertoServidor);
+    datosJugador1->append(telefonoExperto);
+
+/*
+    Socket* socketClient = &Socket::getInstance();
+    jsonComm* comm = &jsonComm::getInstance();
+    string word = comm->serializeCreateGame(nombreju,IP,puertoserv,1);
+
+
+    socketClient->enviar(word, 8080, "192.168.43.71", true);*/
 
 
     //Boceto de código para crear txt
@@ -70,10 +94,26 @@ void ThirdDialog::on_continuarJ1_clicked(){
         stream << "something" << endl;
         }*/
 
-  }
+    close();
+
+    helloworld w;
+    w.setModal(true);
+    w.exec();
 
 
+    //LobbyWindow lobbyWindow;
+    //lobbyWindow.setStyleSheet("background-color: white;");
+    //lobbyWindow.setModal(true);
+    //lobbyWindow.exec();
 
+}
 
+string ThirdDialog::getNombreJugador1() const
+{
+    return nombreJugador1;
+}
 
-
+void ThirdDialog::setNombreJugador1(const string &value)
+{
+    nombreJugador1 = value;
+}

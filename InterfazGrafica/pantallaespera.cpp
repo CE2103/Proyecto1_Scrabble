@@ -1,10 +1,10 @@
-#include "pantallaespera.h"
-#include "ui_pantallaespera.h"
-#include "pantallaespera.h"
+#include <pantallaespera.h>
+#include <ui_pantallaespera.h>
 #include <QMovie>
 #include <QLabel>
 #include <QFrame>
-#include "registrojugador1.h"
+#include "socketclient.h"
+#include "jsonComm.h"
 
 
 
@@ -14,16 +14,29 @@ LobbyWindow::LobbyWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+
     QLabel *gif = new QLabel(this);
     gif->setFrameStyle(QFrame::Panel | QFrame::Sunken);
     gif->setStyleSheet("border: 0px;");
 
-    QMovie *movie = new QMovie("/home/ricardo/Documents/TEC/InterfazGrafica/cargando.gif");
+    QMovie *movie = new QMovie(":img/cargando.gif");
     gif->setMovie (movie);
     movie->start ();
     gif->setGeometry(230,295,800,300);
     gif->setAlignment(Qt::AlignCenter);
     gif->lower();
+
+
+
+    jsonComm* comm = &jsonComm::getInstance();
+    cout << "entra1"<< endl;
+    string json= Socket::getInstance().listener(8080);
+    cout << "entra2"<< endl;
+    cout << json<< endl;
+    cout << comm->deserealizarinicio(json);
+
+    cout << "entra"<< endl;
+
 
     }
 
