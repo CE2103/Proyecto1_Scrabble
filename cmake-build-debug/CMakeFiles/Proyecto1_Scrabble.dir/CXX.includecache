@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_helloworld.cpp
-../../../principal/helloworld.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
-GSPTRPMYDD/moc_helloworld.cpp
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_helloworld.cpp
-
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.cpp
 helloworld.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
@@ -84,13 +72,6 @@ node.h
 node.cpp
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.cpp
 
-<<<<<<< HEAD
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp
-helloworld.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/helloworld.h
-QApplication
--
-
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.cpp
 =======
 /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp
@@ -99,19 +80,8 @@ helloworld.h
 QApplication
 -
 
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
->>>>>>> gui
-node.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.h
-
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/node.h
 iostream
--
-
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.cpp
-nodoespecial.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
-QString
 -
 
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/nodoespecial.h
@@ -119,18 +89,6 @@ QString
 -
 iostream
 -
-
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/7EM65HM6UG/moc_helloworld.cpp
-../../../client/helloworld.h
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
-7EM65HM6UG/moc_helloworld.cpp
-/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/7EM65HM6UG/moc_helloworld.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h

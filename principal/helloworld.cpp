@@ -62,10 +62,6 @@ helloworld::helloworld(QWidget *parent) :
         x=-630;
 
     }
-<<<<<<< HEAD:principal/helloworld.cpp
-
-=======
->>>>>>> gui:client/helloworld.cpp
 
     char i;
 
@@ -334,12 +330,6 @@ bool helloworld::buscar(string palabra) {
         return false;
     }
 }
-
-
-
-
-
-
 
 
 
