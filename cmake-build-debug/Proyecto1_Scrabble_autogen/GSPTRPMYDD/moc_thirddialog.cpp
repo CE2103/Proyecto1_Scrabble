@@ -87,11 +87,6 @@ void ThirdDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 0: _t->on_pushButton_4_clicked(); break;
         case 1: _t->on_pushButton_2_clicked(); break;
         case 2: _t->on_pushButton_3_clicked(); break;
-<<<<<<< Updated upstream
-=======
-        case 3: _t->printMensaje((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 4: _t->sendMensaje(); break;
->>>>>>> Stashed changes
         default: ;
         }
     }

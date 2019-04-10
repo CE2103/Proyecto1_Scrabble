@@ -3,25 +3,25 @@
 
 CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o
  ..//communication/socketClient.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/7EM65HM6UG/moc_helloworld.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_configurefile.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_fourthdialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_lobbywindow.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_mainwindow.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_secdialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_thirddialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/7EM65HM6UG/moc_helloworld.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_configurefile.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_fourthdialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_lobbywindow.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_mainwindow.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_secdialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/GSPTRPMYDD/moc_thirddialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
@@ -347,13 +347,40 @@ CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cp
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.h
+ ..//communication/JSON/jsonComm.h
+ ..//communication/socketClient.h
+ ..//lib/rapidjson/document.h
+ ..//lib/rapidjson/stringbuffer.h
+ ..//lib/rapidjson/writer.h
+ ../lib/rapidjson/allocators.h
+ ../lib/rapidjson/encodedstream.h
+ ../lib/rapidjson/encodings.h
+ ../lib/rapidjson/error/error.h
+ ../lib/rapidjson/internal/biginteger.h
+ ../lib/rapidjson/internal/diyfp.h
+ ../lib/rapidjson/internal/dtoa.h
+ ../lib/rapidjson/internal/ieee754.h
+ ../lib/rapidjson/internal/itoa.h
+ ../lib/rapidjson/internal/meta.h
+ ../lib/rapidjson/internal/pow10.h
+ ../lib/rapidjson/internal/stack.h
+ ../lib/rapidjson/internal/strfunc.h
+ ../lib/rapidjson/internal/strtod.h
+ ../lib/rapidjson/internal/swap.h
+ ../lib/rapidjson/memorystream.h
+ ../lib/rapidjson/msinttypes/inttypes.h
+ ../lib/rapidjson/msinttypes/stdint.h
+ ../lib/rapidjson/rapidjson.h
+ ../lib/rapidjson/reader.h
+ ../lib/rapidjson/stream.h
+ ../lib/rapidjson/stringbuffer.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
@@ -720,10 +747,10 @@ CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  Proyecto1_Scrabble_autogen/include/ui_helloworld.h
 CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -754,12 +781,12 @@ CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/main.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/helloworld.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/list.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/main.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
@@ -1086,11 +1113,11 @@ CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/node.h
 CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/client/nodoespecial.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -1146,11 +1173,11 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o
  ../lib/rapidjson/reader.h
  ../lib/rapidjson/stream.h
  ../lib/rapidjson/stringbuffer.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/JSON/jsonComm.h
 CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/communication/socketClient.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -1240,22 +1267,22 @@ CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/principal.cpp.o
  ../lib/rapidjson/reader.h
  ../lib/rapidjson/stream.h
  ../lib/rapidjson/stringbuffer.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/principal.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/principal.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/util.h
 CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/util.cpp.o
  ..//communication/socketClient.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/util.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/util.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/gameLogic/principal.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
  ..//communication/socketClient.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_configurefile.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_configurefile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -1385,11 +1412,11 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_fourthdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_fourthdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -1519,9 +1546,9 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_lobbywindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_lobbywindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -1631,124 +1658,11 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_mainwindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/mainwindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -1877,11 +1791,11 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o
  ..//communication/socketClient.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/fourthdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/fourthdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_secdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -2006,12 +1920,12 @@ CMakeFiles/Proyecto1_Scrabble.dir/principal/secdialog.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Proyecto1_Scrabble.dir/principal/thirddialog.cpp.o
  ..//communication/socketClient.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/configurefile.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/lobbywindow.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/secdialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.cpp
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/thirddialog.h
- /home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/ui_thirddialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/configurefile.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/lobbywindow.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/secdialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.cpp
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/thirddialog.h
+ /home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble/principal/ui_thirddialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h

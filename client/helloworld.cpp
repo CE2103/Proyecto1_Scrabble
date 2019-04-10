@@ -11,8 +11,8 @@
 #include "list.h"
 #include "list.cpp"
 #include "nodoespecial.h"
-
-
+#include "communication/socketClient.h"
+#include "communication/JSON/jsonComm.h"
 
 
 
@@ -292,19 +292,29 @@ void helloworld::on_Scrabble_clicked(){
     string vertical= formarvertical();
     string horizontal= formarhorizontal();
 
+    Socket* socketClient = &Socket::getInstance();
+    jsonComm* comm = &jsonComm::getInstance();
+
+    /*
     if (buscar(vertical)){
         cout << "La palabra: " << vertical << ", SI se encuentra en el diccionario" << endl;
-    }
-    else{
+    } else{
         retroceso(vertical , false);
     }
 
     if (buscar(horizontal)){
         cout << "La palabra: " << horizontal << ", SI se encuentra en el diccionario" << endl;
-    }
-    else{
+    } else{
         retroceso(horizontal , true);
-    }
+    }*/
+
+    string word = comm->serializeAddWord(horizontal);
+    string word2 = comm->serializeAddWord(vertical);
+
+    socketClient->enviar(word, 8080, "192.168.43.71", true);
+
+    socketClient->enviar(word2, 8080, "192.168.43.71", true);
+
 }
 
 bool helloworld::buscar(string palabra) {
@@ -333,27 +343,3 @@ bool helloworld::buscar(string palabra) {
         return false;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-QMovie *mov = new QMovie("/home/romario/Documentos/qtpruebas/imagenes/tenor.gif");
-mov->start();
-
-//label gif
-QLabel *lbl = new QLabel(this);
-lbl->setGeometry(300, 300, 240, 240);
-lbl->setMovie(mov);*/
-
-//se crea una lista de string para prueba
-
-
-
