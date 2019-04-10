@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/angelortizv/CLionProjects/Proyecto1_Scrabble
 -- The C compiler identification is GNU 7.3.0
 -- The CXX compiler identification is GNU 7.3.0
@@ -13,6 +14,9 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+=======
+/snap/clion/67/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/romario/Documentos/Datos 2/Scrabble/Proyecto1_Scrabble"
+>>>>>>> Stashed changes
 -- RapidJSON found. Headers: @RapidJSON_INCLUDE_DIR@
 -- Configuring done
 -- Generating done

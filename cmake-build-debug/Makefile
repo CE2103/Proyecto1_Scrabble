@@ -514,33 +514,6 @@ principal/lobbywindow.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.s
 .PHONY : principal/lobbywindow.cpp.s
 
-principal/main.o: principal/main.cpp.o
-
-.PHONY : principal/main.o
-
-# target to build an object file
-principal/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
-.PHONY : principal/main.cpp.o
-
-principal/main.i: principal/main.cpp.i
-
-.PHONY : principal/main.i
-
-# target to preprocess a source file
-principal/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.i
-.PHONY : principal/main.cpp.i
-
-principal/main.s: principal/main.cpp.s
-
-.PHONY : principal/main.s
-
-# target to generate assembly for a file
-principal/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.s
-.PHONY : principal/main.cpp.s
-
 principal/mainwindow.o: principal/mainwindow.cpp.o
 
 .PHONY : principal/mainwindow.o
@@ -674,9 +647,6 @@ help:
 	@echo "... principal/lobbywindow.o"
 	@echo "... principal/lobbywindow.i"
 	@echo "... principal/lobbywindow.s"
-	@echo "... principal/main.o"
-	@echo "... principal/main.i"
-	@echo "... principal/main.s"
 	@echo "... principal/mainwindow.o"
 	@echo "... principal/mainwindow.i"
 	@echo "... principal/mainwindow.s"

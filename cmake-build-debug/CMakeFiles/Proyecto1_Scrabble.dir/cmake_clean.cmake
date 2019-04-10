@@ -6,7 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/principal.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/util.cpp.o"
-  "CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/principal/configurefile.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/principal/fourthdialog.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/principal/lobbywindow.cpp.o"
