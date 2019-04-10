@@ -40,7 +40,10 @@ private slots:
 private:
     void onMouseEvent(const QPoint &pos);
     bool verificar(const QPoint &pos);
-    void formarPalabra ();
+    string formarhorizontal ();
+    string formarvertical ();
+    void retroceso(string pal , bool selec);
+    bool buscar (string palabra);
 
     Ui::helloworld *ui;
     QGraphicsScene *scene;
@@ -55,13 +58,12 @@ private:
     List <nodoespecial*> celdasbloq;
     List <List<QGraphicsRectItem*>> celdas;
 
-    List <nodoespecial*> matrizprueba;
-    List <List<nodoespecial*>> matriz2;
-
 
     int posL;
     int posMColum;
     int posMFila;
+    int clonposMColum;
+    int clonposMFila;
     int xinicial;
     int yinicial;
     int xfinal;
