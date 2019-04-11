@@ -36,7 +36,7 @@ set(SOURCE_FILES
         communication/socket/socket.cpp
 
         gameInterface/main.cpp
-        gameInterface/helloworld.cpp
+        gameInterface/gameBoard.cpp
         dataStructures/linkedList/nodoespecial.cpp
 
         gameLogic/principal.cpp

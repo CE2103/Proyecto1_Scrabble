@@ -1,0 +1,329 @@
+\hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s}{}\doxysection{Rapid\+J\+S\+ON error handling}
+\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s}\index{RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_parse_result}{Parse\+Result}}
+\begin{DoxyCompactList}\small\item\em Result of parsing (wraps Parse\+Error\+Code) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}}~char
+\begin{DoxyCompactList}\small\item\em Character type of error messages. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gabe2e1bd1349e5a7d6c1af78c05a98f0d}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+S\+T\+R\+I\+NG}}(x)~x
+\begin{DoxyCompactList}\small\item\em Macro for converting string literial to \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}}\mbox{[}\mbox{]}. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7f8c4265b2edda78568ae3338aaf1461}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+O\+R\+\_\+\+N\+O\+R\+E\+T\+U\+RN}}(parse\+Error\+Code,  offset)
+\begin{DoxyCompactList}\small\item\em Macro to indicate a parse error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gae3689840fa6e89a241313f33b602f865}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+OR}}(parse\+Error\+Code,  offset)
+\begin{DoxyCompactList}\small\item\em (Internal) macro to indicate and handle a parse error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef const \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}} $\ast$($\ast$ \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga586548166441ab3ce30219cb35be2e04}{Get\+Parse\+Error\+Func}}) (\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}})
+\begin{DoxyCompactList}\small\item\em Function pointer type of Get\+Parse\+Error(). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumeraciones}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}} \{ \newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ac0856bac4945cbd1d09e9502fd8f852f}{k\+Parse\+Error\+None}} = 0, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a04b368d184e84b50580be2faa55f738a}{k\+Parse\+Error\+Document\+Empty}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2293b39033220f4c2a568482c497dab5}{k\+Parse\+Error\+Document\+Root\+Not\+Singular}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a20a50e257aab726699ab02192db72ba9}{k\+Parse\+Error\+Value\+Invalid}}, 
+\newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae3142fbadf2c4cdfd0c7200d7b6b8ed3}{k\+Parse\+Error\+Object\+Miss\+Name}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a55cda7eb30436986ab42a61e06caf017}{k\+Parse\+Error\+Object\+Miss\+Colon}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a34f70d7ed2fa121954f5fc5b5113d05f}{k\+Parse\+Error\+Object\+Miss\+Comma\+Or\+Curly\+Bracket}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7abfdd2bd90134fec4fe6a22762d16a5f5}{k\+Parse\+Error\+Array\+Miss\+Comma\+Or\+Square\+Bracket}}, 
+\newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7afc65ea941a0a26812f0f258d2429e5d2}{k\+Parse\+Error\+String\+Unicode\+Escape\+Invalid\+Hex}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ad9fced6763a06435ca448626c74e5c72}{k\+Parse\+Error\+String\+Unicode\+Surrogate\+Invalid}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a98bb3f3b1e12fdb7f278b9fa4029306f}{k\+Parse\+Error\+String\+Escape\+Invalid}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6369e5b4e4922720cbc45c5941efc4af}{k\+Parse\+Error\+String\+Miss\+Quotation\+Mark}}, 
+\newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a17ecb2ed1524b513d64a93f4a7a8b456}{k\+Parse\+Error\+String\+Invalid\+Encoding}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae52aaa70fde46e4cc422420309700b82}{k\+Parse\+Error\+Number\+Too\+Big}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a08a2cc2b4cacfba1673ed536eee229ce}{k\+Parse\+Error\+Number\+Miss\+Fraction}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a82cdbd740e22b819a70d05e585c2a442}{k\+Parse\+Error\+Number\+Miss\+Exponent}}, 
+\newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6fed2d9a15f88540a1ba785f0de2cbe6}{k\+Parse\+Error\+Termination}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2bec6b26bddd3e093a37fc0d6399e0be}{k\+Parse\+Error\+Unspecific\+Syntax\+Error}}
+ \}
+\begin{DoxyCompactList}\small\item\em Error code of parsing. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gacb2e274f33e54d91b96e9883a99a98be}{Pointer\+Parse\+Error\+Code}} \{ \newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea81e2b6fbd1bf4ac890ddb7779265e3a0}{k\+Pointer\+Parse\+Error\+None}} = 0, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea5821696a2ab6cbccdc8288cbe6e81c77}{k\+Pointer\+Parse\+Error\+Token\+Must\+Begin\+With\+Solidus}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea4d2a7e511d717fd1d2f532ef5fcf821b}{k\+Pointer\+Parse\+Error\+Invalid\+Escape}}, 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beac0c1b013c0db34dcc5a47fc1ee7a8c35}{k\+Pointer\+Parse\+Error\+Invalid\+Percent\+Encoding}}, 
+\newline
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beabd7eae93627f74267009a03679b6dc38}{k\+Pointer\+Parse\+Error\+Character\+Must\+Percent\+Encode}}
+ \}
+\begin{DoxyCompactList}\small\item\em Error code of parsing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___c_o_n_f_i_g_gad3806c8251fdc7da9618b7e922674ffc}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+N\+A\+M\+E\+S\+P\+A\+C\+E\+\_\+\+B\+E\+G\+IN}} const \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}} $\ast$ \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga755b523205f46c980c80d12e230a3abd}{Get\+Parse\+Error\+\_\+\+En}} (\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}} parse\+Error\+Code)
+\begin{DoxyCompactList}\small\item\em Maps error code of parsing into error message. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!RAPIDJSON\_ERROR\_CHARTYPE@{RAPIDJSON\_ERROR\_CHARTYPE}}
+\index{RAPIDJSON\_ERROR\_CHARTYPE@{RAPIDJSON\_ERROR\_CHARTYPE}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_ERROR\_CHARTYPE}{RAPIDJSON\_ERROR\_CHARTYPE}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE~char}
+
+
+
+Character type of error messages. 
+
+The default character type is {\ttfamily char}. On Windows, user can define this macro as {\ttfamily T\+C\+H\+AR} for supporting both unicode/non-\/unicode settings. \mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gabe2e1bd1349e5a7d6c1af78c05a98f0d}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gabe2e1bd1349e5a7d6c1af78c05a98f0d}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!RAPIDJSON\_ERROR\_STRING@{RAPIDJSON\_ERROR\_STRING}}
+\index{RAPIDJSON\_ERROR\_STRING@{RAPIDJSON\_ERROR\_STRING}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_ERROR\_STRING}{RAPIDJSON\_ERROR\_STRING}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+S\+T\+R\+I\+NG(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~x}
+
+
+
+Macro for converting string literial to \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}}\mbox{[}\mbox{]}. 
+
+By default this conversion macro does nothing. On Windows, user can define this macro as {\ttfamily \+\_\+\+T(x)} for supporting both unicode/non-\/unicode settings. \mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gae3689840fa6e89a241313f33b602f865}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gae3689840fa6e89a241313f33b602f865}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!RAPIDJSON\_PARSE\_ERROR@{RAPIDJSON\_PARSE\_ERROR}}
+\index{RAPIDJSON\_PARSE\_ERROR@{RAPIDJSON\_PARSE\_ERROR}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_PARSE\_ERROR}{RAPIDJSON\_PARSE\_ERROR}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+OR(\begin{DoxyParamCaption}\item[{}]{parse\+Error\+Code,  }\item[{}]{offset }\end{DoxyParamCaption})}
+
+
+
+(Internal) macro to indicate and handle a parse error. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em parse\+Error\+Code} & \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{rapidjson\+::\+Parse\+Error\+Code}} of the error \\
+\hline
+{\em offset} & position of the error in J\+S\+ON input ({\ttfamily size\+\_\+t})\\
+\hline
+\end{DoxyParams}
+Invokes R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+O\+R\+\_\+\+N\+O\+R\+E\+T\+U\+RN and stops the parsing.
+
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7f8c4265b2edda78568ae3338aaf1461}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+O\+R\+\_\+\+N\+O\+R\+E\+T\+U\+RN}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7f8c4265b2edda78568ae3338aaf1461}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7f8c4265b2edda78568ae3338aaf1461}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!RAPIDJSON\_PARSE\_ERROR\_NORETURN@{RAPIDJSON\_PARSE\_ERROR\_NORETURN}}
+\index{RAPIDJSON\_PARSE\_ERROR\_NORETURN@{RAPIDJSON\_PARSE\_ERROR\_NORETURN}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_PARSE\_ERROR\_NORETURN}{RAPIDJSON\_PARSE\_ERROR\_NORETURN}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+O\+R\+\_\+\+N\+O\+R\+E\+T\+U\+RN(\begin{DoxyParamCaption}\item[{}]{parse\+Error\+Code,  }\item[{}]{offset }\end{DoxyParamCaption})}
+
+{\bfseries Valor\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___c_o_n_f_i_g_gabeba18d612187bad2ac62aed9276d47c}{RAPIDJSON\_MULTILINEMACRO\_BEGIN \(\backslash\)}}}
+\DoxyCodeLine{\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___c_o_n_f_i_g_gabeba18d612187bad2ac62aed9276d47c}{    RAPIDJSON\_ASSERT}}(!HasParseError()); \textcolor{comment}{/* Error can only be assigned once */} \(\backslash\)}
+\DoxyCodeLine{    SetParseError(parseErrorCode, offset); \(\backslash\)}
+\DoxyCodeLine{    RAPIDJSON\_MULTILINEMACRO\_END}
+
+\end{DoxyCode}
+
+
+Macro to indicate a parse error. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em parse\+Error\+Code} & \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{rapidjson\+::\+Parse\+Error\+Code}} of the error \\
+\hline
+{\em offset} & position of the error in J\+S\+ON input ({\ttfamily size\+\_\+t})\\
+\hline
+\end{DoxyParams}
+This macros can be used as a customization point for the internal error handling mechanism of Rapid\+J\+S\+ON.
+
+A common usage model is to throw an exception instead of requiring the caller to explicitly check the rapidjson\+::\+Generic\+Reader\+::\+Parse\textquotesingle{}s return value\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{preprocessor}{\#define RAPIDJSON\_PARSE\_ERROR\_NORETURN(parseErrorCode,offset) \(\backslash\)}}
+\DoxyCodeLine{\textcolor{preprocessor}{   throw ParseException(parseErrorCode, \#parseErrorCode, offset)}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include <stdexcept>}               \textcolor{comment}{// std::runtime\_error}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include "\mbox{\hyperlink{error_8h}{rapidjson/error/error.h}}"} \textcolor{comment}{// rapidjson::ParseResult}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{struct }ParseException : std::runtime\_error, rapidjson::ParseResult \{}
+\DoxyCodeLine{  ParseException(\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{rapidjson::ParseErrorCode}} code, \textcolor{keyword}{const} \textcolor{keywordtype}{char}* msg, \textcolor{keywordtype}{size\_t} offset)}
+\DoxyCodeLine{    : std::runtime\_error(msg), \mbox{\hyperlink{struct_parse_result}{ParseResult}}(code, offset) \{\}}
+\DoxyCodeLine{\};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include "\mbox{\hyperlink{reader_8h}{rapidjson/reader.h}}"}}
+\end{DoxyCode}
+
+
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gae3689840fa6e89a241313f33b602f865}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+P\+A\+R\+S\+E\+\_\+\+E\+R\+R\+OR}}, rapidjson\+::\+Generic\+Reader\+::\+Parse 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}typedefs\textquotesingle{}}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga586548166441ab3ce30219cb35be2e04}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga586548166441ab3ce30219cb35be2e04}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!GetParseErrorFunc@{GetParseErrorFunc}}
+\index{GetParseErrorFunc@{GetParseErrorFunc}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{GetParseErrorFunc}{GetParseErrorFunc}}
+{\footnotesize\ttfamily typedef const \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}}$\ast$($\ast$ Get\+Parse\+Error\+Func) (\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}})}
+
+
+
+Function pointer type of Get\+Parse\+Error(). 
+
+This is the prototype for {\ttfamily Get\+Parse\+Error\+\_\+\+X()}, where {\ttfamily X} is a locale. User can dynamically change locale in runtime, e.\+g.\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga586548166441ab3ce30219cb35be2e04}{GetParseErrorFunc}} GetParseError = \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga755b523205f46c980c80d12e230a3abd}{GetParseError\_En}}; \textcolor{comment}{// or whatever}}
+\DoxyCodeLine{\textcolor{keyword}{const} \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{RAPIDJSON\_ERROR\_CHARTYPE}}* s = GetParseError(document.GetParseErrorCode());}
+\end{DoxyCode}
+ 
+
+\doxysubsection{Documentación de las enumeraciones}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!ParseErrorCode@{ParseErrorCode}}
+\index{ParseErrorCode@{ParseErrorCode}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{ParseErrorCode}{ParseErrorCode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}}}
+
+
+
+Error code of parsing. 
+
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{class_generic_reader_a0c450620d14ff1824e58bb7bd9b42099}{Generic\+Reader\+::\+Parse}}, \mbox{\hyperlink{class_generic_reader_a937bf90919f50e1c370b312cee5833e8}{Generic\+Reader\+::\+Get\+Parse\+Error\+Code}} 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}{Valores de enumeraciones}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorNone@{kParseErrorNone}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorNone@{kParseErrorNone}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ac0856bac4945cbd1d09e9502fd8f852f}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ac0856bac4945cbd1d09e9502fd8f852f}} 
+k\+Parse\+Error\+None&No error. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorDocumentEmpty@{kParseErrorDocumentEmpty}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorDocumentEmpty@{kParseErrorDocumentEmpty}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a04b368d184e84b50580be2faa55f738a}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a04b368d184e84b50580be2faa55f738a}} 
+k\+Parse\+Error\+Document\+Empty&The document is empty. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorDocumentRootNotSingular@{kParseErrorDocumentRootNotSingular}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorDocumentRootNotSingular@{kParseErrorDocumentRootNotSingular}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2293b39033220f4c2a568482c497dab5}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2293b39033220f4c2a568482c497dab5}} 
+k\+Parse\+Error\+Document\+Root\+Not\+Singular&The document root must not follow by other values. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorValueInvalid@{kParseErrorValueInvalid}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorValueInvalid@{kParseErrorValueInvalid}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a20a50e257aab726699ab02192db72ba9}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a20a50e257aab726699ab02192db72ba9}} 
+k\+Parse\+Error\+Value\+Invalid&Invalid value. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorObjectMissName@{kParseErrorObjectMissName}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorObjectMissName@{kParseErrorObjectMissName}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae3142fbadf2c4cdfd0c7200d7b6b8ed3}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae3142fbadf2c4cdfd0c7200d7b6b8ed3}} 
+k\+Parse\+Error\+Object\+Miss\+Name&Missing a name for object member. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorObjectMissColon@{kParseErrorObjectMissColon}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorObjectMissColon@{kParseErrorObjectMissColon}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a55cda7eb30436986ab42a61e06caf017}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a55cda7eb30436986ab42a61e06caf017}} 
+k\+Parse\+Error\+Object\+Miss\+Colon&Missing a colon after a name of object member. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorObjectMissCommaOrCurlyBracket@{kParseErrorObjectMissCommaOrCurlyBracket}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorObjectMissCommaOrCurlyBracket@{kParseErrorObjectMissCommaOrCurlyBracket}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a34f70d7ed2fa121954f5fc5b5113d05f}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a34f70d7ed2fa121954f5fc5b5113d05f}} 
+k\+Parse\+Error\+Object\+Miss\+Comma\+Or\+Curly\+Bracket&Missing a comma or \textquotesingle{}\}\textquotesingle{} after an object member. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorArrayMissCommaOrSquareBracket@{kParseErrorArrayMissCommaOrSquareBracket}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorArrayMissCommaOrSquareBracket@{kParseErrorArrayMissCommaOrSquareBracket}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7abfdd2bd90134fec4fe6a22762d16a5f5}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7abfdd2bd90134fec4fe6a22762d16a5f5}} 
+k\+Parse\+Error\+Array\+Miss\+Comma\+Or\+Square\+Bracket&Missing a comma or \textquotesingle{}\mbox{]}\textquotesingle{} after an array element. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorStringUnicodeEscapeInvalidHex@{kParseErrorStringUnicodeEscapeInvalidHex}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorStringUnicodeEscapeInvalidHex@{kParseErrorStringUnicodeEscapeInvalidHex}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7afc65ea941a0a26812f0f258d2429e5d2}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7afc65ea941a0a26812f0f258d2429e5d2}} 
+k\+Parse\+Error\+String\+Unicode\+Escape\+Invalid\+Hex&Incorrect hex digit after \textbackslash{}u escape in string. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorStringUnicodeSurrogateInvalid@{kParseErrorStringUnicodeSurrogateInvalid}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorStringUnicodeSurrogateInvalid@{kParseErrorStringUnicodeSurrogateInvalid}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ad9fced6763a06435ca448626c74e5c72}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ad9fced6763a06435ca448626c74e5c72}} 
+k\+Parse\+Error\+String\+Unicode\+Surrogate\+Invalid&The surrogate pair in string is invalid. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorStringEscapeInvalid@{kParseErrorStringEscapeInvalid}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorStringEscapeInvalid@{kParseErrorStringEscapeInvalid}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a98bb3f3b1e12fdb7f278b9fa4029306f}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a98bb3f3b1e12fdb7f278b9fa4029306f}} 
+k\+Parse\+Error\+String\+Escape\+Invalid&Invalid escape character in string. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorStringMissQuotationMark@{kParseErrorStringMissQuotationMark}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorStringMissQuotationMark@{kParseErrorStringMissQuotationMark}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6369e5b4e4922720cbc45c5941efc4af}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6369e5b4e4922720cbc45c5941efc4af}} 
+k\+Parse\+Error\+String\+Miss\+Quotation\+Mark&Missing a closing quotation mark in string. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorStringInvalidEncoding@{kParseErrorStringInvalidEncoding}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorStringInvalidEncoding@{kParseErrorStringInvalidEncoding}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a17ecb2ed1524b513d64a93f4a7a8b456}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a17ecb2ed1524b513d64a93f4a7a8b456}} 
+k\+Parse\+Error\+String\+Invalid\+Encoding&Invalid encoding in string. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorNumberTooBig@{kParseErrorNumberTooBig}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorNumberTooBig@{kParseErrorNumberTooBig}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae52aaa70fde46e4cc422420309700b82}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7ae52aaa70fde46e4cc422420309700b82}} 
+k\+Parse\+Error\+Number\+Too\+Big&Number too big to be stored in double. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorNumberMissFraction@{kParseErrorNumberMissFraction}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorNumberMissFraction@{kParseErrorNumberMissFraction}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a08a2cc2b4cacfba1673ed536eee229ce}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a08a2cc2b4cacfba1673ed536eee229ce}} 
+k\+Parse\+Error\+Number\+Miss\+Fraction&Miss fraction part in number. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorNumberMissExponent@{kParseErrorNumberMissExponent}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorNumberMissExponent@{kParseErrorNumberMissExponent}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a82cdbd740e22b819a70d05e585c2a442}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a82cdbd740e22b819a70d05e585c2a442}} 
+k\+Parse\+Error\+Number\+Miss\+Exponent&Miss exponent in number. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorTermination@{kParseErrorTermination}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorTermination@{kParseErrorTermination}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6fed2d9a15f88540a1ba785f0de2cbe6}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a6fed2d9a15f88540a1ba785f0de2cbe6}} 
+k\+Parse\+Error\+Termination&Parsing was terminated. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kParseErrorUnspecificSyntaxError@{kParseErrorUnspecificSyntaxError}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kParseErrorUnspecificSyntaxError@{kParseErrorUnspecificSyntaxError}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2bec6b26bddd3e093a37fc0d6399e0be}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gga8d4b32dfc45840bca189ade2bbcb6ba7a2bec6b26bddd3e093a37fc0d6399e0be}} 
+k\+Parse\+Error\+Unspecific\+Syntax\+Error&Unspecific syntax error. \\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gacb2e274f33e54d91b96e9883a99a98be}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gacb2e274f33e54d91b96e9883a99a98be}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!PointerParseErrorCode@{PointerParseErrorCode}}
+\index{PointerParseErrorCode@{PointerParseErrorCode}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{PointerParseErrorCode}{PointerParseErrorCode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_gacb2e274f33e54d91b96e9883a99a98be}{Pointer\+Parse\+Error\+Code}}}
+
+
+
+Error code of parsing. 
+
+\begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{class_generic_pointer_a5d85b7dc82719643e8f7adccd5a74fbe}{Generic\+Pointer\+::\+Generic\+Pointer}}, Generic\+Pointer\+::\+Get\+Parse\+Error\+Code 
+\end{DoxySeeAlso}
+\begin{DoxyEnumFields}{Valores de enumeraciones}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kPointerParseErrorNone@{kPointerParseErrorNone}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kPointerParseErrorNone@{kPointerParseErrorNone}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea81e2b6fbd1bf4ac890ddb7779265e3a0}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea81e2b6fbd1bf4ac890ddb7779265e3a0}} 
+k\+Pointer\+Parse\+Error\+None&The parse is successful. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kPointerParseErrorTokenMustBeginWithSolidus@{kPointerParseErrorTokenMustBeginWithSolidus}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kPointerParseErrorTokenMustBeginWithSolidus@{kPointerParseErrorTokenMustBeginWithSolidus}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea5821696a2ab6cbccdc8288cbe6e81c77}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea5821696a2ab6cbccdc8288cbe6e81c77}} 
+k\+Pointer\+Parse\+Error\+Token\+Must\+Begin\+With\+Solidus&A token must begin with a \textquotesingle{}/\textquotesingle{}. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kPointerParseErrorInvalidEscape@{kPointerParseErrorInvalidEscape}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kPointerParseErrorInvalidEscape@{kPointerParseErrorInvalidEscape}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea4d2a7e511d717fd1d2f532ef5fcf821b}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98bea4d2a7e511d717fd1d2f532ef5fcf821b}} 
+k\+Pointer\+Parse\+Error\+Invalid\+Escape&Invalid escape. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kPointerParseErrorInvalidPercentEncoding@{kPointerParseErrorInvalidPercentEncoding}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kPointerParseErrorInvalidPercentEncoding@{kPointerParseErrorInvalidPercentEncoding}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beac0c1b013c0db34dcc5a47fc1ee7a8c35}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beac0c1b013c0db34dcc5a47fc1ee7a8c35}} 
+k\+Pointer\+Parse\+Error\+Invalid\+Percent\+Encoding&Invalid percent encoding in U\+RI fragment. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kPointerParseErrorCharacterMustPercentEncode@{kPointerParseErrorCharacterMustPercentEncode}!RapidJSON error handling@{RapidJSON error handling}}\index{RapidJSON error handling@{RapidJSON error handling}!kPointerParseErrorCharacterMustPercentEncode@{kPointerParseErrorCharacterMustPercentEncode}}}\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beabd7eae93627f74267009a03679b6dc38}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ggacb2e274f33e54d91b96e9883a99a98beabd7eae93627f74267009a03679b6dc38}} 
+k\+Pointer\+Parse\+Error\+Character\+Must\+Percent\+Encode&A character must percent encoded in U\+RI fragment. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga755b523205f46c980c80d12e230a3abd}\label{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga755b523205f46c980c80d12e230a3abd}} 
+\index{RapidJSON error handling@{RapidJSON error handling}!GetParseError\_En@{GetParseError\_En}}
+\index{GetParseError\_En@{GetParseError\_En}!RapidJSON error handling@{RapidJSON error handling}}
+\doxysubsubsection{\texorpdfstring{GetParseError\_En()}{GetParseError\_En()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___c_o_n_f_i_g_gad3806c8251fdc7da9618b7e922674ffc}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+N\+A\+M\+E\+S\+P\+A\+C\+E\+\_\+\+B\+E\+G\+IN}} const \mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga7e4636fd48d0148f102b8a13f0539d8c}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+R\+R\+O\+R\+\_\+\+C\+H\+A\+R\+T\+Y\+PE}}$\ast$ Get\+Parse\+Error\+\_\+\+En (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{group___r_a_p_i_d_j_s_o_n___e_r_r_o_r_s_ga8d4b32dfc45840bca189ade2bbcb6ba7}{Parse\+Error\+Code}}}]{parse\+Error\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Maps error code of parsing into error message. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em parse\+Error\+Code} & Error code obtained in parsing. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the error message. 
+\end{DoxyReturn}
+\begin{DoxyNote}{Nota}
+User can make a copy of this function for localization. Using switch-\/case is safer for future modification of error codes. 
+\end{DoxyNote}

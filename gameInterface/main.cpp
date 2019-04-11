@@ -1,4 +1,4 @@
-#include "helloworld.h"
+#include "gameBoard.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

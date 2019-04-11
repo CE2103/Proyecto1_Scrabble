@@ -1,0 +1,45 @@
+\hypertarget{classrapidjson_1_1_stream}{}\doxysection{Referencia de la Clase rapidjson\+::Stream}
+\label{classrapidjson_1_1_stream}\index{rapidjson::Stream@{rapidjson::Stream}}
+
+
+Concept for reading and writing characters.  
+
+
+
+
+{\ttfamily \#include $<$stream.\+h$>$}
+
+
+
+\doxysubsection{Descripción detallada}
+Concept for reading and writing characters. 
+
+For read-\/only stream, no need to implement Put\+Begin(), Put(), Flush() and Put\+End().
+
+For write-\/only stream, only need to implement Put() and Flush().
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{concept Stream \{}
+\DoxyCodeLine{    \textcolor{keyword}{typename} Ch;    }
+\DoxyCodeLine{}
+\DoxyCodeLine{    Ch Peek() \textcolor{keyword}{const};}
+\DoxyCodeLine{}
+\DoxyCodeLine{    Ch Take();}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{size\_t} Tell();}
+\DoxyCodeLine{}
+\DoxyCodeLine{    Ch* PutBegin();}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{void} Put(Ch c);}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{void} Flush();}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{size\_t} PutEnd(Ch* begin);}
+\DoxyCodeLine{\}}
+\end{DoxyCode}
+ 
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+lib/rapidjson/\mbox{\hyperlink{stream_8h}{stream.\+h}}\end{DoxyCompactItemize}

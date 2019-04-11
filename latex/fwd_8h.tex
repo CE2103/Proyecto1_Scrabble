@@ -1,0 +1,156 @@
+\hypertarget{fwd_8h}{}\doxysection{Referencia del Archivo lib/rapidjson/fwd.h}
+\label{fwd_8h}\index{lib/rapidjson/fwd.h@{lib/rapidjson/fwd.h}}
+{\ttfamily \#include \char`\"{}rapidjson.\+h\char`\"{}}\newline
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/8 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16}{U\+T\+F16$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16_b_e}{U\+T\+F16\+B\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 big endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+L\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 little endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32}{U\+T\+F32$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32_b_e}{U\+T\+F32\+B\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 big endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32_l_e}{U\+T\+F32\+L\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 little endian enocoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_a_s_c_i_i}{A\+S\+C\+I\+I$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{struct_a_s_c_i_i}{A\+S\+C\+II}} encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_auto_u_t_f}{Auto\+U\+T\+F$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em Dynamically select encoding according to stream\textquotesingle{}s runtime-\/specified U\+TF encoding type. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_transcoder}{Transcoder$<$ Source\+Encoding, Target\+Encoding $>$}}
+\begin{DoxyCompactList}\small\item\em Encoding conversion. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_memory_pool_allocator}{Memory\+Pool\+Allocator$<$ Base\+Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Default memory allocator used by the parser and D\+OM. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_generic_string_stream}{Generic\+String\+Stream$<$ Encoding $>$}}
+\begin{DoxyCompactList}\small\item\em Read-\/only string stream. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_generic_insitu_string_stream}{Generic\+Insitu\+String\+Stream$<$ Encoding $>$}}
+\begin{DoxyCompactList}\small\item\em A read-\/write string stream. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_string_buffer}{Generic\+String\+Buffer$<$ Encoding, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Represents an in-\/memory output stream. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_generic_memory_buffer}{Generic\+Memory\+Buffer$<$ Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Represents an in-\/memory output byte stream. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_base_reader_handler}{Base\+Reader\+Handler$<$ Encoding, Derived $>$}}
+\begin{DoxyCompactList}\small\item\em Default implementation of Handler. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_reader}{Generic\+Reader$<$ Source\+Encoding, Target\+Encoding, Stack\+Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em S\+A\+X-\/style J\+S\+ON parser. Use \mbox{\hyperlink{reader_8h_a84f3b66a66647f4ac4267078359188ba}{Reader}} for \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}} encoding and default allocator. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_writer}{Writer$<$ Output\+Stream, Source\+Encoding, Target\+Encoding, Stack\+Allocator, write\+Flags $>$}}
+\begin{DoxyCompactList}\small\item\em J\+S\+ON writer. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_pretty_writer}{Pretty\+Writer$<$ Output\+Stream, Source\+Encoding, Target\+Encoding, Stack\+Allocator, write\+Flags $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_writer}{Writer}} with indentation and spacing. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_generic_member}{Generic\+Member$<$ Encoding, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Name-\/value pair in a J\+S\+ON object value. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_member_iterator}{Generic\+Member\+Iterator$<$ Const, Encoding, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em (Constant) member iterator for a J\+S\+ON object value \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_generic_string_ref}{Generic\+String\+Ref$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em Reference to a constant string (not taking a copy) \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_value}{Generic\+Value$<$ Encoding, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Represents a J\+S\+ON value. Use Value for \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}} encoding and default allocator. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_document}{Generic\+Document$<$ Encoding, Allocator, Stack\+Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em A document for parsing J\+S\+ON text as D\+OM. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_pointer}{Generic\+Pointer$<$ Value\+Type, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em Represents a J\+S\+ON Pointer. Use Pointer for \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}} encoding and default allocator. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_i_generic_remote_schema_document_provider}{I\+Generic\+Remote\+Schema\+Document\+Provider$<$ Schema\+Document\+Type $>$}}
+\item 
+class \mbox{\hyperlink{class_generic_schema_document}{Generic\+Schema\+Document$<$ Value\+T, Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em J\+S\+ON schema document. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_generic_schema_validator}{Generic\+Schema\+Validator$<$ Schema\+Document\+Type, Output\+Handler, State\+Allocator $>$}}
+\begin{DoxyCompactList}\small\item\em J\+S\+ON Schema Validator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{struct_generic_string_stream}{Generic\+String\+Stream}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$ $>$ \mbox{\hyperlink{fwd_8h_a2d1473c3dd9ab6c975589b45436fe55e}{String\+Stream}}
+\item 
+typedef \mbox{\hyperlink{struct_generic_insitu_string_stream}{Generic\+Insitu\+String\+Stream}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$ $>$ \mbox{\hyperlink{fwd_8h_a87256fd77e335ea15cd195ed8c55e312}{Insitu\+String\+Stream}}
+\item 
+typedef \mbox{\hyperlink{class_generic_string_buffer}{Generic\+String\+Buffer}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_ab956b6537825abf8aac4112e81cfad7e}{String\+Buffer}}
+\item 
+typedef \mbox{\hyperlink{struct_generic_memory_buffer}{Generic\+Memory\+Buffer}}$<$ \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_a611aeb4e5d606f0b099c6408fd8e8e4d}{Memory\+Buffer}}
+\item 
+typedef \mbox{\hyperlink{class_generic_reader}{Generic\+Reader}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_ab7f1c1207749ff25c0d7f0cc88e62788}{Reader}}
+\item 
+typedef \mbox{\hyperlink{class_generic_value}{Generic\+Value}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, \mbox{\hyperlink{class_memory_pool_allocator}{Memory\+Pool\+Allocator}}$<$ \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ $>$ \mbox{\hyperlink{fwd_8h_a887ce50b3fe61c5e9cfd9b9506548dd9}{Value}}
+\item 
+typedef \mbox{\hyperlink{class_generic_document}{Generic\+Document}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, \mbox{\hyperlink{class_memory_pool_allocator}{Memory\+Pool\+Allocator}}$<$ \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_a90f4c2712ef99a3f016ce5f8eee03292}{Document}}
+\item 
+typedef \mbox{\hyperlink{class_generic_pointer}{Generic\+Pointer}}$<$ \mbox{\hyperlink{document_8h_a071cf97155ba72ac9a1fc4ad7e63d481}{Value}}, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_a0e5c49dba7ec654cdda5735347c00397}{Pointer}}
+\item 
+typedef \mbox{\hyperlink{class_generic_schema_document}{Generic\+Schema\+Document}}$<$ \mbox{\hyperlink{document_8h_a071cf97155ba72ac9a1fc4ad7e63d481}{Value}}, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}}
+\item 
+typedef \mbox{\hyperlink{class_i_generic_remote_schema_document_provider}{I\+Generic\+Remote\+Schema\+Document\+Provider}}$<$ \mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}} $>$ \mbox{\hyperlink{fwd_8h_afec32b8c8d16360397849fd8bcd28441}{I\+Remote\+Schema\+Document\+Provider}}
+\item 
+typedef \mbox{\hyperlink{class_generic_schema_validator}{Generic\+Schema\+Validator}}$<$ \mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}}, \mbox{\hyperlink{struct_base_reader_handler}{Base\+Reader\+Handler}}$<$ \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$ char $>$, void $>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}} $>$ \mbox{\hyperlink{fwd_8h_a2c91a2e7dd109dba1803ed2280a2dfa4}{Schema\+Validator}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}typedefs\textquotesingle{}}
+\mbox{\Hypertarget{fwd_8h_a90f4c2712ef99a3f016ce5f8eee03292}\label{fwd_8h_a90f4c2712ef99a3f016ce5f8eee03292}} 
+\index{fwd.h@{fwd.h}!Document@{Document}}
+\index{Document@{Document}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{Document}{Document}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_document}{Generic\+Document}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, \mbox{\hyperlink{class_memory_pool_allocator}{Memory\+Pool\+Allocator}}$<$\mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{document_8h_ac6ea5b168e3fe8c7fa532450fc9391f7}{Document}}}
+
+\mbox{\Hypertarget{fwd_8h_a87256fd77e335ea15cd195ed8c55e312}\label{fwd_8h_a87256fd77e335ea15cd195ed8c55e312}} 
+\index{fwd.h@{fwd.h}!InsituStringStream@{InsituStringStream}}
+\index{InsituStringStream@{InsituStringStream}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{InsituStringStream}{InsituStringStream}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{struct_generic_insitu_string_stream}{Generic\+Insitu\+String\+Stream}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$ $>$ \mbox{\hyperlink{fwd_8h_a87256fd77e335ea15cd195ed8c55e312}{Insitu\+String\+Stream}}}
+
+\mbox{\Hypertarget{fwd_8h_afec32b8c8d16360397849fd8bcd28441}\label{fwd_8h_afec32b8c8d16360397849fd8bcd28441}} 
+\index{fwd.h@{fwd.h}!IRemoteSchemaDocumentProvider@{IRemoteSchemaDocumentProvider}}
+\index{IRemoteSchemaDocumentProvider@{IRemoteSchemaDocumentProvider}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{IRemoteSchemaDocumentProvider}{IRemoteSchemaDocumentProvider}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_i_generic_remote_schema_document_provider}{I\+Generic\+Remote\+Schema\+Document\+Provider}}$<$\mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}}$>$ \mbox{\hyperlink{fwd_8h_afec32b8c8d16360397849fd8bcd28441}{I\+Remote\+Schema\+Document\+Provider}}}
+
+\mbox{\Hypertarget{fwd_8h_a611aeb4e5d606f0b099c6408fd8e8e4d}\label{fwd_8h_a611aeb4e5d606f0b099c6408fd8e8e4d}} 
+\index{fwd.h@{fwd.h}!MemoryBuffer@{MemoryBuffer}}
+\index{MemoryBuffer@{MemoryBuffer}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{MemoryBuffer}{MemoryBuffer}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{struct_generic_memory_buffer}{Generic\+Memory\+Buffer}}$<$\mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_a611aeb4e5d606f0b099c6408fd8e8e4d}{Memory\+Buffer}}}
+
+\mbox{\Hypertarget{fwd_8h_a0e5c49dba7ec654cdda5735347c00397}\label{fwd_8h_a0e5c49dba7ec654cdda5735347c00397}} 
+\index{fwd.h@{fwd.h}!Pointer@{Pointer}}
+\index{Pointer@{Pointer}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{Pointer}{Pointer}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_pointer}{Generic\+Pointer}}$<$\mbox{\hyperlink{document_8h_a071cf97155ba72ac9a1fc4ad7e63d481}{Value}}, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_a0e5c49dba7ec654cdda5735347c00397}{Pointer}}}
+
+\mbox{\Hypertarget{fwd_8h_ab7f1c1207749ff25c0d7f0cc88e62788}\label{fwd_8h_ab7f1c1207749ff25c0d7f0cc88e62788}} 
+\index{fwd.h@{fwd.h}!Reader@{Reader}}
+\index{Reader@{Reader}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{Reader}{Reader}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_reader}{Generic\+Reader}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_ab7f1c1207749ff25c0d7f0cc88e62788}{Reader}}}
+
+\mbox{\Hypertarget{fwd_8h_a05c97278ec100471e77a4d678957701b}\label{fwd_8h_a05c97278ec100471e77a4d678957701b}} 
+\index{fwd.h@{fwd.h}!SchemaDocument@{SchemaDocument}}
+\index{SchemaDocument@{SchemaDocument}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{SchemaDocument}{SchemaDocument}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_schema_document}{Generic\+Schema\+Document}}$<$\mbox{\hyperlink{document_8h_a071cf97155ba72ac9a1fc4ad7e63d481}{Value}}, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}}}
+
+\mbox{\Hypertarget{fwd_8h_a2c91a2e7dd109dba1803ed2280a2dfa4}\label{fwd_8h_a2c91a2e7dd109dba1803ed2280a2dfa4}} 
+\index{fwd.h@{fwd.h}!SchemaValidator@{SchemaValidator}}
+\index{SchemaValidator@{SchemaValidator}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{SchemaValidator}{SchemaValidator}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_schema_validator}{Generic\+Schema\+Validator}}$<$\mbox{\hyperlink{fwd_8h_a05c97278ec100471e77a4d678957701b}{Schema\+Document}}, \mbox{\hyperlink{struct_base_reader_handler}{Base\+Reader\+Handler}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, void$>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_a2c91a2e7dd109dba1803ed2280a2dfa4}{Schema\+Validator}}}
+
+\mbox{\Hypertarget{fwd_8h_ab956b6537825abf8aac4112e81cfad7e}\label{fwd_8h_ab956b6537825abf8aac4112e81cfad7e}} 
+\index{fwd.h@{fwd.h}!StringBuffer@{StringBuffer}}
+\index{StringBuffer@{StringBuffer}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{StringBuffer}{StringBuffer}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_string_buffer}{Generic\+String\+Buffer}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, \mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ \mbox{\hyperlink{fwd_8h_ab956b6537825abf8aac4112e81cfad7e}{String\+Buffer}}}
+
+\mbox{\Hypertarget{fwd_8h_a2d1473c3dd9ab6c975589b45436fe55e}\label{fwd_8h_a2d1473c3dd9ab6c975589b45436fe55e}} 
+\index{fwd.h@{fwd.h}!StringStream@{StringStream}}
+\index{StringStream@{StringStream}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{StringStream}{StringStream}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{struct_generic_string_stream}{Generic\+String\+Stream}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$ $>$ \mbox{\hyperlink{fwd_8h_a2d1473c3dd9ab6c975589b45436fe55e}{String\+Stream}}}
+
+\mbox{\Hypertarget{fwd_8h_a887ce50b3fe61c5e9cfd9b9506548dd9}\label{fwd_8h_a887ce50b3fe61c5e9cfd9b9506548dd9}} 
+\index{fwd.h@{fwd.h}!Value@{Value}}
+\index{Value@{Value}!fwd.h@{fwd.h}}
+\doxysubsubsection{\texorpdfstring{Value}{Value}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{class_generic_value}{Generic\+Value}}$<$\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$char$>$, \mbox{\hyperlink{class_memory_pool_allocator}{Memory\+Pool\+Allocator}}$<$\mbox{\hyperlink{class_crt_allocator}{Crt\+Allocator}}$>$ $>$ \mbox{\hyperlink{document_8h_a071cf97155ba72ac9a1fc4ad7e63d481}{Value}}}
+

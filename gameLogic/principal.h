@@ -1,6 +1,11 @@
-//
-// Created by angelortizv on 09/04/19.
-//
+/**
+ * @file principal.h
+ * @version 1.0
+ * @date
+ * @autor
+ * @title
+ * @brief
+ */
 
 #ifndef PROYECTO1_SCRABBLE_PRINCIPAL_H
 #define PROYECTO1_SCRABBLE_PRINCIPAL_H

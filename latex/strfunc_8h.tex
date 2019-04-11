@@ -1,0 +1,20 @@
+\hypertarget{strfunc_8h}{}\doxysection{Referencia del Archivo lib/rapidjson/internal/strfunc.h}
+\label{strfunc_8h}\index{lib/rapidjson/internal/strfunc.h@{lib/rapidjson/internal/strfunc.h}}
+{\ttfamily \#include \char`\"{}../stream.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cwchar$>$}\newline
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceinternal}{internal}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Ch $>$ }\\\mbox{\hyperlink{rapidjson_8h_a5ed6e6e67250fadbd041127e6386dcb5}{Size\+Type}} \mbox{\hyperlink{namespaceinternal_a86326fb0c9d7c7ea8edd7deedbb2b26e}{internal\+::\+Str\+Len}} (const Ch $\ast$s)
+\begin{DoxyCompactList}\small\item\em Custom strlen() which works on different character types. \end{DoxyCompactList}\item 
+{\footnotesize template$<$$>$ }\\\mbox{\hyperlink{rapidjson_8h_a5ed6e6e67250fadbd041127e6386dcb5}{Size\+Type}} \mbox{\hyperlink{namespaceinternal_ac61f7d1bfae1fb68526633edd418fa1c}{internal\+::\+Str\+Len}} (const char $\ast$s)
+\item 
+{\footnotesize template$<$$>$ }\\\mbox{\hyperlink{rapidjson_8h_a5ed6e6e67250fadbd041127e6386dcb5}{Size\+Type}} \mbox{\hyperlink{namespaceinternal_a9cd1cee166f1e18e117d3ce9dc1c83da}{internal\+::\+Str\+Len}} (const wchar\+\_\+t $\ast$s)
+\item 
+{\footnotesize template$<$typename Encoding $>$ }\\bool \mbox{\hyperlink{namespaceinternal_a864bf0d412431b387aeeee9efdf0adfc}{internal\+::\+Count\+String\+Code\+Point}} (const typename Encoding\+::\+Ch $\ast$s, \mbox{\hyperlink{rapidjson_8h_a5ed6e6e67250fadbd041127e6386dcb5}{Size\+Type}} length, \mbox{\hyperlink{rapidjson_8h_a5ed6e6e67250fadbd041127e6386dcb5}{Size\+Type}} $\ast$out\+Count)
+\begin{DoxyCompactList}\small\item\em Returns number of code points in a encoded string. \end{DoxyCompactList}\end{DoxyCompactItemize}

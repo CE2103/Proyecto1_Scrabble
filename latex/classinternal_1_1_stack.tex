@@ -1,0 +1,228 @@
+\hypertarget{classinternal_1_1_stack}{}\doxysection{Referencia de la plantilla de la Clase internal\+::Stack$<$ Allocator $>$}
+\label{classinternal_1_1_stack}\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+
+
+A type-\/unsafe stack for storing different types of data.  
+
+
+
+
+{\ttfamily \#include $<$stack.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classinternal_1_1_stack_af09ab91f9e5143deccf7c9af837f451e}{Stack}} (Allocator $\ast$allocator, size\+\_\+t stack\+Capacity)
+\item 
+\mbox{\hyperlink{classinternal_1_1_stack_afedce84c8816abe9277a71ebd5e1808a}{$\sim$\+Stack}} ()
+\item 
+void \mbox{\hyperlink{classinternal_1_1_stack_a5e601199a21d84b1ac612f558be0f2c3}{Swap}} (\mbox{\hyperlink{classinternal_1_1_stack}{Stack}} \&rhs) R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+N\+O\+E\+X\+C\+E\+PT
+\item 
+void \mbox{\hyperlink{classinternal_1_1_stack_a02da31665a372738e81ded2f7b7d598e}{Clear}} ()
+\item 
+void \mbox{\hyperlink{classinternal_1_1_stack_a3852b8494d69c91f6a238a51572e591e}{Shrink\+To\+Fit}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{classinternal_1_1_stack_a7ae5de892834b7fc16099eb5e23dd97c}{Reserve}} (size\+\_\+t count=1)
+\item 
+{\footnotesize template$<$typename T $>$ }\\R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a8038223ec0ed6ea92bb5f48e645a25ca}{Push}} (size\+\_\+t count=1)
+\item 
+{\footnotesize template$<$typename T $>$ }\\R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a63b4eabd209d4fc9b43027f4e5660532}{Push\+Unsafe}} (size\+\_\+t count=1)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a8545a8ccba595ac6e4ade9784474aa1c}{Pop}} (size\+\_\+t count)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_ab3ed5b4afed3c73c516678516d5e195b}{Top}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\const T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_abd8941a6b827a7ea359cb59b79d7a886}{Top}} () const
+\item 
+{\footnotesize template$<$typename T $>$ }\\T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a54987ae8ad774dd3ee80a43d268ef080}{End}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\const T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a605246623b39f9d36d3d12eee25f9d82}{End}} () const
+\item 
+{\footnotesize template$<$typename T $>$ }\\T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_a10aa1bc716b82cb0a40b3a3b9d5efe87}{Bottom}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\const T $\ast$ \mbox{\hyperlink{classinternal_1_1_stack_af5c55983c553c7355ff6d24beb48c722}{Bottom}} () const
+\item 
+bool \mbox{\hyperlink{classinternal_1_1_stack_a657ae4d477b25d4e0045aee0efd809c3}{Has\+Allocator}} () const
+\item 
+Allocator \& \mbox{\hyperlink{classinternal_1_1_stack_ab01f693833dfe136f574d66547623cfa}{Get\+Allocator}} ()
+\item 
+bool \mbox{\hyperlink{classinternal_1_1_stack_a2b8bda380e33838a99e3c73ff9785f03}{Empty}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classinternal_1_1_stack_ac484468a2791bd3e9ba609bd1600ab48}{Get\+Size}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classinternal_1_1_stack_a67d5d7ee9424d3dd46cf9d001b6cdc6b}{Get\+Capacity}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+\subsubsection*{template$<$typename Allocator$>$\newline
+class internal\+::\+Stack$<$ Allocator $>$}
+
+A type-\/unsafe stack for storing different types of data. 
+
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em Allocator} & Allocator for allocating stack memory. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classinternal_1_1_stack_af09ab91f9e5143deccf7c9af837f451e}\label{classinternal_1_1_stack_af09ab91f9e5143deccf7c9af837f451e}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Stack@{Stack}}
+\index{Stack@{Stack}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Stack()}{Stack()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+\mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::\mbox{\hyperlink{classinternal_1_1_stack}{Stack}} (\begin{DoxyParamCaption}\item[{Allocator $\ast$}]{allocator,  }\item[{size\+\_\+t}]{stack\+Capacity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_afedce84c8816abe9277a71ebd5e1808a}\label{classinternal_1_1_stack_afedce84c8816abe9277a71ebd5e1808a}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!````~Stack@{$\sim$Stack}}
+\index{````~Stack@{$\sim$Stack}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Stack()}{~Stack()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+\mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::$\sim$\mbox{\hyperlink{classinternal_1_1_stack}{Stack}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classinternal_1_1_stack_a10aa1bc716b82cb0a40b3a3b9d5efe87}\label{classinternal_1_1_stack_a10aa1bc716b82cb0a40b3a3b9d5efe87}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Bottom@{Bottom}}
+\index{Bottom@{Bottom}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Bottom()}{Bottom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Bottom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_af5c55983c553c7355ff6d24beb48c722}\label{classinternal_1_1_stack_af5c55983c553c7355ff6d24beb48c722}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Bottom@{Bottom}}
+\index{Bottom@{Bottom}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Bottom()}{Bottom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+const T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Bottom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a02da31665a372738e81ded2f7b7d598e}\label{classinternal_1_1_stack_a02da31665a372738e81ded2f7b7d598e}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Clear@{Clear}}
+\index{Clear@{Clear}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+void \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a2b8bda380e33838a99e3c73ff9785f03}\label{classinternal_1_1_stack_a2b8bda380e33838a99e3c73ff9785f03}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Empty@{Empty}}
+\index{Empty@{Empty}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Empty()}{Empty()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+bool \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a54987ae8ad774dd3ee80a43d268ef080}\label{classinternal_1_1_stack_a54987ae8ad774dd3ee80a43d268ef080}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!End@{End}}
+\index{End@{End}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{End()}{End()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a605246623b39f9d36d3d12eee25f9d82}\label{classinternal_1_1_stack_a605246623b39f9d36d3d12eee25f9d82}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!End@{End}}
+\index{End@{End}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{End()}{End()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+const T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_ab01f693833dfe136f574d66547623cfa}\label{classinternal_1_1_stack_ab01f693833dfe136f574d66547623cfa}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!GetAllocator@{GetAllocator}}
+\index{GetAllocator@{GetAllocator}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{GetAllocator()}{GetAllocator()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+Allocator\& \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Get\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a67d5d7ee9424d3dd46cf9d001b6cdc6b}\label{classinternal_1_1_stack_a67d5d7ee9424d3dd46cf9d001b6cdc6b}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!GetCapacity@{GetCapacity}}
+\index{GetCapacity@{GetCapacity}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{GetCapacity()}{GetCapacity()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+size\+\_\+t \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Get\+Capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_ac484468a2791bd3e9ba609bd1600ab48}\label{classinternal_1_1_stack_ac484468a2791bd3e9ba609bd1600ab48}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!GetSize@{GetSize}}
+\index{GetSize@{GetSize}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{GetSize()}{GetSize()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+size\+\_\+t \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a657ae4d477b25d4e0045aee0efd809c3}\label{classinternal_1_1_stack_a657ae4d477b25d4e0045aee0efd809c3}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!HasAllocator@{HasAllocator}}
+\index{HasAllocator@{HasAllocator}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{HasAllocator()}{HasAllocator()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+bool \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Has\+Allocator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a8545a8ccba595ac6e4ade9784474aa1c}\label{classinternal_1_1_stack_a8545a8ccba595ac6e4ade9784474aa1c}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Pop@{Pop}}
+\index{Pop@{Pop}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Pop()}{Pop()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Pop (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a8038223ec0ed6ea92bb5f48e645a25ca}\label{classinternal_1_1_stack_a8038223ec0ed6ea92bb5f48e645a25ca}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Push@{Push}}
+\index{Push@{Push}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Push()}{Push()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Push (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a63b4eabd209d4fc9b43027f4e5660532}\label{classinternal_1_1_stack_a63b4eabd209d4fc9b43027f4e5660532}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!PushUnsafe@{PushUnsafe}}
+\index{PushUnsafe@{PushUnsafe}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{PushUnsafe()}{PushUnsafe()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Push\+Unsafe (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a7ae5de892834b7fc16099eb5e23dd97c}\label{classinternal_1_1_stack_a7ae5de892834b7fc16099eb5e23dd97c}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Reserve@{Reserve}}
+\index{Reserve@{Reserve}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Reserve()}{Reserve()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+F\+O\+R\+C\+E\+I\+N\+L\+I\+NE void \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Reserve (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a3852b8494d69c91f6a238a51572e591e}\label{classinternal_1_1_stack_a3852b8494d69c91f6a238a51572e591e}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!ShrinkToFit@{ShrinkToFit}}
+\index{ShrinkToFit@{ShrinkToFit}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{ShrinkToFit()}{ShrinkToFit()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+void \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Shrink\+To\+Fit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_a5e601199a21d84b1ac612f558be0f2c3}\label{classinternal_1_1_stack_a5e601199a21d84b1ac612f558be0f2c3}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Swap@{Swap}}
+\index{Swap@{Swap}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Swap()}{Swap()}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+void \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Swap (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classinternal_1_1_stack}{Stack}}$<$ Allocator $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_ab3ed5b4afed3c73c516678516d5e195b}\label{classinternal_1_1_stack_ab3ed5b4afed3c73c516678516d5e195b}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Top@{Top}}
+\index{Top@{Top}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Top()}{Top()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classinternal_1_1_stack_abd8941a6b827a7ea359cb59b79d7a886}\label{classinternal_1_1_stack_abd8941a6b827a7ea359cb59b79d7a886}} 
+\index{internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}!Top@{Top}}
+\index{Top@{Top}!internal::Stack$<$ Allocator $>$@{internal::Stack$<$ Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Top()}{Top()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename Allocator$>$ \\
+template$<$typename T $>$ \\
+const T$\ast$ \mbox{\hyperlink{classinternal_1_1_stack}{internal\+::\+Stack}}$<$ Allocator $>$\+::Top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+lib/rapidjson/internal/\mbox{\hyperlink{stack_8h}{stack.\+h}}\end{DoxyCompactItemize}
