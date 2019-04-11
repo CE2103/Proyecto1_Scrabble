@@ -17,6 +17,8 @@ public:
 
 private slots:
 
+    void on_continuar_clicked();
+
 private:
     Ui::LobbyWindow *ui;
 };

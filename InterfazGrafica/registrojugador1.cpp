@@ -12,7 +12,6 @@
 #include <string>
 #include "socketclient.h"
 #include "jsonComm.h"
-#include <helloworld.h>
 
 
 using namespace std;
@@ -77,34 +76,20 @@ void ThirdDialog::on_continuarJ1_clicked(){
     datosJugador1->append(puertoServidor);
     datosJugador1->append(telefonoExperto);
 
-/*
-    Socket* socketClient = &Socket::getInstance();
+
+    /*Socket* socketClient = &Socket::getInstance();
     jsonComm* comm = &jsonComm::getInstance();
     string word = comm->serializeCreateGame(nombreju,IP,puertoserv,1);
 
 
     socketClient->enviar(word, 8080, "192.168.43.71", true);*/
 
-
-    //Boceto de código para crear txt
-    /*QString filename = "Data.txt";
-    QFile file(filename);
-    if (file.open(QIODevice::ReadWrite)) {
-        QTextStream stream(&file);
-        stream << "something" << endl;
-        }*/
-
     close();
 
-    helloworld w;
-    w.setModal(true);
-    w.exec();
-
-
-    //LobbyWindow lobbyWindow;
-    //lobbyWindow.setStyleSheet("background-color: white;");
-    //lobbyWindow.setModal(true);
-    //lobbyWindow.exec();
+    LobbyWindow lobbyWindow;
+    lobbyWindow.setStyleSheet("background-color: white;");
+    lobbyWindow.setModal(true);
+    lobbyWindow.exec();
 
 }
 

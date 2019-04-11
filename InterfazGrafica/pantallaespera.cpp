@@ -5,6 +5,8 @@
 #include <QFrame>
 #include "socketclient.h"
 #include "jsonComm.h"
+#include <helloworld.h>
+
 
 
 
@@ -25,19 +27,6 @@ LobbyWindow::LobbyWindow(QWidget *parent) :
     gif->setGeometry(230,295,800,300);
     gif->setAlignment(Qt::AlignCenter);
     gif->lower();
-
-
-
-    jsonComm* comm = &jsonComm::getInstance();
-    cout << "entra1"<< endl;
-    string json= Socket::getInstance().listener(8080);
-    cout << "entra2"<< endl;
-    cout << json<< endl;
-    cout << comm->deserealizarinicio(json);
-
-    cout << "entra"<< endl;
-
-
     }
 
 
@@ -47,11 +36,12 @@ LobbyWindow::~LobbyWindow()
 }
 
 
-//Bloque en construcción
-/*void LobbyWindow::on_continuarJ1_clicked(){
 
-    QLabel labelNombre;
-    labelNombre.setText(on_continuarJ1_clicked().nombreJugador1);
+void LobbyWindow::on_continuar_clicked()
+{
+    close();
+    helloworld w;
+    w.setModal(true);
+    w.exec();
 
-}*/
-
+}

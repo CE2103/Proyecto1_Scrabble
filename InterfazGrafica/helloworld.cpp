@@ -307,11 +307,7 @@ void helloworld::on_Scrabble_clicked(){
     }*/
 
     string word = comm->serializeAddWord(horizontal);
-    string word2 = comm->serializeAddWord(vertical);
-
     socketClient->enviar(word, 8080, "192.168.43.71", true);
-
-    socketClient->enviar(word2, 8080, "192.168.43.71", true);
 
 }
 
