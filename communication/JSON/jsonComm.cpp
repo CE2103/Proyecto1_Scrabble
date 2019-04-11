@@ -34,21 +34,6 @@ string jsonComm::deserializeCreateGame(string json, string name){
     return  d["name"].GetString();
 }
 
-string jsonComm::serializeGameCode(string gameCode){
-    const char* json = "{\"name\":000000}";
-
-    Document d;
-    d.Parse(json);
-    d["gameCode"].SetString(gameCode.c_str(), sizeof(char)*gameCode.length());
-
-    StringBuffer buffer;
-    Writer<StringBuffer> writer(buffer);
-    d.Accept(writer);
-
-    return buffer.GetString();
-
-}
-
 string jsonComm::serializeJoinGame(string gameCode, string name, string ip, int id){
     const char* json = "{\"gameCode\":123456,"
                        "\"name\":\"name\","
@@ -69,16 +54,6 @@ string jsonComm::serializeJoinGame(string gameCode, string name, string ip, int 
     return buffer.GetString();
 }
 
-string jsonComm::playersInfo1(){
-
-    return "{'name':'romario', 'ip':'127.0.0.1', 'port' 8080, 'id': 1}";
-}
-
-string jsonComm::playersInfo2(){
-
-    return "{'name':'ricardo', 'gameCode': 123456}";
-}
-
 string jsonComm::deserializeJoinGame(string json, int *turn, int *port){
     Document d;
     d.Parse(json.c_str());
@@ -87,8 +62,10 @@ string jsonComm::deserializeJoinGame(string json, int *turn, int *port){
 
 }
 
-string jsonComm::serializeChips(){
-    const char* json = "{}";
+string jsonComm::serializeChips(char letters[], int rows[], int cols[]){
+    const char* json = "{\"letters\":\"abcdefg\","
+                       "\"rows\":[0,0,0,0,0,0,0],"
+                       "\"cols\":[0,0,0,0,0,0,0]}";
 
     Document d;
     d.Parse(json);

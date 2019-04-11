@@ -15,23 +15,27 @@
 #include <string>
 #include "chips.h"
 #include "player.h"
-#include "dataStructures/auxLinkedList/listaux.h"
-#include "dataStructures/auxLinkedList/nodeaux.h"
 
 using namespace std;
 
 class chipsManager {
 
 private:
-    listaux * chipList = new listaux();
-    int totalChips;
-    char letters[100]={'A','A','A','A','A','A','A','A','A','B','B','C','C','D','D','D','D','E','E','E','E','E','E','E','E','E','E','E','E','F','F','G','G','G','H','H','I','I','I','I','I','I','I','I','I','J','K','L','L','L','L','M','M','N','N','N','N','N','N','O','O','O','O','O','O','O','O','P','P','Q','R','R','R','R','R','R','S','S','S','S','T','T','T','T','T','T','U','U','U','U','V','V','W','W','X','Y','Y','Z',' ',' '};
+    int totalChips = 100;
+    char* letters="abcdefghijklmnopqrstuvwxyz ";
+    int lettersAmount[27] = {9,2,2,4,12,2,3,2,9,1,1,4,2,6,8,2,1,6,4,6,4,2,2,1,2,1,2};
 
 public:
+
+    static chipsManager &getInstance(){
+        static  chipsManager instance;
+        return instance;
+    }
     chipsManager();
-    void substactChips(int chips);
-    nodeaux* dealChips(int amount, player* player);
-    void createBag();
+    void dealChips(int amount, player* player);
+    int getTotalAmount();
+    void setTotalAmount(int value);
+    int amountChipsCounter();
 
 
 };

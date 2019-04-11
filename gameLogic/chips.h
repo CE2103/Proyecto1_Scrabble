@@ -20,18 +20,25 @@
 
 using namespace std;
 
-class chips  {
+class chips: public QObject, public QGraphicsPixmapItem {
+    Q_OBJECT
 private:
     char letter;
     int value;
+    int x,y;
+    int row, col;
 
 public:
-    chips();
+    chips(int row, int col, char letter);
     chips(char letter);
     char getLetter();
     void setLetter(char letter);
     int getValue();
     void setValue(int value);
+    int getX();
+    void setX(int x);
+    int getY();
+    void setY(int y);
 
 protected:
 

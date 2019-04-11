@@ -28,7 +28,7 @@ message(STATUS "RapidJSON found. Headers: ${RapidJSON_INCLUDE_DIRS}")
 
 set(SOURCE_FILES
 
-        main.cpp
+#        main.cpp
 
         communication/JSON/jsonComm.cpp
         communication/socket/socket.cpp
@@ -44,6 +44,7 @@ set(SOURCE_FILES
 
         gameLogic/chips.cpp
         gameLogic/chipsManager.cpp
+        gameLogic/connectExpert.cpp
         gameLogic/gameBoard.cpp
         gameLogic/player.cpp
         gameLogic/gameController.cpp

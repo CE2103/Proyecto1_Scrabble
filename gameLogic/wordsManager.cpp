@@ -10,7 +10,7 @@ wordsManager::wordsManager() {
 bool wordsManager::search(string word) {
 
     string fileName;
-    fileName = "programmingLanguages.txt";
+    fileName = "general.txt";
     string fileRoute;
     fileRoute = "../util/dictionaryTypes/" + fileName;
     ifstream archivo(fileRoute.c_str());

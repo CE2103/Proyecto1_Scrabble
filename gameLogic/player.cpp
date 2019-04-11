@@ -4,12 +4,10 @@
 using namespace std;
 
 player::player(){
-
     this->setName("");
     this->setTurn(false);
     this->setScore(0);
     this->setAmChips(0);
-
 }
 
 string player::getName(){
