@@ -11,7 +11,7 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen")
 set(AM_INCLUDE_DIR "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/include")
 # Files
-set(AM_SOURCES "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.cpp;/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.cpp")
+set(AM_SOURCES "")
 set(AM_HEADERS "")
 set(AM_SETTINGS_FILE "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble_autogen.dir/AutogenOldSettings.txt")
 # Qt

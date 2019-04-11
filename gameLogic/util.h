@@ -2,7 +2,7 @@
 #define PROYECTO1_SCRABBLE_UTIL_H
 
 #include <iostream>
-#include "communication/socketClient.h"
+#include "communication/socket/socketClient.h"
 
 class util {
 

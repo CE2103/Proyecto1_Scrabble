@@ -40,39 +40,41 @@ public:
         SecDialog->resize(1300, 900);
         horizontalLayoutWidget = new QWidget(SecDialog);
         horizontalLayoutWidget->setObjectName(QStringLiteral("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(0, 480, 651, 102));
+        horizontalLayoutWidget->setGeometry(QRect(0, 410, 651, 102));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
-        horizontalLayout->setContentsMargins(150, 0, 110, 0);
+        horizontalLayout->setContentsMargins(150, 0, 90, 0);
         NewGameB = new QPushButton(horizontalLayoutWidget);
         NewGameB->setObjectName(QStringLiteral("NewGameB"));
-        NewGameB->setMinimumSize(QSize(300, 100));
+        NewGameB->setMinimumSize(QSize(200, 80));
         QFont font;
         font.setPointSize(18);
         NewGameB->setFont(font);
-        NewGameB->setStyleSheet(QLatin1String("background-color: rgb(237, 212, 0);\n"
-"                            "));
+        NewGameB->setStyleSheet(QLatin1String("background-color: rgb(252, 233, 79);\n"
+"\n"
+""));
 
         horizontalLayout->addWidget(NewGameB);
 
         horizontalLayoutWidget_3 = new QWidget(SecDialog);
         horizontalLayoutWidget_3->setObjectName(QStringLiteral("horizontalLayoutWidget_3"));
-        horizontalLayoutWidget_3->setGeometry(QRect(650, 480, 651, 102));
+        horizontalLayoutWidget_3->setGeometry(QRect(650, 410, 651, 102));
         horizontalLayout_3 = new QHBoxLayout(horizontalLayoutWidget_3);
         horizontalLayout_3->setSpacing(0);
         horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
-        horizontalLayout_3->setContentsMargins(110, 0, 150, 0);
+        horizontalLayout_3->setContentsMargins(90, 0, 150, 0);
         JoinGameB = new QPushButton(horizontalLayoutWidget_3);
         JoinGameB->setObjectName(QStringLiteral("JoinGameB"));
-        JoinGameB->setMinimumSize(QSize(300, 100));
+        JoinGameB->setMinimumSize(QSize(200, 80));
         JoinGameB->setFont(font);
-        JoinGameB->setStyleSheet(QStringLiteral("background-color: rgb(237, 212, 0);"));
+        JoinGameB->setStyleSheet(QLatin1String("background-color: rgb(252, 233, 79);\n"
+""));
 
         horizontalLayout_3->addWidget(JoinGameB);
 
         WelcomeLabel = new QLabel(SecDialog);
         WelcomeLabel->setObjectName(QStringLiteral("WelcomeLabel"));
-        WelcomeLabel->setGeometry(QRect(250, 240, 801, 141));
+        WelcomeLabel->setGeometry(QRect(250, 200, 801, 141));
 
         retranslateUi(SecDialog);
 
@@ -85,11 +87,11 @@ public:
         NewGameB->setText(QApplication::translate("SecDialog", "Juego Nuevo", Q_NULLPTR));
         JoinGameB->setText(QApplication::translate("SecDialog", "Unirse a un juego existente", Q_NULLPTR));
         WelcomeLabel->setText(QApplication::translate("SecDialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"                    <html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"                    p, li { white-space: pre-wrap; }\n"
-"                    </style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"                    <p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:36pt; font-weight:600;\">\302\241Bienvenido a Scrabble!</span></p>\n"
-"                    <p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt;\">Eliga una de las opciones para continuar</span></p></body></html>", Q_NULLPTR));
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:36pt; font-weight:600;\">\302\241Bienvenido a Scrabble!</span></p>\n"
+"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt;\">Eliga una de las opciones para continuar</span></p></body></html>", Q_NULLPTR));
     } // retranslateUi
 
 };

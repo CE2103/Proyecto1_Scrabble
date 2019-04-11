@@ -28,7 +28,6 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QLabel *label;
-    QLabel *authors;
     QPushButton *StartButton;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -44,25 +43,23 @@ public:
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(300, 205, 701, 291));
+        label->setGeometry(QRect(300, 125, 701, 291));
         label->setMaximumSize(QSize(10000000, 16777215));
         label->setAutoFillBackground(true);
-        label->setPixmap(QPixmap(QString::fromUtf8("img/logo.png")));
+        label->setPixmap(QPixmap(QString::fromUtf8("logo.png")));
         label->setScaledContents(true);
         label->setAlignment(Qt::AlignCenter);
         label->setTextInteractionFlags(Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse);
-        authors = new QLabel(centralWidget);
-        authors->setObjectName(QStringLiteral("authors"));
-        authors->setGeometry(QRect(385, 770, 531, 71));
-        authors->setAlignment(Qt::AlignCenter);
         StartButton = new QPushButton(centralWidget);
         StartButton->setObjectName(QStringLiteral("StartButton"));
-        StartButton->setGeometry(QRect(535, 560, 231, 51));
+        StartButton->setGeometry(QRect(535, 480, 231, 51));
         QFont font;
         font.setPointSize(16);
         StartButton->setFont(font);
         StartButton->setStyleSheet(QLatin1String("background-color: rgb(237, 212, 0);\n"
-"                    "));
+"\n"
+"\n"
+""));
         MainWindow->setCentralWidget(centralWidget);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));

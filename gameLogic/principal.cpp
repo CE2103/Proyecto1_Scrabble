@@ -1,4 +1,4 @@
-#include "communication/socketClient.h"
+#include "communication/socket/socketClient.h"
 #include "communication/JSON/jsonComm.h"
 
 #include "principal.h"

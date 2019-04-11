@@ -29,30 +29,18 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         main.cpp
 
+        dataStructures/linkedList/list.cpp
+        dataStructures/linkedList/node.cpp
+
         communication/JSON/jsonComm.cpp
-        communication/socketClient.cpp
+        communication/socket/socket.cpp
+
+        gameInterface/main.cpp
+        gameInterface/helloworld.cpp
+        dataStructures/linkedList/nodoespecial.cpp
 
         gameLogic/principal.cpp
-        gameLogic/util.cpp
-
-#        tests/qt/main.cpp
-#        tests/qt/mainwindow.cpp tests/qt/mainwindow.h
-
-        principal/main.cpp
-        principal/tablerodejuego.cpp
-        principal/registrojugador1.cpp
-        principal/registrojugador2.cpp
-        principal/opcionregistro.cpp
-        principal/pantallaespera.cpp
-        principal/mainwindow.cpp
-
-
-#        client/main.cpp
-        client/list.cpp
-        client/helloworld.cpp
-        client/node.cpp
-        client/nodoespecial.cpp
-        )
+        gameLogic/util.cpp)
 
 add_executable(Proyecto1_Scrabble ${SOURCE_FILES})
 
@@ -60,8 +48,6 @@ qt5_use_modules(Proyecto1_Scrabble Widgets Core Gui)
 
 target_link_libraries(Proyecto1_Scrabble
         Qt5::Core
-        Qt5::Widgets
-#        Qt5:Gui
-        )
+        Qt5::Widgets)
 
 target_link_libraries(Proyecto1_Scrabble ${CMAKE_THREAD_LIBS_INIT})

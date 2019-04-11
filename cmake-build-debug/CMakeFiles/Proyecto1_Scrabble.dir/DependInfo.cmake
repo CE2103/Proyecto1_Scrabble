@@ -7,20 +7,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/Proyecto1_Scrabble_autogen/mocs_compilation.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/Proyecto1_Scrabble_autogen/mocs_compilation.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/helloworld.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/client/helloworld.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/client/node.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/nodoespecial.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/client/nodoespecial.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/socketClient.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/communication/socket/socketClient.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/principal.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/util.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/util.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/opcionregistro.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/pantallaespera.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador1.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador2.cpp.o"
-  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/principal/tablerodejuego.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

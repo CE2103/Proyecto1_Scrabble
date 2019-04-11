@@ -128,6 +128,9 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/list.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/main.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/client/node.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
@@ -149,10 +152,10 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/socketClient.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socketClient.h">
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/socketClient.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/principal.cpp">
@@ -168,45 +171,6 @@
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/main.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/mainwindow.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/opcionregistro.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/pantallaespera.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador1.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/registrojugador2.h">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.cpp">
-			<Option target="Proyecto1_Scrabble"/>
-		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/principal/tablerodejuego.h">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/CMakeLists.txt">

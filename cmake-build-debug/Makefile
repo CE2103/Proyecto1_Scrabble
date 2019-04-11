@@ -217,6 +217,33 @@ client/list.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/list.cpp.s
 .PHONY : client/list.cpp.s
 
+client/main.o: client/main.cpp.o
+
+.PHONY : client/main.o
+
+# target to build an object file
+client/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.o
+.PHONY : client/main.cpp.o
+
+client/main.i: client/main.cpp.i
+
+.PHONY : client/main.i
+
+# target to preprocess a source file
+client/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.i
+.PHONY : client/main.cpp.i
+
+client/main.s: client/main.cpp.s
+
+.PHONY : client/main.s
+
+# target to generate assembly for a file
+client/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/client/main.cpp.s
+.PHONY : client/main.cpp.s
+
 client/node.o: client/node.cpp.o
 
 .PHONY : client/node.o
@@ -298,32 +325,32 @@ communication/JSON/jsonComm.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.s
 .PHONY : communication/JSON/jsonComm.cpp.s
 
-communication/socketClient.o: communication/socketClient.cpp.o
+communication/socket/socketClient.o: communication/socket/socketClient.cpp.o
 
-.PHONY : communication/socketClient.o
+.PHONY : communication/socket/socketClient.o
 
 # target to build an object file
-communication/socketClient.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.o
-.PHONY : communication/socketClient.cpp.o
+communication/socket/socketClient.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socket/socketClient.cpp.o
+.PHONY : communication/socket/socketClient.cpp.o
 
-communication/socketClient.i: communication/socketClient.cpp.i
+communication/socket/socketClient.i: communication/socket/socketClient.cpp.i
 
-.PHONY : communication/socketClient.i
+.PHONY : communication/socket/socketClient.i
 
 # target to preprocess a source file
-communication/socketClient.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.i
-.PHONY : communication/socketClient.cpp.i
+communication/socket/socketClient.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socket/socketClient.cpp.i
+.PHONY : communication/socket/socketClient.cpp.i
 
-communication/socketClient.s: communication/socketClient.cpp.s
+communication/socket/socketClient.s: communication/socket/socketClient.cpp.s
 
-.PHONY : communication/socketClient.s
+.PHONY : communication/socket/socketClient.s
 
 # target to generate assembly for a file
-communication/socketClient.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socketClient.cpp.s
-.PHONY : communication/socketClient.cpp.s
+communication/socket/socketClient.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/communication/socket/socketClient.cpp.s
+.PHONY : communication/socket/socketClient.cpp.s
 
 gameLogic/principal.o: gameLogic/principal.cpp.o
 
@@ -406,195 +433,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-principal/main.o: principal/main.cpp.o
-
-.PHONY : principal/main.o
-
-# target to build an object file
-principal/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.o
-.PHONY : principal/main.cpp.o
-
-principal/main.i: principal/main.cpp.i
-
-.PHONY : principal/main.i
-
-# target to preprocess a source file
-principal/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.i
-.PHONY : principal/main.cpp.i
-
-principal/main.s: principal/main.cpp.s
-
-.PHONY : principal/main.s
-
-# target to generate assembly for a file
-principal/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/main.cpp.s
-.PHONY : principal/main.cpp.s
-
-principal/mainwindow.o: principal/mainwindow.cpp.o
-
-.PHONY : principal/mainwindow.o
-
-# target to build an object file
-principal/mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.o
-.PHONY : principal/mainwindow.cpp.o
-
-principal/mainwindow.i: principal/mainwindow.cpp.i
-
-.PHONY : principal/mainwindow.i
-
-# target to preprocess a source file
-principal/mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.i
-.PHONY : principal/mainwindow.cpp.i
-
-principal/mainwindow.s: principal/mainwindow.cpp.s
-
-.PHONY : principal/mainwindow.s
-
-# target to generate assembly for a file
-principal/mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/mainwindow.cpp.s
-.PHONY : principal/mainwindow.cpp.s
-
-principal/opcionregistro.o: principal/opcionregistro.cpp.o
-
-.PHONY : principal/opcionregistro.o
-
-# target to build an object file
-principal/opcionregistro.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/opcionregistro.cpp.o
-.PHONY : principal/opcionregistro.cpp.o
-
-principal/opcionregistro.i: principal/opcionregistro.cpp.i
-
-.PHONY : principal/opcionregistro.i
-
-# target to preprocess a source file
-principal/opcionregistro.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/opcionregistro.cpp.i
-.PHONY : principal/opcionregistro.cpp.i
-
-principal/opcionregistro.s: principal/opcionregistro.cpp.s
-
-.PHONY : principal/opcionregistro.s
-
-# target to generate assembly for a file
-principal/opcionregistro.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/opcionregistro.cpp.s
-.PHONY : principal/opcionregistro.cpp.s
-
-principal/pantallaespera.o: principal/pantallaespera.cpp.o
-
-.PHONY : principal/pantallaespera.o
-
-# target to build an object file
-principal/pantallaespera.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/pantallaespera.cpp.o
-.PHONY : principal/pantallaespera.cpp.o
-
-principal/pantallaespera.i: principal/pantallaespera.cpp.i
-
-.PHONY : principal/pantallaespera.i
-
-# target to preprocess a source file
-principal/pantallaespera.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/pantallaespera.cpp.i
-.PHONY : principal/pantallaespera.cpp.i
-
-principal/pantallaespera.s: principal/pantallaespera.cpp.s
-
-.PHONY : principal/pantallaespera.s
-
-# target to generate assembly for a file
-principal/pantallaespera.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/pantallaespera.cpp.s
-.PHONY : principal/pantallaespera.cpp.s
-
-principal/registrojugador1.o: principal/registrojugador1.cpp.o
-
-.PHONY : principal/registrojugador1.o
-
-# target to build an object file
-principal/registrojugador1.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador1.cpp.o
-.PHONY : principal/registrojugador1.cpp.o
-
-principal/registrojugador1.i: principal/registrojugador1.cpp.i
-
-.PHONY : principal/registrojugador1.i
-
-# target to preprocess a source file
-principal/registrojugador1.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador1.cpp.i
-.PHONY : principal/registrojugador1.cpp.i
-
-principal/registrojugador1.s: principal/registrojugador1.cpp.s
-
-.PHONY : principal/registrojugador1.s
-
-# target to generate assembly for a file
-principal/registrojugador1.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador1.cpp.s
-.PHONY : principal/registrojugador1.cpp.s
-
-principal/registrojugador2.o: principal/registrojugador2.cpp.o
-
-.PHONY : principal/registrojugador2.o
-
-# target to build an object file
-principal/registrojugador2.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador2.cpp.o
-.PHONY : principal/registrojugador2.cpp.o
-
-principal/registrojugador2.i: principal/registrojugador2.cpp.i
-
-.PHONY : principal/registrojugador2.i
-
-# target to preprocess a source file
-principal/registrojugador2.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador2.cpp.i
-.PHONY : principal/registrojugador2.cpp.i
-
-principal/registrojugador2.s: principal/registrojugador2.cpp.s
-
-.PHONY : principal/registrojugador2.s
-
-# target to generate assembly for a file
-principal/registrojugador2.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/registrojugador2.cpp.s
-.PHONY : principal/registrojugador2.cpp.s
-
-principal/tablerodejuego.o: principal/tablerodejuego.cpp.o
-
-.PHONY : principal/tablerodejuego.o
-
-# target to build an object file
-principal/tablerodejuego.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/tablerodejuego.cpp.o
-.PHONY : principal/tablerodejuego.cpp.o
-
-principal/tablerodejuego.i: principal/tablerodejuego.cpp.i
-
-.PHONY : principal/tablerodejuego.i
-
-# target to preprocess a source file
-principal/tablerodejuego.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/tablerodejuego.cpp.i
-.PHONY : principal/tablerodejuego.cpp.i
-
-principal/tablerodejuego.s: principal/tablerodejuego.cpp.s
-
-.PHONY : principal/tablerodejuego.s
-
-# target to generate assembly for a file
-principal/tablerodejuego.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/principal/tablerodejuego.cpp.s
-.PHONY : principal/tablerodejuego.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -614,6 +452,9 @@ help:
 	@echo "... client/list.o"
 	@echo "... client/list.i"
 	@echo "... client/list.s"
+	@echo "... client/main.o"
+	@echo "... client/main.i"
+	@echo "... client/main.s"
 	@echo "... client/node.o"
 	@echo "... client/node.i"
 	@echo "... client/node.s"
@@ -623,9 +464,9 @@ help:
 	@echo "... communication/JSON/jsonComm.o"
 	@echo "... communication/JSON/jsonComm.i"
 	@echo "... communication/JSON/jsonComm.s"
-	@echo "... communication/socketClient.o"
-	@echo "... communication/socketClient.i"
-	@echo "... communication/socketClient.s"
+	@echo "... communication/socket/socketClient.o"
+	@echo "... communication/socket/socketClient.i"
+	@echo "... communication/socket/socketClient.s"
 	@echo "... gameLogic/principal.o"
 	@echo "... gameLogic/principal.i"
 	@echo "... gameLogic/principal.s"
@@ -635,27 +476,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... principal/main.o"
-	@echo "... principal/main.i"
-	@echo "... principal/main.s"
-	@echo "... principal/mainwindow.o"
-	@echo "... principal/mainwindow.i"
-	@echo "... principal/mainwindow.s"
-	@echo "... principal/opcionregistro.o"
-	@echo "... principal/opcionregistro.i"
-	@echo "... principal/opcionregistro.s"
-	@echo "... principal/pantallaespera.o"
-	@echo "... principal/pantallaespera.i"
-	@echo "... principal/pantallaespera.s"
-	@echo "... principal/registrojugador1.o"
-	@echo "... principal/registrojugador1.i"
-	@echo "... principal/registrojugador1.s"
-	@echo "... principal/registrojugador2.o"
-	@echo "... principal/registrojugador2.i"
-	@echo "... principal/registrojugador2.s"
-	@echo "... principal/tablerodejuego.o"
-	@echo "... principal/tablerodejuego.i"
-	@echo "... principal/tablerodejuego.s"
 .PHONY : help
 
 
@@ -667,6 +487,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
 .PHONY : cmake_check_build_system
 
