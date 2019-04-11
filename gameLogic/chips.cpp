@@ -89,9 +89,6 @@ chips::chips(char letter) {
 
 
         //Puntuación igual a 5
-//        case 'CH' : setLetter('CH');
-//                    setValue(5);
-//                    break;
         case 'Q' : setLetter('Q');
                    setValue(5);
                    break;
@@ -101,15 +98,6 @@ chips::chips(char letter) {
         case 'J' : setLetter('J');
                    setValue(8);
                    break;
-//        case 'LL' : setLetter('LL');
-//                    setValue(8);
-//            break;
-//        case 'Ñ' : setLetter('Ñ');
-//                   setValue(8);
-//                   break;
-//        case 'RR' : setLetter('RR');
-//                    setValue(8);
-//                    break;
         case 'X' : setLetter('X');
                    setValue(8);
                    break;

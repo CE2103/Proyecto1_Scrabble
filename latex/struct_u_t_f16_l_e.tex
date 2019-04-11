@@ -1,0 +1,75 @@
+\hypertarget{struct_u_t_f16_l_e}{}\doxysection{Referencia de la plantilla de la Estructura U\+T\+F16\+LE$<$ Char\+Type $>$}
+\label{struct_u_t_f16_l_e}\index{UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}}
+
+
+U\+T\+F-\/16 little endian encoding.  
+
+
+
+
+{\ttfamily \#include $<$encodings.\+h$>$}
+
+Diagrama de herencias de U\+T\+F16\+LE$<$ Char\+Type $>$\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_u_t_f16_l_e}
+\end{center}
+\end{figure}
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Input\+Byte\+Stream $>$ }\\static Char\+Type \mbox{\hyperlink{struct_u_t_f16_l_e_ab1d5f43903815155796733f76b21deea}{Take\+B\+OM}} (Input\+Byte\+Stream \&is)
+\item 
+{\footnotesize template$<$typename Input\+Byte\+Stream $>$ }\\static Char\+Type \mbox{\hyperlink{struct_u_t_f16_l_e_a5927b3d75ff9ce02056d827c14bd0160}{Take}} (Input\+Byte\+Stream \&is)
+\item 
+{\footnotesize template$<$typename Output\+Byte\+Stream $>$ }\\static void \mbox{\hyperlink{struct_u_t_f16_l_e_a6bfd05f8cac35c1594c7fce47009f198}{Put\+B\+OM}} (Output\+Byte\+Stream \&os)
+\item 
+{\footnotesize template$<$typename Output\+Byte\+Stream $>$ }\\static void \mbox{\hyperlink{struct_u_t_f16_l_e_ac018cc43a1dba5a6ca232bd9a257072c}{Put}} (Output\+Byte\+Stream \&os, Char\+Type c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Otros miembros heredados}
+
+
+\doxysubsection{Descripción detallada}
+\subsubsection*{template$<$typename Char\+Type = wchar\+\_\+t$>$\newline
+struct U\+T\+F16\+L\+E$<$ Char\+Type $>$}
+
+U\+T\+F-\/16 little endian encoding. 
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{struct_u_t_f16_l_e_ac018cc43a1dba5a6ca232bd9a257072c}\label{struct_u_t_f16_l_e_ac018cc43a1dba5a6ca232bd9a257072c}} 
+\index{UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}!Put@{Put}}
+\index{Put@{Put}!UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}}
+\doxysubsubsection{\texorpdfstring{Put()}{Put()}}
+{\footnotesize\ttfamily template$<$typename Char\+Type  = wchar\+\_\+t$>$ \\
+template$<$typename Output\+Byte\+Stream $>$ \\
+static void \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$ Char\+Type $>$\+::Put (\begin{DoxyParamCaption}\item[{Output\+Byte\+Stream \&}]{os,  }\item[{Char\+Type}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{struct_u_t_f16_l_e_a6bfd05f8cac35c1594c7fce47009f198}\label{struct_u_t_f16_l_e_a6bfd05f8cac35c1594c7fce47009f198}} 
+\index{UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}!PutBOM@{PutBOM}}
+\index{PutBOM@{PutBOM}!UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}}
+\doxysubsubsection{\texorpdfstring{PutBOM()}{PutBOM()}}
+{\footnotesize\ttfamily template$<$typename Char\+Type  = wchar\+\_\+t$>$ \\
+template$<$typename Output\+Byte\+Stream $>$ \\
+static void \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$ Char\+Type $>$\+::Put\+B\+OM (\begin{DoxyParamCaption}\item[{Output\+Byte\+Stream \&}]{os }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{struct_u_t_f16_l_e_a5927b3d75ff9ce02056d827c14bd0160}\label{struct_u_t_f16_l_e_a5927b3d75ff9ce02056d827c14bd0160}} 
+\index{UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}!Take@{Take}}
+\index{Take@{Take}!UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}}
+\doxysubsubsection{\texorpdfstring{Take()}{Take()}}
+{\footnotesize\ttfamily template$<$typename Char\+Type  = wchar\+\_\+t$>$ \\
+template$<$typename Input\+Byte\+Stream $>$ \\
+static Char\+Type \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$ Char\+Type $>$\+::Take (\begin{DoxyParamCaption}\item[{Input\+Byte\+Stream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{struct_u_t_f16_l_e_ab1d5f43903815155796733f76b21deea}\label{struct_u_t_f16_l_e_ab1d5f43903815155796733f76b21deea}} 
+\index{UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}!TakeBOM@{TakeBOM}}
+\index{TakeBOM@{TakeBOM}!UTF16LE$<$ CharType $>$@{UTF16LE$<$ CharType $>$}}
+\doxysubsubsection{\texorpdfstring{TakeBOM()}{TakeBOM()}}
+{\footnotesize\ttfamily template$<$typename Char\+Type  = wchar\+\_\+t$>$ \\
+template$<$typename Input\+Byte\+Stream $>$ \\
+static Char\+Type \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$ Char\+Type $>$\+::Take\+B\+OM (\begin{DoxyParamCaption}\item[{Input\+Byte\+Stream \&}]{is }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+La documentación para esta estructura fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+lib/rapidjson/\mbox{\hyperlink{encodings_8h}{encodings.\+h}}\end{DoxyCompactItemize}

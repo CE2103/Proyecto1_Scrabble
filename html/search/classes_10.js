@@ -4,7 +4,7 @@ var searchData=
   ['schemavalidatingreader',['SchemaValidatingReader',['../class_schema_validating_reader.html',1,'']]],
   ['schemavalidationcontext',['SchemaValidationContext',['../structinternal_1_1_schema_validation_context.html',1,'internal']]],
   ['shortstring',['ShortString',['../struct_generic_value_1_1_short_string.html',1,'GenericValue']]],
-  ['socketserver',['socketServer',['../classsocket_server.html',1,'']]],
+  ['socket',['Socket',['../class_socket.html',1,'']]],
   ['stack',['Stack',['../classinternal_1_1_stack.html',1,'internal']]],
   ['stack_3c_20stackallocator_20_3e',['Stack&lt; StackAllocator &gt;',['../classinternal_1_1_stack.html',1,'internal']]],
   ['stack_3c_20stateallocator_20_3e',['Stack&lt; StateAllocator &gt;',['../classinternal_1_1_stack.html',1,'internal']]],

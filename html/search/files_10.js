@@ -1,8 +1,8 @@
 var searchData=
 [
   ['schema_2eh',['schema.h',['../schema_8h.html',1,'']]],
-  ['socketserver_2ecpp',['socketServer.cpp',['../socket_server_8cpp.html',1,'']]],
-  ['socketserver_2eh',['socketServer.h',['../socket_server_8h.html',1,'']]],
+  ['socket_2ecpp',['socket.cpp',['../socket_8cpp.html',1,'']]],
+  ['socket_2eh',['socket.h',['../socket_8h.html',1,'']]],
   ['stack_2eh',['stack.h',['../stack_8h.html',1,'']]],
   ['stdint_2eh',['stdint.h',['../stdint_8h.html',1,'']]],
   ['stream_2eh',['stream.h',['../stream_8h.html',1,'']]],

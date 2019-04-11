@@ -5,7 +5,6 @@ var searchData=
   ['rawassign',['RawAssign',['../class_generic_value.html#abb8ea2dfbe74ff4ee7dac6be31317f81',1,'GenericValue']]],
   ['rawnumber',['RawNumber',['../class_generic_document.html#af703994dec5af6ef049a24b5243aceab',1,'GenericDocument::RawNumber()'],['../class_pretty_writer.html#a3941bc21d6a261ca8a86eff330db30ef',1,'PrettyWriter::RawNumber()'],['../struct_base_reader_handler.html#a9ed0d83d5e6c8f5e4b32ca3735ff0bb7',1,'BaseReaderHandler::RawNumber()'],['../classinternal_1_1_hasher.html#ae277289ad2fb3a938a6507e566d3c5e2',1,'internal::Hasher::RawNumber()'],['../class_generic_schema_validator.html#ae4f024145421d2c1dde08a9de528722a',1,'GenericSchemaValidator::RawNumber()'],['../class_writer.html#ad462dc606fddea0f34fc0e190c3bdaee',1,'Writer::RawNumber()']]],
   ['rawvalue',['RawValue',['../class_pretty_writer.html#a440890a72408a150ef46edda6becdc94',1,'PrettyWriter::RawValue()'],['../class_writer.html#ae0d1615104e4e88040b9640e6784008a',1,'Writer::RawValue()']]],
-  ['readjson',['ReadJson',['../class_read_write.html#ab19ff01612e50f18d0f81005b9215894',1,'ReadWrite']]],
   ['realloc',['Realloc',['../class_crt_allocator.html#a646bb6f68afe773a62a22f7f14f83e97',1,'CrtAllocator::Realloc()'],['../class_memory_pool_allocator.html#aba75280d42184b0ad414243f7f5ac6c7',1,'MemoryPoolAllocator::Realloc()']]],
   ['removeallmembers',['RemoveAllMembers',['../class_generic_object.html#a129ce3843a6658e620a7f740d9f44ee1',1,'GenericObject']]],
   ['removeitem',['removeItem',['../classqueue.html#ac3a7ca3989b9e6dcf3b17ee8378a0ed7',1,'queue']]],
@@ -13,6 +12,5 @@ var searchData=
   ['reserve',['Reserve',['../class_generic_array.html#a7c74901e8e2174fe4661f4848995f355',1,'GenericArray::Reserve()'],['../classinternal_1_1_stack.html#a7ae5de892834b7fc16099eb5e23dd97c',1,'internal::Stack::Reserve()'],['../class_generic_string_buffer.html#a4d6becae201b98c122746298882a318f',1,'GenericStringBuffer::Reserve()']]],
   ['reset',['Reset',['../class_generic_schema_validator.html#a49efbbe098cb77728be3d48cafed17e4',1,'GenericSchemaValidator::Reset()'],['../class_writer.html#a8b53e8f137f7fcf694f5500711b3f58d',1,'Writer::Reset()']]],
   ['retranslateui',['retranslateUi',['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)'],['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)'],['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)']]],
-  ['roomverification',['roomVerification',['../classgame_controller.html#a2fed52656200d357ab81d9347bd2a7a0',1,'gameController']]],
-  ['run',['run',['../classsocket_server.html#afeee949401f39a028e5d2c282841210f',1,'socketServer']]]
+  ['roomverification',['roomVerification',['../classgame_controller.html#a2fed52656200d357ab81d9347bd2a7a0',1,'gameController']]]
 ];

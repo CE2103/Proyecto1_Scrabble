@@ -1,0 +1,156 @@
+\hypertarget{encodings_8h}{}\doxysection{Referencia del Archivo lib/rapidjson/encodings.h}
+\label{encodings_8h}\index{lib/rapidjson/encodings.h@{lib/rapidjson/encodings.h}}
+{\ttfamily \#include \char`\"{}rapidjson.\+h\char`\"{}}\newline
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/8 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16}{U\+T\+F16$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+L\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 little endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f16_b_e}{U\+T\+F16\+B\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/16 big endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32}{U\+T\+F32$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32_l_e}{U\+T\+F32\+L\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 little endian enocoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_u_t_f32_b_e}{U\+T\+F32\+B\+E$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em U\+T\+F-\/32 big endian encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_a_s_c_i_i}{A\+S\+C\+I\+I$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{struct_a_s_c_i_i}{A\+S\+C\+II}} encoding. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_auto_u_t_f}{Auto\+U\+T\+F$<$ Char\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em Dynamically select encoding according to stream\textquotesingle{}s runtime-\/specified U\+TF encoding type. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_transcoder}{Transcoder$<$ Source\+Encoding, Target\+Encoding $>$}}
+\begin{DoxyCompactList}\small\item\em Encoding conversion. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_transcoder_3_01_encoding_00_01_encoding_01_4}{Transcoder$<$ Encoding, Encoding $>$}}
+\begin{DoxyCompactList}\small\item\em Specialization of \mbox{\hyperlink{struct_transcoder}{Transcoder}} with same source and target encoding. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}()~c = is.\+Take(); $\ast$codepoint = ($\ast$codepoint $<$$<$ 6) $\vert$ (static\+\_\+cast$<$unsigned char$>$(c) \& 0x3\+Fu)
+\item 
+\#define \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(mask)~result \&= ((Get\+Range(static\+\_\+cast$<$unsigned char$>$(c)) \& mask) != 0)
+\item 
+\#define \mbox{\hyperlink{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+A\+IL}}()~\mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}(); \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(0x70)
+\item 
+\#define \mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}()~os.\+Put(c = is.\+Take())
+\item 
+\#define \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(mask)~result \&= ((Get\+Range(static\+\_\+cast$<$unsigned char$>$(c)) \& mask) != 0)
+\item 
+\#define \mbox{\hyperlink{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+A\+IL}}()~\mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}(); \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(0x70)
+\item 
+\#define \mbox{\hyperlink{encodings_8h_a6530c8834a049a0ff230b56072df6c24}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+N\+C\+O\+D\+I\+N\+G\+S\+\_\+\+F\+U\+NC}}(x)~\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f16_b_e}{U\+T\+F16\+BE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f32_l_e}{U\+T\+F32\+LE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f32_b_e}{U\+T\+F32\+BE}}$<$Ch$>$\+::x
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumeraciones}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58}{U\+T\+F\+Type}} \{ \newline
+\mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a7fd9945f1c494a4a4ee9446017e790f1}{k\+U\+T\+F8}} = 0, 
+\mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58ab72f5865db6af4e33757ee52ddad9fda}{k\+U\+T\+F16\+LE}} = 1, 
+\mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a1a455c6e8be641e715de9aa8ffa6cea0}{k\+U\+T\+F16\+BE}} = 2, 
+\mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a885dec757d256c427be6759296d482e0}{k\+U\+T\+F32\+LE}} = 3, 
+\newline
+\mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a14da8da33c9f9aa904bf0d1aac3fa76e}{k\+U\+T\+F32\+BE}} = 4
+ \}
+\begin{DoxyCompactList}\small\item\em Runtime-\/specified U\+TF encoding type of a stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Stream $>$ }\\void \mbox{\hyperlink{encodings_8h_ad57ba7f2912c5509924b69dec7db4396}{Put\+Unsafe}} (Stream \&stream, typename Stream\+::\+Ch c)
+\begin{DoxyCompactList}\small\item\em Write character to a stream, presuming buffer is reserved. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}\label{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_COPY@{RAPIDJSON\_COPY}}
+\index{RAPIDJSON\_COPY@{RAPIDJSON\_COPY}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_COPY}{RAPIDJSON\_COPY}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~c = is.\+Take(); $\ast$codepoint = ($\ast$codepoint $<$$<$ 6) $\vert$ (static\+\_\+cast$<$unsigned char$>$(c) \& 0x3\+Fu)}
+
+\mbox{\Hypertarget{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}\label{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_COPY@{RAPIDJSON\_COPY}}
+\index{RAPIDJSON\_COPY@{RAPIDJSON\_COPY}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_COPY}{RAPIDJSON\_COPY}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~os.\+Put(c = is.\+Take())}
+
+\mbox{\Hypertarget{encodings_8h_a6530c8834a049a0ff230b56072df6c24}\label{encodings_8h_a6530c8834a049a0ff230b56072df6c24}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_ENCODINGS\_FUNC@{RAPIDJSON\_ENCODINGS\_FUNC}}
+\index{RAPIDJSON\_ENCODINGS\_FUNC@{RAPIDJSON\_ENCODINGS\_FUNC}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_ENCODINGS\_FUNC}{RAPIDJSON\_ENCODINGS\_FUNC}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+E\+N\+C\+O\+D\+I\+N\+G\+S\+\_\+\+F\+U\+NC(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~\mbox{\hyperlink{struct_u_t_f8}{U\+T\+F8}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f16_l_e}{U\+T\+F16\+LE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f16_b_e}{U\+T\+F16\+BE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f32_l_e}{U\+T\+F32\+LE}}$<$Ch$>$\+::x, \mbox{\hyperlink{struct_u_t_f32_b_e}{U\+T\+F32\+BE}}$<$Ch$>$\+::x}
+
+\mbox{\Hypertarget{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}\label{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_TAIL@{RAPIDJSON\_TAIL}}
+\index{RAPIDJSON\_TAIL@{RAPIDJSON\_TAIL}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_TAIL}{RAPIDJSON\_TAIL}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+A\+IL(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~\mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}(); \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(0x70)}
+
+\mbox{\Hypertarget{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}\label{encodings_8h_aaa13dc9e0effa5edff532c344b5b35f7}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_TAIL@{RAPIDJSON\_TAIL}}
+\index{RAPIDJSON\_TAIL@{RAPIDJSON\_TAIL}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_TAIL}{RAPIDJSON\_TAIL}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+A\+IL(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~\mbox{\hyperlink{encodings_8h_a3c5bc66bef12c668f05bbd4df5690171}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+C\+O\+PY}}(); \mbox{\hyperlink{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}{R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS}}(0x70)}
+
+\mbox{\Hypertarget{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}\label{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_TRANS@{RAPIDJSON\_TRANS}}
+\index{RAPIDJSON\_TRANS@{RAPIDJSON\_TRANS}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_TRANS}{RAPIDJSON\_TRANS}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS(\begin{DoxyParamCaption}\item[{}]{mask }\end{DoxyParamCaption})~result \&= ((Get\+Range(static\+\_\+cast$<$unsigned char$>$(c)) \& mask) != 0)}
+
+\mbox{\Hypertarget{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}\label{encodings_8h_ad84116656b63c4b8d43a2264db620a4b}} 
+\index{encodings.h@{encodings.h}!RAPIDJSON\_TRANS@{RAPIDJSON\_TRANS}}
+\index{RAPIDJSON\_TRANS@{RAPIDJSON\_TRANS}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{RAPIDJSON\_TRANS}{RAPIDJSON\_TRANS}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \#define R\+A\+P\+I\+D\+J\+S\+O\+N\+\_\+\+T\+R\+A\+NS(\begin{DoxyParamCaption}\item[{}]{mask }\end{DoxyParamCaption})~result \&= ((Get\+Range(static\+\_\+cast$<$unsigned char$>$(c)) \& mask) != 0)}
+
+
+
+\doxysubsection{Documentación de las enumeraciones}
+\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58}} 
+\index{encodings.h@{encodings.h}!UTFType@{UTFType}}
+\index{UTFType@{UTFType}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{UTFType}{UTFType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58}{U\+T\+F\+Type}}}
+
+
+
+Runtime-\/specified U\+TF encoding type of a stream. 
+
+\begin{DoxyEnumFields}{Valores de enumeraciones}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kUTF8@{kUTF8}!encodings.h@{encodings.h}}\index{encodings.h@{encodings.h}!kUTF8@{kUTF8}}}\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a7fd9945f1c494a4a4ee9446017e790f1}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a7fd9945f1c494a4a4ee9446017e790f1}} 
+k\+U\+T\+F8&U\+T\+F-\/8. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kUTF16LE@{kUTF16LE}!encodings.h@{encodings.h}}\index{encodings.h@{encodings.h}!kUTF16LE@{kUTF16LE}}}\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58ab72f5865db6af4e33757ee52ddad9fda}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58ab72f5865db6af4e33757ee52ddad9fda}} 
+k\+U\+T\+F16\+LE&U\+T\+F-\/16 little endian. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kUTF16BE@{kUTF16BE}!encodings.h@{encodings.h}}\index{encodings.h@{encodings.h}!kUTF16BE@{kUTF16BE}}}\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a1a455c6e8be641e715de9aa8ffa6cea0}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a1a455c6e8be641e715de9aa8ffa6cea0}} 
+k\+U\+T\+F16\+BE&U\+T\+F-\/16 big endian. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kUTF32LE@{kUTF32LE}!encodings.h@{encodings.h}}\index{encodings.h@{encodings.h}!kUTF32LE@{kUTF32LE}}}\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a885dec757d256c427be6759296d482e0}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a885dec757d256c427be6759296d482e0}} 
+k\+U\+T\+F32\+LE&U\+T\+F-\/32 little endian. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{kUTF32BE@{kUTF32BE}!encodings.h@{encodings.h}}\index{encodings.h@{encodings.h}!kUTF32BE@{kUTF32BE}}}\mbox{\Hypertarget{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a14da8da33c9f9aa904bf0d1aac3fa76e}\label{encodings_8h_ac9448aedf514a5bb509bae73a9ce4e58a14da8da33c9f9aa904bf0d1aac3fa76e}} 
+k\+U\+T\+F32\+BE&U\+T\+F-\/32 big endian. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{encodings_8h_ad57ba7f2912c5509924b69dec7db4396}\label{encodings_8h_ad57ba7f2912c5509924b69dec7db4396}} 
+\index{encodings.h@{encodings.h}!PutUnsafe@{PutUnsafe}}
+\index{PutUnsafe@{PutUnsafe}!encodings.h@{encodings.h}}
+\doxysubsubsection{\texorpdfstring{PutUnsafe()}{PutUnsafe()}}
+{\footnotesize\ttfamily template$<$typename Stream $>$ \\
+void Put\+Unsafe (\begin{DoxyParamCaption}\item[{Stream \&}]{stream,  }\item[{typename Stream\+::\+Ch}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write character to a stream, presuming buffer is reserved. 
+

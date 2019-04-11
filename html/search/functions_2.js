@@ -4,6 +4,7 @@ var searchData=
   ['checkwithinhalfulp',['CheckWithinHalfULP',['../namespaceinternal.html#a190f9c286df64526a7e3550528ed6b02',1,'internal']]],
   ['chips',['chips',['../classchips.html#ae8d92d8e2d83af8d04d21883e33aa274',1,'chips::chips()'],['../classchips.html#a7cff6fb027e2e09c9b55fdaee654827f',1,'chips::chips(char letter)']]],
   ['chipsmanager',['chipsManager',['../classchips_manager.html#a501ad549587cf545e8bad23c711030ca',1,'chipsManager']]],
+  ['chipvalue',['chipValue',['../classgame_board.html#a90d4cdfaefbecb2cce3cd6917b6fa2ab',1,'gameBoard']]],
   ['clear',['Clear',['../class_memory_pool_allocator.html#a57bbc80e570db6110901b9a7e36dbda0',1,'MemoryPoolAllocator::Clear()'],['../class_generic_array.html#a5e6c158ff76ab8a8ed568fa486e63c80',1,'GenericArray::Clear()'],['../struct_parse_result.html#a88b6d44f052a19e6436ae6aadc2c40b4',1,'ParseResult::Clear()'],['../classinternal_1_1_stack.html#a02da31665a372738e81ded2f7b7d598e',1,'internal::Stack::Clear()'],['../struct_generic_memory_buffer.html#a036cbe2556778e1edc525602a9821df2',1,'GenericMemoryBuffer::Clear()'],['../class_generic_string_buffer.html#a42f15c959046d899cb74c3120a6995f9',1,'GenericStringBuffer::Clear()']]],
   ['code',['Code',['../struct_parse_result.html#a2aae3c2f42b31cc2409ee1e03bc4852e',1,'ParseResult']]],
   ['compare',['Compare',['../classinternal_1_1_big_integer.html#af8e90fff5382de6c1cda5f751017200c',1,'internal::BigInteger']]],

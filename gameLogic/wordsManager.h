@@ -3,9 +3,9 @@
  * @version 1.0
  * @date 04/04/2019
  * @autor angelortizv
- * @title
- * @brief
+ * @title Buscador de Palabras en Diccionario
  */
+
 #ifndef PROYECTO1_SCRABBLE_WORDSMANAGER_H
 #define PROYECTO1_SCRABBLE_WORDSMANAGER_H
 
@@ -20,7 +20,6 @@ class wordsManager {
 private:
 public:
     wordsManager();
-
     bool search(string word);
 
 };

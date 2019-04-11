@@ -55,13 +55,9 @@ var searchData=
   ['rawassign',['RawAssign',['../class_generic_value.html#abb8ea2dfbe74ff4ee7dac6be31317f81',1,'GenericValue']]],
   ['rawnumber',['RawNumber',['../class_generic_document.html#af703994dec5af6ef049a24b5243aceab',1,'GenericDocument::RawNumber()'],['../class_pretty_writer.html#a3941bc21d6a261ca8a86eff330db30ef',1,'PrettyWriter::RawNumber()'],['../struct_base_reader_handler.html#a9ed0d83d5e6c8f5e4b32ca3735ff0bb7',1,'BaseReaderHandler::RawNumber()'],['../classinternal_1_1_hasher.html#ae277289ad2fb3a938a6507e566d3c5e2',1,'internal::Hasher::RawNumber()'],['../class_generic_schema_validator.html#ae4f024145421d2c1dde08a9de528722a',1,'GenericSchemaValidator::RawNumber()'],['../class_writer.html#ad462dc606fddea0f34fc0e190c3bdaee',1,'Writer::RawNumber()']]],
   ['rawvalue',['RawValue',['../class_pretty_writer.html#a440890a72408a150ef46edda6becdc94',1,'PrettyWriter::RawValue()'],['../class_writer.html#ae0d1615104e4e88040b9640e6784008a',1,'Writer::RawValue()']]],
-  ['read_5fwrite_2ecpp',['read_write.cpp',['../read__write_8cpp.html',1,'']]],
-  ['read_5fwrite_2eh',['read_write.h',['../read__write_8h.html',1,'']]],
   ['reader',['Reader',['../fwd_8h.html#ab7f1c1207749ff25c0d7f0cc88e62788',1,'Reader():&#160;fwd.h'],['../reader_8h.html#a84f3b66a66647f4ac4267078359188ba',1,'Reader():&#160;reader.h']]],
   ['reader_2eh',['reader.h',['../reader_8h.html',1,'']]],
-  ['readjson',['ReadJson',['../class_read_write.html#ab19ff01612e50f18d0f81005b9215894',1,'ReadWrite']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readwrite',['ReadWrite',['../class_read_write.html',1,'']]],
   ['realloc',['Realloc',['../class_crt_allocator.html#a646bb6f68afe773a62a22f7f14f83e97',1,'CrtAllocator::Realloc()'],['../class_memory_pool_allocator.html#aba75280d42184b0ad414243f7f5ac6c7',1,'MemoryPoolAllocator::Realloc()']]],
   ['reference',['reference',['../class_generic_member_iterator.html#a182876d698903331bd0b11db6d1beeca',1,'GenericMemberIterator::reference()'],['../class_generic_member_iterator.html#a8042a85a9e233d65de5b6c66d9a1109a',1,'GenericMemberIterator::Reference()']]],
   ['regex',['Regex',['../namespaceinternal.html#ae7fc20c6ee680ae3ba16ae16b4bd5e16',1,'internal']]],
@@ -76,6 +72,5 @@ var searchData=
   ['retranslateui',['retranslateUi',['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)'],['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)'],['../class_ui___main_window.html#a097dd160c3534a204904cb374412c618',1,'Ui_MainWindow::retranslateUi(QMainWindow *MainWindow)']]],
   ['roomcounter',['roomCounter',['../game_controller_8cpp.html#af1b852d2b75c4e97b1fd5563a151abad',1,'gameController.cpp']]],
   ['roomverification',['roomVerification',['../classgame_controller.html#a2fed52656200d357ab81d9347bd2a7a0',1,'gameController']]],
-  ['row',['row',['../game_board_8cpp.html#af1d3cff2e4538e23400e260bae3dadad',1,'gameBoard.cpp']]],
-  ['run',['run',['../classsocket_server.html#afeee949401f39a028e5d2c282841210f',1,'socketServer']]]
+  ['row',['row',['../game_board_8cpp.html#af1d3cff2e4538e23400e260bae3dadad',1,'gameBoard.cpp']]]
 ];

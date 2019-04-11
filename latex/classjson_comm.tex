@@ -1,0 +1,144 @@
+\hypertarget{classjson_comm}{}\doxysection{Referencia de la Clase json\+Comm}
+\label{classjson_comm}\index{jsonComm@{jsonComm}}
+
+
+{\ttfamily \#include $<$json\+Comm.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classjson_comm_a94cc5c12d1ec3181a2def1c86d04ca61}{json\+Comm}} ()
+\item 
+string \mbox{\hyperlink{classjson_comm_ad2073a08c53048f9ef0d774fe4a377da}{serialize\+Create\+Game}} (string name, string ip, string port, int id)
+\item 
+string \mbox{\hyperlink{classjson_comm_ada2d0fff7d97bc6ac6acf16a970fbcf6}{deserialize\+Create\+Game}} (string json, string name)
+\item 
+string \mbox{\hyperlink{classjson_comm_af20a5cab5a7db5f1a2dc694133ec23ba}{serialize\+Game\+Code}} (string game\+Code)
+\item 
+string \mbox{\hyperlink{classjson_comm_ae24e8838fda04043507cf11c956958f1}{serialize\+Join\+Game}} (string game\+Code, string name, string ip, int id)
+\item 
+string \mbox{\hyperlink{classjson_comm_a4a2a1cbf91900ed5cfe6566ecee887c4}{deserialize\+Join\+Game}} (string json, int $\ast$turn, int $\ast$port)
+\item 
+string \mbox{\hyperlink{classjson_comm_a373be0e1b82d60bcbf2ddf3d509b424d}{serialize\+Chips}} ()
+\item 
+string \mbox{\hyperlink{classjson_comm_a623eddff85b8b92083691f32fa865efa}{serialize\+Add\+Word}} (string word)
+\item 
+string \mbox{\hyperlink{classjson_comm_a095b917bc869ed4f5fb79f7c4f747264}{deserialize\+Add\+Word}} (string json)
+\item 
+string \mbox{\hyperlink{classjson_comm_a4f7b3efd9154081b0a46fd0e07df024a}{players\+Info1}} ()
+\item 
+string \mbox{\hyperlink{classjson_comm_a9ba1adc000f0e8f7b61f91ea598ecc76}{players\+Info2}} ()
+\item 
+string \mbox{\hyperlink{classjson_comm_a92bedf0bc29f32c30def0327846f4042}{serialize\+Player\+Info}} (string name, int turn, int score, int am\+Chips)
+\item 
+void \mbox{\hyperlink{classjson_comm_aeff42179ef306558d69cc9778468426e}{deserialize\+Player\+Info}} (string json, string $\ast$name, int $\ast$turn, int $\ast$score, int $\ast$am\+Chips)
+\item 
+int \mbox{\hyperlink{classjson_comm_aa8adba3dec8f24385edf41cdca49ceb2}{get\+Id}} (string json)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classjson_comm}{json\+Comm}} \& \mbox{\hyperlink{classjson_comm_a70e6736ce2e93af7576e88622ada1ef1}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classjson_comm_a94cc5c12d1ec3181a2def1c86d04ca61}\label{classjson_comm_a94cc5c12d1ec3181a2def1c86d04ca61}} 
+\index{jsonComm@{jsonComm}!jsonComm@{jsonComm}}
+\index{jsonComm@{jsonComm}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{jsonComm()}{jsonComm()}}
+{\footnotesize\ttfamily json\+Comm\+::json\+Comm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classjson_comm_a095b917bc869ed4f5fb79f7c4f747264}\label{classjson_comm_a095b917bc869ed4f5fb79f7c4f747264}} 
+\index{jsonComm@{jsonComm}!deserializeAddWord@{deserializeAddWord}}
+\index{deserializeAddWord@{deserializeAddWord}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{deserializeAddWord()}{deserializeAddWord()}}
+{\footnotesize\ttfamily string json\+Comm\+::deserialize\+Add\+Word (\begin{DoxyParamCaption}\item[{string}]{json }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_ada2d0fff7d97bc6ac6acf16a970fbcf6}\label{classjson_comm_ada2d0fff7d97bc6ac6acf16a970fbcf6}} 
+\index{jsonComm@{jsonComm}!deserializeCreateGame@{deserializeCreateGame}}
+\index{deserializeCreateGame@{deserializeCreateGame}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{deserializeCreateGame()}{deserializeCreateGame()}}
+{\footnotesize\ttfamily string json\+Comm\+::deserialize\+Create\+Game (\begin{DoxyParamCaption}\item[{string}]{json,  }\item[{string}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a4a2a1cbf91900ed5cfe6566ecee887c4}\label{classjson_comm_a4a2a1cbf91900ed5cfe6566ecee887c4}} 
+\index{jsonComm@{jsonComm}!deserializeJoinGame@{deserializeJoinGame}}
+\index{deserializeJoinGame@{deserializeJoinGame}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{deserializeJoinGame()}{deserializeJoinGame()}}
+{\footnotesize\ttfamily string json\+Comm\+::deserialize\+Join\+Game (\begin{DoxyParamCaption}\item[{string}]{json,  }\item[{int $\ast$}]{turn,  }\item[{int $\ast$}]{port }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_aeff42179ef306558d69cc9778468426e}\label{classjson_comm_aeff42179ef306558d69cc9778468426e}} 
+\index{jsonComm@{jsonComm}!deserializePlayerInfo@{deserializePlayerInfo}}
+\index{deserializePlayerInfo@{deserializePlayerInfo}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{deserializePlayerInfo()}{deserializePlayerInfo()}}
+{\footnotesize\ttfamily void json\+Comm\+::deserialize\+Player\+Info (\begin{DoxyParamCaption}\item[{string}]{json,  }\item[{string $\ast$}]{name,  }\item[{int $\ast$}]{turn,  }\item[{int $\ast$}]{score,  }\item[{int $\ast$}]{am\+Chips }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_aa8adba3dec8f24385edf41cdca49ceb2}\label{classjson_comm_aa8adba3dec8f24385edf41cdca49ceb2}} 
+\index{jsonComm@{jsonComm}!getId@{getId}}
+\index{getId@{getId}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int json\+Comm\+::get\+Id (\begin{DoxyParamCaption}\item[{string}]{json }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a70e6736ce2e93af7576e88622ada1ef1}\label{classjson_comm_a70e6736ce2e93af7576e88622ada1ef1}} 
+\index{jsonComm@{jsonComm}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classjson_comm}{json\+Comm}}\& json\+Comm\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classjson_comm_a4f7b3efd9154081b0a46fd0e07df024a}\label{classjson_comm_a4f7b3efd9154081b0a46fd0e07df024a}} 
+\index{jsonComm@{jsonComm}!playersInfo1@{playersInfo1}}
+\index{playersInfo1@{playersInfo1}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{playersInfo1()}{playersInfo1()}}
+{\footnotesize\ttfamily string json\+Comm\+::players\+Info1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a9ba1adc000f0e8f7b61f91ea598ecc76}\label{classjson_comm_a9ba1adc000f0e8f7b61f91ea598ecc76}} 
+\index{jsonComm@{jsonComm}!playersInfo2@{playersInfo2}}
+\index{playersInfo2@{playersInfo2}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{playersInfo2()}{playersInfo2()}}
+{\footnotesize\ttfamily string json\+Comm\+::players\+Info2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a623eddff85b8b92083691f32fa865efa}\label{classjson_comm_a623eddff85b8b92083691f32fa865efa}} 
+\index{jsonComm@{jsonComm}!serializeAddWord@{serializeAddWord}}
+\index{serializeAddWord@{serializeAddWord}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializeAddWord()}{serializeAddWord()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Add\+Word (\begin{DoxyParamCaption}\item[{string}]{word }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a373be0e1b82d60bcbf2ddf3d509b424d}\label{classjson_comm_a373be0e1b82d60bcbf2ddf3d509b424d}} 
+\index{jsonComm@{jsonComm}!serializeChips@{serializeChips}}
+\index{serializeChips@{serializeChips}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializeChips()}{serializeChips()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Chips (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_ad2073a08c53048f9ef0d774fe4a377da}\label{classjson_comm_ad2073a08c53048f9ef0d774fe4a377da}} 
+\index{jsonComm@{jsonComm}!serializeCreateGame@{serializeCreateGame}}
+\index{serializeCreateGame@{serializeCreateGame}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializeCreateGame()}{serializeCreateGame()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Create\+Game (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{ip,  }\item[{string}]{port,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_af20a5cab5a7db5f1a2dc694133ec23ba}\label{classjson_comm_af20a5cab5a7db5f1a2dc694133ec23ba}} 
+\index{jsonComm@{jsonComm}!serializeGameCode@{serializeGameCode}}
+\index{serializeGameCode@{serializeGameCode}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializeGameCode()}{serializeGameCode()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Game\+Code (\begin{DoxyParamCaption}\item[{string}]{game\+Code }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_ae24e8838fda04043507cf11c956958f1}\label{classjson_comm_ae24e8838fda04043507cf11c956958f1}} 
+\index{jsonComm@{jsonComm}!serializeJoinGame@{serializeJoinGame}}
+\index{serializeJoinGame@{serializeJoinGame}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializeJoinGame()}{serializeJoinGame()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Join\+Game (\begin{DoxyParamCaption}\item[{string}]{game\+Code,  }\item[{string}]{name,  }\item[{string}]{ip,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classjson_comm_a92bedf0bc29f32c30def0327846f4042}\label{classjson_comm_a92bedf0bc29f32c30def0327846f4042}} 
+\index{jsonComm@{jsonComm}!serializePlayerInfo@{serializePlayerInfo}}
+\index{serializePlayerInfo@{serializePlayerInfo}!jsonComm@{jsonComm}}
+\doxysubsubsection{\texorpdfstring{serializePlayerInfo()}{serializePlayerInfo()}}
+{\footnotesize\ttfamily string json\+Comm\+::serialize\+Player\+Info (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{int}]{turn,  }\item[{int}]{score,  }\item[{int}]{am\+Chips }\end{DoxyParamCaption})}
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+communication/\+J\+S\+O\+N/\mbox{\hyperlink{json_comm_8h}{json\+Comm.\+h}}\item 
+communication/\+J\+S\+O\+N/\mbox{\hyperlink{json_comm_8cpp}{json\+Comm.\+cpp}}\end{DoxyCompactItemize}

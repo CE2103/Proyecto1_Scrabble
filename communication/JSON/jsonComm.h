@@ -4,7 +4,6 @@
  * @date 07/04/2019
  * @autor angelortizv
  * @title
- * @brief
  */
 
 #ifndef PROYECTO1_SCRABBLE_JSONCOMM_H

@@ -12,5 +12,6 @@ var searchData=
   ['biginteger_2eh',['biginteger.h',['../biginteger_8h.html',1,'']]],
   ['bool',['Bool',['../class_generic_document.html#a4c44780642518dd34bd241a1ea0ceaf1',1,'GenericDocument::Bool()'],['../class_pretty_writer.html#a6e765ee7ada5ed40f317c78a98f6f90b',1,'PrettyWriter::Bool()'],['../struct_base_reader_handler.html#aa1c3ce42dbb856b3349792dc9d963587',1,'BaseReaderHandler::Bool()'],['../classinternal_1_1_hasher.html#a11efd784a4e9c4f8a3dc281552df0486',1,'internal::Hasher::Bool()'],['../classinternal_1_1_schema.html#ab3d266cf235cf2f165952c0b8891a962',1,'internal::Schema::Bool()'],['../class_generic_schema_validator.html#aa25fa7456f2f308a105e400f01a4afde',1,'GenericSchemaValidator::Bool()'],['../class_writer.html#ad7491f4dedb02e7456b240b23ef8c1ad',1,'Writer::Bool()']]],
   ['booleantype',['BooleanType',['../struct_parse_result.html#a991cd2759ba802bdb5e960d40890e874',1,'ParseResult']]],
-  ['bottom',['Bottom',['../classinternal_1_1_stack.html#a10aa1bc716b82cb0a40b3a3b9d5efe87',1,'internal::Stack::Bottom()'],['../classinternal_1_1_stack.html#af5c55983c553c7355ff6d24beb48c722',1,'internal::Stack::Bottom() const']]]
+  ['bottom',['Bottom',['../classinternal_1_1_stack.html#a10aa1bc716b82cb0a40b3a3b9d5efe87',1,'internal::Stack::Bottom()'],['../classinternal_1_1_stack.html#af5c55983c553c7355ff6d24beb48c722',1,'internal::Stack::Bottom() const']]],
+  ['buffer',['buffer',['../class_socket.html#a130978d706ae77f4f763cbbc1ea50c8b',1,'Socket']]]
 ];
