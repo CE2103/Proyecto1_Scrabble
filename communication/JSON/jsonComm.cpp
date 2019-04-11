@@ -28,10 +28,24 @@ string jsonComm::serializeCreateGame(string name, string ip, string port, int id
 
 }
 
-void jsonComm::deserializeCreateGame(string json, int* gameCode){
+string jsonComm::deserializeCreateGame(string json, string name){
     Document d;
     d.Parse(json.c_str());
-    *gameCode = d["gameCode"].GetInt();
+    return  d["name"].GetString();
+}
+
+string jsonComm::serializeGameCode(string gameCode){
+    const char* json = "{\"name\":000000}";
+
+    Document d;
+    d.Parse(json);
+    d["gameCode"].SetString(gameCode.c_str(), sizeof(char)*gameCode.length());
+
+    StringBuffer buffer;
+    Writer<StringBuffer> writer(buffer);
+    d.Accept(writer);
+
+    return buffer.GetString();
 
 }
 
@@ -53,10 +67,19 @@ string jsonComm::serializeJoinGame(string gameCode, string name, string ip, int 
     d.Accept(writer);
 
     return buffer.GetString();
-
 }
 
-void jsonComm::deserializeJoinGame(string json, int *turn, int *port){
+string jsonComm::playersInfo1(){
+
+    return "{'name':'romario', 'ip':'127.0.0.1', 'port' 8080, 'id': 1}";
+}
+
+string jsonComm::playersInfo2(){
+
+    return "{'name':'ricardo', 'gameCode': 123456}";
+}
+
+string jsonComm::deserializeJoinGame(string json, int *turn, int *port){
     Document d;
     d.Parse(json.c_str());
     *turn = d["turn"].GetInt();
@@ -95,6 +118,26 @@ string jsonComm::deserializeAddWord(string json) {
     Document d;
     d.Parse(json.c_str());
     return d["word"].GetString();
+}
+
+
+string jsonComm::serializePlayerInfo(string name, int turn, int score, int amChips){
+    const char* json = "{\"name\":\"name\","
+                       "\"turn\":0,"
+                       "\"score\":0,"
+                       "\"amChips\":0}";
+
+    Document d;
+    d.Parse(json);
+    d["name"].SetString(name.c_str(), sizeof(char)*name.length());
+    d["turn"].SetInt(turn);
+    d["score"].SetInt(score);
+    d["amChips"].SetInt(amChips);
+
+    StringBuffer buffer;
+    Writer<StringBuffer> writer(buffer);
+    d.Accept(writer);
+    return buffer.GetString();
 }
 
 

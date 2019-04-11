@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/player.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/gameController.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/gameLogic/wordsManager.cpp.o"
+  "CMakeFiles/Proyecto1_Scrabble.dir/testSocket/server_Socket.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o"
   "CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o"

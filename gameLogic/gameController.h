@@ -34,15 +34,11 @@ private:
 public:
 
     gameController();
-    int contadorPartida;
+
     bool tryAgain = false;
-    void initGame();
-    void generateGameCode();
-    void joinGamewCode(double code);
+    void gameCycle();
+    void joinGamewCode(string code);
     void roomVerification();
-
-
-
 };
 
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "communication/newSS/socket.h"
+#include "communication/socket/socket.h"
 #include "communication/JSON/jsonComm.h"
 #include "gameLogic/wordsManager.h"
 
@@ -10,26 +10,33 @@ using namespace rapidjson;
 
 int main() {
 
-    Socket *ss = &Socket::getInstance();
-    jsonComm *comm = &jsonComm::getInstance();
-    wordsManager *wm = new wordsManager();
 
-//    ss->escuchar("", 8080);
-
-    string json = Socket::getInstance().listener(8080);
-    cout << json << endl;
-    string romarito =  comm->deserializeAddWord(json);
+    bool running = true;
+    while (running) {
 
 
-    if (wm->search(romarito)){
-        cout << "La palabra: " << romarito << ", SI se encuentra en el diccionario" << endl;
-    } else{
-        cout << "No se encuentre" << endl;
+        jsonComm *comm = &jsonComm::getInstance();
+        string json = Socket::getInstance().listener(8080);
+        wordsManager *wm = new wordsManager();
+
+
+        string reader = comm->deserializeAddWord(json);
+        comm->playersInfo1();
+        comm->playersInfo2();
+
+        if (wm->search(reader)) {
+            cout << "La palabra: " << reader << ", SI se encuentra en el diccionario" << endl;
+
+        } else {
+            cout << "No se encuentre" << endl;
+        }
+        if (wm->search(reader)) {
+            cout << "La palabra: " << reader << ", SI se encuentra en el diccionario" << endl;
+        } else {
+            cout << "NO se encuentra" << endl;
+        }
+
     }
-    if (wm->search(romarito)) {
-        cout << "La palabra: " << romarito << ", SI se encuentra en el diccionario" << endl;
-    } else {
-        cout << "NO se encuentra"<< endl;
-    }
+
 
 }

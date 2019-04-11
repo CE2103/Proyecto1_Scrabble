@@ -35,7 +35,7 @@ int Socket::enviar(string Mensaje,int puerto) {
     serv_addr.sin_port = htons(puerto);
 
     // Convert IPv4 and IPv6 addresses from text to binary form
-    if(inet_pton(AF_INET, "192.169.43.71", &serv_addr.sin_addr)<=0)
+    if(inet_pton(AF_INET, "192.168.43.71", &serv_addr.sin_addr)<=0)
     {
         qDebug()<<("\nInvalid address/ Address not supported \n");
         return -1;
@@ -54,6 +54,45 @@ int Socket::enviar(string Mensaje,int puerto) {
     qDebug()<<("%s\n",buffer );
     return 0;
 }
+
+string Socket::enviar2(string Mensaje,int puerto,string ip, bool escuchar) {
+    int n = Mensaje.length();
+    char char_array[n + 1];
+    strcpy(char_array, Mensaje.c_str());
+    char *hello = char_array;
+    struct sockaddr_in address;
+    int sock = 0, valread;
+    struct sockaddr_in serv_addr;
+    char buffer[1024] = {0};
+    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+    {
+        printf("\n Socket creation error \n");
+    }
+
+    memset(&serv_addr, '0', sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(puerto);
+
+    // Convert IPv4 and IPv6 addresses from text to binary form
+    if(inet_pton(AF_INET, ip.c_str(), &serv_addr.sin_addr)<=0)
+    {
+        printf("\nInvalid address/ Address not supported \n");
+    }
+
+    if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
+    {
+        printf("\nConnection Failed \n");
+    }
+    send(sock , hello , strlen(hello) , 0 );
+//    printf("Hello message sent\n");
+    if(escuchar){
+        valread = read( sock , buffer, 1024);
+        return buffer;
+    }
+    return "";
+}
+
 
 string Socket::listener(int puerto)
 {
@@ -106,6 +145,12 @@ string Socket::listener(int puerto)
     valread = read( new_socket , buffer, 1024);
     send(new_socket , hello , strlen(hello) , 0 );
     shutdown(new_socket,SHUT_RDWR);
-    close(server_fd);
     return buffer;
+}
+
+string Socket::initialServer(){
+
+    string serverMessage = "--------- Initial Server ---------";
+    return  serverMessage;
+
 }

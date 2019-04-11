@@ -212,6 +212,12 @@
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queue/queueTest.cpp">
 			<Option target="Proyecto1_Scrabble"/>
 		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/testSocket/server_Socket.cpp">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/testSocket/server_Socket.h">
+			<Option target="Proyecto1_Scrabble"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/Proyecto1_Scrabble/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

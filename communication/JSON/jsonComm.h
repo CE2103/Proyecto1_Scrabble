@@ -31,17 +31,23 @@ public:
     }
 
     string serializeCreateGame(string name, string ip, string port, int id);
-    void deserializeCreateGame(string json, int* gameCode);
+    string deserializeCreateGame(string json, string name);
+    string serializeGameCode(string gameCode);
+
     string serializeJoinGame(string gameCode, string name, string ip, int id);
-    void deserializeJoinGame(string json, int *turn, int *port);
+    string deserializeJoinGame(string json, int *turn, int *port);
 
     string serializeChips();
     string serializeAddWord(string word);
     string deserializeAddWord(string json);
 
+    string playersInfo1();
+    string playersInfo2();
 
+    string serializePlayerInfo(string name, int turn, int score, int amChips);
     void deserializePlayerInfo(string json, string* name, int* turn, int* score, int* amChips);
     int getId(string json);
+
 
 };
 

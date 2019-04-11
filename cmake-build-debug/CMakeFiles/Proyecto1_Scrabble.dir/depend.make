@@ -31,74 +31,8 @@ CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../lib/rapi
 CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../communication/JSON/jsonComm.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/communication/JSON/jsonComm.cpp.o: ../communication/JSON/jsonComm.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: ../communication/newSS/socket.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: ../communication/newSS/socket.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
-CMakeFiles/Proyecto1_Scrabble.dir/communication/newSS/socket.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/oldSS.cpp.o: ../communication/oldSS/oldSS.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/oldSS.cpp.o: ../communication/oldSS/socketServer.h
 
-CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/socketServer.cpp.o: ../communication/oldSS/socketServer.cpp
-CMakeFiles/Proyecto1_Scrabble.dir/communication/oldSS/socketServer.cpp.o: ../communication/oldSS/socketServer.h
 
 CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.o: ../gameLogic/chips.h
 CMakeFiles/Proyecto1_Scrabble.dir/dataStructures/auxLinkedList/listaux.cpp.o: ../dataStructures/auxLinkedList/listaux.cpp
@@ -874,7 +808,7 @@ CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../lib/rapidjson/reader.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../lib/rapidjson/stream.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../lib/rapidjson/stringbuffer.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../communication/JSON/jsonComm.h
-CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../communication/newSS/socket.h
+CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../communication/socket/socket.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../gameLogic/wordsManager.h
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -1059,4 +993,5 @@ CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o: /usr/i
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o: ../dataStructures/queue/queue.h
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o: ../dataStructures/queue/queueItem.h
 CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o: ../serverTests/queue/queueTest.cpp
+
 

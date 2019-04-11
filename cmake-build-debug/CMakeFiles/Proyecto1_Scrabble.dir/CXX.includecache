@@ -254,7 +254,7 @@ string
 iostream
 -
 
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/newSS/socket.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/socket.h
 unistd.h
 -
 stdio.h
@@ -274,7 +274,7 @@ string.h
 bits/stdc++.h
 -
 qdebug.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/newSS/qdebug.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/qdebug.h
 
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/gameLogic/wordsManager.h
 fstream
@@ -287,8 +287,8 @@ stdlib.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp
 iostream
 -
-communication/newSS/socket.h
-/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/newSS/socket.h
+communication/socket/socket.h
+/home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/socket/socket.h
 communication/JSON/jsonComm.h
 /home/angelortizv/CLionProjects/Proyecto1_Scrabble/communication/JSON/jsonComm.h
 gameLogic/wordsManager.h

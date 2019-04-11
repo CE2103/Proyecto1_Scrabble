@@ -622,6 +622,33 @@ serverTests/queue/queueTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.s
 .PHONY : serverTests/queue/queueTest.cpp.s
 
+testSocket/server_Socket.o: testSocket/server_Socket.cpp.o
+
+.PHONY : testSocket/server_Socket.o
+
+# target to build an object file
+testSocket/server_Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/testSocket/server_Socket.cpp.o
+.PHONY : testSocket/server_Socket.cpp.o
+
+testSocket/server_Socket.i: testSocket/server_Socket.cpp.i
+
+.PHONY : testSocket/server_Socket.i
+
+# target to preprocess a source file
+testSocket/server_Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/testSocket/server_Socket.cpp.i
+.PHONY : testSocket/server_Socket.cpp.i
+
+testSocket/server_Socket.s: testSocket/server_Socket.cpp.s
+
+.PHONY : testSocket/server_Socket.s
+
+# target to generate assembly for a file
+testSocket/server_Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto1_Scrabble.dir/build.make CMakeFiles/Proyecto1_Scrabble.dir/testSocket/server_Socket.cpp.s
+.PHONY : testSocket/server_Socket.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -686,6 +713,9 @@ help:
 	@echo "... serverTests/queue/queueTest.o"
 	@echo "... serverTests/queue/queueTest.i"
 	@echo "... serverTests/queue/queueTest.s"
+	@echo "... testSocket/server_Socket.o"
+	@echo "... testSocket/server_Socket.i"
+	@echo "... testSocket/server_Socket.s"
 .PHONY : help
 
 
@@ -697,6 +727,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
 .PHONY : cmake_check_build_system
 

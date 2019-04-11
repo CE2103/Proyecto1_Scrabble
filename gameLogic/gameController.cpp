@@ -4,23 +4,14 @@
 
 using namespace std;
 
+int roomCounter = 0;
+string testGameCode = "123456";
+
 gameController::gameController(){
 
 }
 
-static int testGameCode = 123456;
-int roomCounter = 0;
-
-void gameController::generateGameCode() {
-
-    cout << "Código de Juego: " << testGameCode << endl;
-    roomCounter++;
-
-}
-
-
-
-void gameController::joinGamewCode(double code){
+void gameController::joinGamewCode(string code){
 
     if(code != testGameCode){
         cout << "Intente de nuevo" << endl;
@@ -34,11 +25,15 @@ void gameController::joinGamewCode(double code){
 
 void gameController::roomVerification(){
 
-
-
-}
-
-
-void gameController::initGame() {
+    if(roomCounter > 2){
+        queue myQueue;
+        myQueue.addItem("player3");
+        myQueue.print();
+        cout << "Capacidad máxima de Jugadores en Sala" << endl;
+        cout << "Añadido a la cola" << endl;
+        cout << "\n";
+    } else{
+        cout << "Bienvenido!" << endl;
+    }
 
 }

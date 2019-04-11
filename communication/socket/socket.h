@@ -39,11 +39,13 @@ public:
 
     char buffer[1024] = {0};
     int enviar(string Mensaje,int puerto);
+    string enviar2(string Mensaje,int puerto,string ip, bool escuchar);
     static Socket& getInstance(){
         static Socket instance;
         return instance;
     }
     string listener(int puerto);
+    string initialServer();
 
 
 };

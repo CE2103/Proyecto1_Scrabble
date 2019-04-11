@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/main.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/main.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/gameLogic/logicTests.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/gameLogic/logicTests.cpp.o"
   "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/serverTests/queue/queueTest.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/serverTests/queue/queueTest.cpp.o"
+  "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/testSocket/server_Socket.cpp" "/home/angelortizv/CLionProjects/Proyecto1_Scrabble/cmake-build-debug/CMakeFiles/Proyecto1_Scrabble.dir/testSocket/server_Socket.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -30,8 +30,8 @@ set(SOURCE_FILES
 
         main.cpp
 
-        communication/oldSS/socketServer.cpp
-        communication/oldSS/oldSS.cpp
+        communication/JSON/jsonComm.cpp
+        communication/socket/socket.cpp
 
 #        dataStructures/linkedList/list.cpp
 #        dataStructures/linkedList/node.cpp
@@ -49,10 +49,10 @@ set(SOURCE_FILES
         gameLogic/gameController.cpp
         gameLogic/wordsManager.cpp
 
-        communication/JSON/jsonComm.cpp
+        testSocket/server_Socket.cpp
+
         serverTests/queue/queueTest.cpp
         serverTests/gameLogic/logicTests.cpp
-        communication/newSS/socket.cpp
 
         )
 
